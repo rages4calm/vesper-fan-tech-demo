@@ -11,7 +11,7 @@ OUT.mkdir(parents=True,exist_ok=True)
 for name in ['README.md','CREDITS.md','LICENSE.md']:
     shutil.copy2(ROOT/name,BUILD/name)
 shutil.copytree(ROOT/'docs',BUILD/'docs',dirs_exist_ok=True)
-files=sorted(path for path in BUILD.rglob('*') if path.is_file())
+files=sorted(path for path in BUILD.rglob('*') if path.is_file() and path!=BUILD/'SHA256SUMS.txt')
 lines=[]
 for path in files:
     lines.append(hashlib.sha256(path.read_bytes()).hexdigest()+'  '+path.relative_to(BUILD).as_posix())

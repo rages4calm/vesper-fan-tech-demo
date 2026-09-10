@@ -1,0 +1,166 @@
+[
+  {
+    "check": "Traveler stands on the imported city collision",
+    "pass": true
+  },
+  {
+    "check": "Public build starts with original ambience and no bundled UO soundtrack",
+    "pass": true
+  },
+  {
+    "check": "User supplied soundtrack imports and plays",
+    "pass": true
+  },
+  {
+    "check": "User supplied soundtrack imports and plays",
+    "pass": true
+  },
+  {
+    "check": "Missing soundtrack is handled without replacing current audio",
+    "pass": true
+  },
+  {
+    "check": "Mouse wheel zooms the elevated camera in",
+    "pass": true
+  },
+  {
+    "check": "Visible zoom-out control expands the view",
+    "pass": true
+  },
+  {
+    "check": "WASD moves the physical character",
+    "pass": true
+  },
+  {
+    "check": "Route to Elowen at The Mint",
+    "pass": true
+  },
+  {
+    "check": "Route to Tomas at Hammer and Nail",
+    "pass": true
+  },
+  {
+    "check": "Route to Maren at The Majestic Boat",
+    "pass": true
+  },
+  {
+    "check": "Route to Aldren at Vesper Museum",
+    "pass": true
+  },
+  {
+    "check": "Route to Sella at Ironwood Inn",
+    "pass": true
+  },
+  {
+    "check": "Route to Garrick at The Marsh Hall",
+    "pass": true
+  },
+  {
+    "check": "Route to Lysa at The Twisted Oven",
+    "pass": true
+  },
+  {
+    "check": "Route to Anwen at Healer of Vesper",
+    "pass": true
+  },
+  {
+    "check": "Route to Corin at Fisherman’s Wharf",
+    "pass": true
+  },
+  {
+    "check": "Route to Theodric at The Mint",
+    "pass": true
+  },
+  {
+    "check": "Click-to-walk crosses an arched stone bridge",
+    "pass": true
+  },
+  {
+    "check": "Dialogue opens for Elowen",
+    "pass": true
+  },
+  {
+    "check": "Dialogue opens for Tomas",
+    "pass": true
+  },
+  {
+    "check": "Dialogue opens for Maren",
+    "pass": true
+  },
+  {
+    "check": "Dialogue opens for Aldren",
+    "pass": true
+  },
+  {
+    "check": "Full delivery quest awards 75 gold exactly once",
+    "pass": true
+  },
+  {
+    "check": "Fishing presents the timed bite window",
+    "pass": true
+  },
+  {
+    "check": "A timely strike adds a fish to the pack",
+    "pass": true
+  },
+  {
+    "check": "Save and reload preserve inventory and quest completion",
+    "pass": true
+  },
+  {
+    "check": "Rigged ranger has idle and locomotion animations",
+    "pass": true
+  },
+  {
+    "check": "Every townsperson has rigged idle and walking animations",
+    "pass": true
+  },
+  {
+    "check": "C opens the paperdoll through the input system",
+    "pass": true
+  },
+  {
+    "check": "Double-clicking the paperdoll backpack opens inventory",
+    "pass": true
+  },
+  {
+    "check": "Enter focuses the speech entry",
+    "pass": true
+  },
+  {
+    "check": "Spoken bank opens a bank box from outside the Mint",
+    "pass": true
+  },
+  {
+    "check": "Bank deposit conserves gold",
+    "pass": true
+  },
+  {
+    "check": "Bank contents survive saving and loading",
+    "pass": true
+  },
+  {
+    "check": "Bank withdrawal conserves gold and items",
+    "pass": true
+  },
+  {
+    "check": "The L-shaped Mint roof lifts while inside",
+    "pass": true
+  },
+  {
+    "check": "Bank command also works inside the L-shaped Mint",
+    "pass": true
+  },
+  {
+    "check": "Vendor buy purchases bread for two gold",
+    "pass": true
+  },
+  {
+    "check": "Vendor sell pays three gold for the fish",
+    "pass": true
+  },
+  {
+    "check": "Bank command refuses a distant request",
+    "pass": true
+  }
+]

@@ -1,0 +1,438 @@
+[
+  {
+    "check": "Solid ground outside mint",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: mint",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside mint_side",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: mint_side",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside brew",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: brew",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside magic",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: magic",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside canvas",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: canvas",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside jewel",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: jewel",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside music",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: music",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside ore",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: ore",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside bees",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: bees",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside oven",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: oven",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside farm",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: farm",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside butcher",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: butcher",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside fisher",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: fisher",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside fisher_back",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: fisher_back",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside gadget",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: gadget",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside carpenter",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: carpenter",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside warrior",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: warrior",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside ranger",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: ranger",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside ironworks",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: ironworks",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside friend",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: friend",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside tailor",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: tailor",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside champion",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: champion",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside counselor",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: counselor",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside guild",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: guild",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside boat",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: boat",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside boat_back",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: boat_back",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside reagents",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: reagents",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside healer",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: healer",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside hostel",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: hostel",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside tavern",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: tavern",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside customs",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: customs",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside museum",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: museum",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside tanner",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: tanner",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside inn",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: inn",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside north_tailor",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: north_tailor",
+    "pass": true
+  },
+  {
+    "check": "Solid ground outside provisions",
+    "pass": true
+  },
+  {
+    "check": "Doorstep connects to the city: provisions",
+    "pass": true
+  },
+  {
+    "check": "Route exists: canvas public approach",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches canvas public approach",
+    "pass": true
+  },
+  {
+    "check": "Route exists: oven public approach",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches oven public approach",
+    "pass": true
+  },
+  {
+    "check": "Route exists: farm public approach",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches farm public approach",
+    "pass": true
+  },
+  {
+    "check": "Route exists: ranger public approach",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches ranger public approach",
+    "pass": true
+  },
+  {
+    "check": "Route exists: north bridge onto the mainland",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches north bridge onto the mainland",
+    "pass": true
+  },
+  {
+    "check": "Route exists: boat street entrance",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches boat street entrance",
+    "pass": true
+  },
+  {
+    "check": "Route exists: boat interior passage",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches boat interior passage",
+    "pass": true
+  },
+  {
+    "check": "Roof reveals the interior: boat",
+    "pass": true
+  },
+  {
+    "check": "Route exists: boat dock exit",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches boat dock exit",
+    "pass": true
+  },
+  {
+    "check": "Route exists: boat return through both doors",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches boat return through both doors",
+    "pass": true
+  },
+  {
+    "check": "Route exists: boat passage back to the waterfront",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches boat passage back to the waterfront",
+    "pass": true
+  },
+  {
+    "check": "Route exists: boat dock lookout",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches boat dock lookout",
+    "pass": true
+  },
+  {
+    "check": "Route exists: fisher street entrance",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches fisher street entrance",
+    "pass": true
+  },
+  {
+    "check": "Route exists: fisher interior passage",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches fisher interior passage",
+    "pass": true
+  },
+  {
+    "check": "Roof reveals the interior: fisher",
+    "pass": true
+  },
+  {
+    "check": "Route exists: fisher dock exit",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches fisher dock exit",
+    "pass": true
+  },
+  {
+    "check": "Route exists: fisher return through both doors",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches fisher return through both doors",
+    "pass": true
+  },
+  {
+    "check": "Route exists: fisher passage back to the waterfront",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches fisher passage back to the waterfront",
+    "pass": true
+  },
+  {
+    "check": "Route exists: fisher dock lookout",
+    "pass": true
+  },
+  {
+    "check": "Physical walk reaches fisher dock lookout",
+    "pass": true
+  },
+  {
+    "check": "Scanned tree ground is seated below the terrain",
+    "pass": true
+  }
+]

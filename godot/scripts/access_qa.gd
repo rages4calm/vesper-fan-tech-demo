@@ -78,4 +78,4 @@ func run(game) -> void:
 	FileAccess.open(game.qa_artifacts.path_join("access-qa-report.json"),FileAccess.WRITE).store_string(JSON.stringify(game.qa_results,"  "))
 	var failures: int=game.qa_results.filter(func(item):return not item.pass).size()
 	print("ACCESS_QA_COMPLETE failures=",failures)
-	tree.quit(1 if failures else 0)
+	await game.quit_demo(1 if failures else 0)

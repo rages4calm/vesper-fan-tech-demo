@@ -1377,10 +1377,16 @@ func quit_demo(exit_code: int=0) -> void:
 	if quitting:return
 	quitting=true
 	if playing:save_journey()
-	if music:
-		music.stop()
-		music.stream=null
-	# Let the audio server release externally loaded playback before shutdown.
+	playing=false
+	set_process(false)
+	set_physics_process(false)
+	if player:player.set_physics_process(false)
+	if harbor:harbor.set_process(false)
+	for node in find_children("*","",true,false):
+		if node is AudioStreamPlayer or node is AudioStreamPlayer3D or node is AudioStreamPlayer2D:
+			node.stop()
+			node.stream=null
+	# Let the audio server release all looped playback before shutdown.
 	await get_tree().create_timer(.2).timeout
 	get_tree().quit(exit_code)
 

@@ -1,0 +1,170 @@
+[
+  {
+    "check": "Door opens on approach: mint",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: mint",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: mint",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: mint",
+    "pass": true
+  },
+  {
+    "check": "Door opens on approach: mint_side",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: mint_side",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: mint_side",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: mint_side",
+    "pass": true
+  },
+  {
+    "check": "Door opens on approach: fisher",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: fisher",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: fisher",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: fisher",
+    "pass": true
+  },
+  {
+    "check": "Door opens on approach: fisher_back",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: fisher_back",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: fisher_back",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: fisher_back",
+    "pass": true
+  },
+  {
+    "check": "Door opens on approach: boat",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: boat",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: boat",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: boat",
+    "pass": true
+  },
+  {
+    "check": "Door opens on approach: boat_back",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: boat_back",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: boat_back",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: boat_back",
+    "pass": true
+  },
+  {
+    "check": "Door opens on approach: tavern",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: tavern",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: tavern",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: tavern",
+    "pass": true
+  },
+  {
+    "check": "Door opens on approach: museum",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: museum",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: museum",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: museum",
+    "pass": true
+  },
+  {
+    "check": "Door opens on approach: inn",
+    "pass": true
+  },
+  {
+    "check": "Original opening audio plays once: inn",
+    "pass": true
+  },
+  {
+    "check": "Door stays open without repeated audio at boundary: inn",
+    "pass": true
+  },
+  {
+    "check": "Door shuts and plays original closing audio once: inn",
+    "pass": true
+  },
+  {
+    "check": "Clear air in lighting mode 0, quality false",
+    "pass": true
+  },
+  {
+    "check": "Clear air in lighting mode 1, quality false",
+    "pass": true
+  },
+  {
+    "check": "Clear air in lighting mode 2, quality false",
+    "pass": true
+  },
+  {
+    "check": "Clear air in lighting mode 0, quality true",
+    "pass": true
+  },
+  {
+    "check": "Clear air in lighting mode 1, quality true",
+    "pass": true
+  },
+  {
+    "check": "Clear air in lighting mode 2, quality true",
+    "pass": true
+  }
+]

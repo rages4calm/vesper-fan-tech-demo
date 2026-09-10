@@ -36,6 +36,10 @@ The geography is traced and simplified from historical references. This is an in
 
 **Not implemented:** combat, multiplayer, player-controlled sailing, a full crafting economy, the rest of Britannia, or interiors for every building. Please do not download expecting the complete Ultima Online experience or a promise that these systems will be added.
 
+![The actual elevated exploration camera, zoomed out near the Mint](docs/images/exploration.png)
+
+*The regular exploration interface, zoomed out near the Mint. Both screenshots are actual engine captures.*
+
 ## Controls
 
 | Input | Action |
@@ -64,6 +68,8 @@ Near the Mint, inside or outside, say **bank** to store gold, fish, and bread. S
 The public download includes original synthesized ambience and effects. **Original Ultima Online music and extracted UO sound effects are not bundled.** Some development videos use the original Vesper theme, so the public package's audio differs from those recordings.
 
 To use a soundtrack you are entitled to use, pause the demo and select **Choose local music**, then select a local **OGG or WAV** file under 100 MB. It is copied into the demo's local data folder and loops during play. No audio is downloaded or uploaded by the demo.
+
+**Looking for the familiar Vesper theme?** [Rabbit's Lair's Ultima Online music archive](http://ultima.rabbitslair.de/ultima_online.htm) lists **11 — Vesper** as an OGG download—the recording used in our development videos. Visit the archive, save that track locally under its personal-use terms, then choose it through **Esc → Choose local music**. The archive is independent of this project; the music retains its original rights.
 
 Saves, settings, imported music, and photographs are stored in `%APPDATA%\Vesper Fan Tech Demo\`. Starting a new journey asks before replacing the current save. Automated checks use separate QA save and music files.
 

@@ -109,7 +109,7 @@ func run(game) -> void:
 	FileAccess.open(game.qa_artifacts.path_join("harbor-qa-report.json"),FileAccess.WRITE).store_string(JSON.stringify(game.qa_results,"  "))
 	var failures: int=game.qa_results.filter(func(item):return not item.pass).size()
 	print("HARBOR_QA_COMPLETE failures=",failures)
-	tree.quit(1 if failures else 0)
+	await game.quit_demo(1 if failures else 0)
 
 func record_motion(game) -> void:
 	# Export actual viewport frames, with the same world update used in play.

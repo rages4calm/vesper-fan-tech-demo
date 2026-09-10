@@ -1,0 +1,38 @@
+[
+  {
+    "check": "Physical journey to elowen in 1.2s",
+    "pass": true
+  },
+  {
+    "check": "Physical journey to banker in 1.6s",
+    "pass": true
+  },
+  {
+    "check": "Physical journey to joiner in 17.0s",
+    "pass": true
+  },
+  {
+    "check": "Physical journey to shipwright in 15.6s",
+    "pass": true
+  },
+  {
+    "check": "Physical journey to curator in 54.6s",
+    "pass": true
+  },
+  {
+    "check": "Physical journey to fisherman in 62.8s",
+    "pass": true
+  },
+  {
+    "check": "Physical journey to barkeep in 33.2s",
+    "pass": true
+  },
+  {
+    "check": "Physical journey to innkeeper in 20.4s",
+    "pass": true
+  },
+  {
+    "check": "Physical journey to baker in 46.8s",
+    "pass": true
+  }
+]
