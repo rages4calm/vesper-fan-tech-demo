@@ -108,4 +108,3 @@ See **[CREDITS.md](CREDITS.md)** for individual asset links, adaptations, music 
 The repository contains the Godot scripts, shaders, scene, release tools, and documentation. Large models and textures are supplied separately as **`Vesper-v0.6.1-Source-Assets.zip`** on the same release, avoiding Git LFS requirements for visitors. See **[Building the demo](docs/BUILDING.md)**.
 
 The Windows package is free to download and play. This is a hobby artifact shared as-is, with no support schedule, multiplayer service, or commitment to further development. Bug reports are welcome, but feature requests are not a full-game development roadmap. See **[licensing and reuse](LICENSE.md)** and **[validation notes](docs/WATER-VALIDATION.md)**.
-
