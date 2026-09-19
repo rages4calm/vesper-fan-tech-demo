@@ -1,0 +1,34 @@
+name: Assemble verified release
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: rages4calm/vesper-fan-tech-demo
+      TRANSPORT_SHA256: d5f701553c549a14ff681b07b969e3374b7ab76dc2b50dc4b3b7d78dfaf3102b
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Download pinned input archives and decoder
+        shell: bash
+        run: |
+          mkdir -p assembly
+          gh release download v0.6.1 --pattern Vesper-v0.6.1-Assembly.zip --dir assembly
+          gh release download v0.3.2 --pattern '*Windows-x64.zip' --pattern '*Source-Assets.zip' --dir assembly
+          curl --fail --location --retry 3 https://github.com/jmacd/xdelta/releases/download/v3.2.0/xdelta3-3.2.0-linux-x86_64.tar.gz -o assembly/xdelta.tar.gz
+          echo '480295c7a41fea6503659f19ddc61676c0df4834e2292846ba97de30c68c2397  assembly/xdelta.tar.gz' | sha256sum --check
+          tar -xzf assembly/xdelta.tar.gz -C assembly
+          echo "XDELTA=$(find "$PWD/assembly" -type f -name xdelta3 | head -1)" >> "$GITHUB_ENV"
+      - name: Reconstruct and verify tested file contents
+        run: python3 scripts/assemble_release.py
+      - name: Upload complete ordinary ZIPs to the draft
+        shell: bash
+        run: |
+          gh release download v0.6.1 --pattern '*Water-Preview.mp4' --dir assembly/out
+          cd assembly/out
+          sha256sum *.zip *.mp4 ASSEMBLY-VERIFICATION.json > SHA256SUMS.txt
+          gh release upload v0.6.1 *.zip ASSEMBLY-VERIFICATION.json SHA256SUMS.txt --clobber
