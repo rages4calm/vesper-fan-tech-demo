@@ -1,0 +1,66 @@
+[
+  {
+    "check": "Twenty-one connected living citizens",
+    "pass": true
+  },
+  {
+    "check": "Real speech library loaded",
+    "pass": true
+  },
+  {
+    "check": "Crier speech actually started in the audio player",
+    "pass": true
+  },
+  {
+    "check": "Navigation route to tavern: fisherman",
+    "pass": true
+  },
+  {
+    "check": "Navigation route to tavern: elowen",
+    "pass": true
+  },
+  {
+    "check": "Navigation route to tavern: resident_living",
+    "pass": true
+  },
+  {
+    "check": "Voices use spatial audio with bounded range",
+    "pass": true
+  },
+  {
+    "check": "Loaded crier sound is real multi-second speech",
+    "pass": true
+  },
+  {
+    "check": "Ocean audio ducks below nearby speech",
+    "pass": true
+  },
+  {
+    "check": "Speaker subtitles stay inside the visible screen",
+    "pass": true
+  },
+  {
+    "check": "Audible crier line displays an identifying subtitle",
+    "pass": true
+  },
+  {
+    "check": "Player acceptance creates a real commitment",
+    "pass": true
+  },
+  {
+    "check": "Delivery conserves fish and pays the exact fixed reward",
+    "pass": true
+  },
+  {
+    "check": "A completed promise cannot be redeemed twice",
+    "pass": true
+  },
+  {
+    "check": "Town state shares an atomic journey save",
+    "pass": true
+  },
+  {
+    "check": "Relevant encounters and fulfilled promises survive loading",
+    "pass": true
+  }
+]

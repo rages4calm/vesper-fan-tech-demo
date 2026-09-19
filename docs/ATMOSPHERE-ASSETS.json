@@ -1,0 +1,34 @@
+[
+  {
+    "asset": "Brown Planks 03",
+    "creator": "Rob Tuytel / Poly Haven",
+    "source": "https://polyhaven.com/a/brown_planks_03",
+    "license": "CC0-1.0",
+    "license_source": "https://polyhaven.com/license",
+    "license_verified": "2026-09-19",
+    "use": "Existing diffuse, roughness and normal maps reused on new Blender trade props",
+    "required_attribution": "None under CC0; creator credited voluntarily"
+  },
+  {
+    "asset": "Trade-dressing meshes and pictograms",
+    "creator": "Project-specific work produced with OpenAI Codex and Blender for Carl Prewitt Jr.",
+    "source": "scripts/build_trade_dressing.py",
+    "license": "Project-specific terms in LICENSE.md; embedded Poly Haven textures retain CC0",
+    "use": "11 GLB assets at 16 placements: net rack, timber/tool trestles, casks, backbar, trade shelves, six sign designs",
+    "required_attribution": "Retain project and third-party notices; no third-party game meshes extracted"
+  },
+  {
+    "asset": "Weathering shader, hanging lantern geometry and clothing palette",
+    "creator": "Project-specific work produced with OpenAI Codex for Carl Prewitt Jr.",
+    "source": "godot/scripts/town_atmosphere.gd; godot/shaders/weathered_surface.gdshader",
+    "license": "Project-specific terms in LICENSE.md",
+    "use": "World-anchored material variation; original programmatic lanterns; non-destructive clothing material overrides"
+  },
+  {
+    "asset": "Retained city surfaces, characters and speech assets",
+    "creator": "Poly Haven artists, Quaternius, hexgrad and contributors; see existing manifests",
+    "source": "CREDITS.md; docs/LIVING-ASSET-MANIFEST.json",
+    "license": "Unchanged per-asset licenses, including CC0, Apache-2.0, MIT and GPL components",
+    "use": "Existing city and working living-town system retained"
+  }
+]

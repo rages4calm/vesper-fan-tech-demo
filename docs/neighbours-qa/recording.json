@@ -1,0 +1,43 @@
+{
+  "cuts": [
+    [
+      8.39999999999999,
+      30.544000000000338
+    ],
+    [
+      43.433333333333465,
+      51.88533333333346
+    ],
+    [
+      105.46666666666367,
+      115.47333333333
+    ],
+    [
+      162.09999999999366,
+      188.65466666665932
+    ],
+    [
+      204.46666666665766,
+      231.13333333332298
+    ],
+    [
+      308.7666666666957,
+      318.5080000000337
+    ],
+    [
+      340.1000000000537,
+      351.59200000005836
+    ]
+  ],
+  "duration": 115.05733333334034,
+  "audio": "Native game mix, including local Vesper theme; 40ms fades at cut edges only",
+  "capture_mode": "Rules decisions; authored local Kokoro speech; actual simulation; stationary camera shots",
+  "camera_motion_by_shot": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

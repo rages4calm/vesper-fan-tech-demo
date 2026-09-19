@@ -1,0 +1,102 @@
+[
+  {
+    "check": "Three detailed vessels are loaded",
+    "pass": true
+  },
+  {
+    "check": "Three working anglers are on deck",
+    "pass": true
+  },
+  {
+    "check": "Original overlapping placeholder is hidden: Ship_0",
+    "pass": true
+  },
+  {
+    "check": "Original overlapping placeholder is hidden: Ship_1",
+    "pass": true
+  },
+  {
+    "check": "Original overlapping placeholder is hidden: Ship_2",
+    "pass": true
+  },
+  {
+    "check": "Angler has a baked fishing loop and rod-tip attachment",
+    "pass": true
+  },
+  {
+    "check": "Angler has a baked fishing loop and rod-tip attachment",
+    "pass": true
+  },
+  {
+    "check": "Angler has a baked fishing loop and rod-tip attachment",
+    "pass": true
+  },
+  {
+    "check": "Merchant route wraps without teleporting or turning abruptly",
+    "pass": true
+  },
+  {
+    "check": "Merchant bow follows its route through a full circuit",
+    "pass": true
+  },
+  {
+    "check": "Rod tip moves through distinct casting, waiting, and hauling poses",
+    "pass": true
+  },
+  {
+    "check": "Navigation finds the dock lookout: fisher",
+    "pass": true
+  },
+  {
+    "check": "Traveler physically walks along the dock to lookout: fisher",
+    "pass": true
+  },
+  {
+    "check": "E opens dock lookout: fisher",
+    "pass": true
+  },
+  {
+    "check": "Mouse-wheel zoom works at lookout: fisher",
+    "pass": true
+  },
+  {
+    "check": "E returns to ordinary walking: fisher",
+    "pass": true
+  },
+  {
+    "check": "Navigation finds the dock lookout: shipwright",
+    "pass": true
+  },
+  {
+    "check": "Traveler physically walks along the dock to lookout: shipwright",
+    "pass": true
+  },
+  {
+    "check": "E opens dock lookout: shipwright",
+    "pass": true
+  },
+  {
+    "check": "Mouse-wheel zoom works at lookout: shipwright",
+    "pass": true
+  },
+  {
+    "check": "E returns to ordinary walking: shipwright",
+    "pass": true
+  },
+  {
+    "check": "Movement key leaves the anchored dock camera",
+    "pass": true
+  },
+  {
+    "check": "Ordinary camera projection and field of view restore after watching",
+    "pass": true
+  },
+  {
+    "check": "Map button routes from the Mint to the correct dock: fisher",
+    "pass": true
+  },
+  {
+    "check": "Map button routes from the Mint to the correct dock: shipwright",
+    "pass": true
+  }
+]

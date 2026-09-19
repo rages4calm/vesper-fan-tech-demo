@@ -1,0 +1,540 @@
+{
+  "checks": [
+    {
+      "check": "Six connected living citizens",
+      "pass": true
+    },
+    {
+      "check": "Real speech library loaded",
+      "pass": true
+    },
+    {
+      "check": "Crier speech actually started in the audio player",
+      "pass": true
+    },
+    {
+      "check": "Navigation route to tavern: fisherman",
+      "pass": true
+    },
+    {
+      "check": "Navigation route to tavern: elowen",
+      "pass": true
+    },
+    {
+      "check": "Navigation route to tavern: resident_living",
+      "pass": true
+    },
+    {
+      "check": "Voices use spatial audio with bounded range",
+      "pass": true
+    },
+    {
+      "check": "Loaded crier sound is real multi-second speech",
+      "pass": true
+    },
+    {
+      "check": "Ocean audio ducks below nearby speech",
+      "pass": true
+    },
+    {
+      "check": "Player acceptance creates a real commitment",
+      "pass": true
+    },
+    {
+      "check": "Delivery conserves fish and pays the exact fixed reward",
+      "pass": true
+    },
+    {
+      "check": "A completed promise cannot be redeemed twice",
+      "pass": true
+    },
+    {
+      "check": "Town state shares an atomic journey save",
+      "pass": true
+    },
+    {
+      "check": "Relevant encounters and fulfilled promises survive loading",
+      "pass": true
+    },
+    {
+      "check": "Fisherman physically delivered his caught fish",
+      "pass": true
+    },
+    {
+      "check": "Courier physically collected and delivered bread",
+      "pass": true
+    },
+    {
+      "check": "Courier returned to report the completed delivery",
+      "pass": true
+    },
+    {
+      "check": "A resident consumed supplies delivered by other citizens",
+      "pass": true
+    },
+    {
+      "check": "Multiple physical trips completed",
+      "pass": true
+    },
+    {
+      "check": "No citizen permanently stalled on an observed route",
+      "pass": true
+    },
+    {
+      "check": "No citizen fell off the city during observation",
+      "pass": true
+    },
+    {
+      "check": "Conversation queue remains bounded",
+      "pass": true
+    },
+    {
+      "check": "Speech playback turns do not overlap",
+      "pass": true
+    },
+    {
+      "check": "Crier delivery announcements have a prior reported event",
+      "pass": true
+    },
+    {
+      "check": "Asynchronously generated live stock report plays in town",
+      "pass": true
+    },
+    {
+      "check": "Unavailable helper does not freeze the simulation",
+      "pass": true
+    },
+    {
+      "check": "Observed API usage stays inside its request limit",
+      "pass": true
+    },
+    {
+      "check": "Observed mean frame interval below 45 ms",
+      "pass": true
+    }
+  ],
+  "decisions": [
+    {
+      "actor": "resident_living",
+      "choice": "meal",
+      "latency_ms": 630.0,
+      "mode": "live Jev",
+      "time": 12.7
+    },
+    {
+      "actor": "fisherman",
+      "choice": "deliver",
+      "latency_ms": 589.0,
+      "mode": "live Jev",
+      "time": 32.7
+    },
+    {
+      "actor": "fisherman",
+      "choice": "rest",
+      "latency_ms": 641.0,
+      "mode": "live Jev",
+      "time": 152.8
+    },
+    {
+      "actor": "fisherman",
+      "choice": "fish",
+      "latency_ms": 607.0,
+      "mode": "live Jev",
+      "time": 278.9
+    },
+    {
+      "actor": "fisherman",
+      "choice": "deliver",
+      "latency_ms": 609.0,
+      "mode": "live Jev",
+      "time": 287.3
+    },
+    {
+      "actor": "elowen",
+      "choice": "work",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 292.3
+    },
+    {
+      "actor": "elowen",
+      "choice": "rest",
+      "latency_ms": 583.0,
+      "mode": "live Jev",
+      "time": 334.9
+    },
+    {
+      "actor": "resident_living",
+      "choice": "visit",
+      "latency_ms": 574.0,
+      "mode": "live Jev",
+      "time": 362.9
+    },
+    {
+      "actor": "fisherman",
+      "choice": "rest",
+      "latency_ms": 584.0,
+      "mode": "live Jev",
+      "time": 391.0
+    },
+    {
+      "actor": "resident_living",
+      "choice": "visit",
+      "latency_ms": 525.0,
+      "mode": "live Jev",
+      "time": 404.9
+    }
+  ],
+  "duration_seconds": 444.799,
+  "events": [
+    {
+      "id": "30372698_0",
+      "kind": "shortage",
+      "text": "The Marsh Hall kitchen needs fish.",
+      "time": 0.0,
+      "witnesses": [
+        "barkeep",
+        "fisherman",
+        "crier"
+      ]
+    },
+    {
+      "id": "62464062_1",
+      "kind": "catch",
+      "text": "Corin landed three fish.",
+      "time": 32.1,
+      "witnesses": [
+        "fisherman"
+      ]
+    },
+    {
+      "id": "112895369_2",
+      "kind": "bread_collected",
+      "text": "Lysa gave four loaves to Elowen.",
+      "time": 82.3,
+      "witnesses": [
+        "baker",
+        "elowen"
+      ]
+    },
+    {
+      "id": "151136246_3",
+      "kind": "fish_delivery",
+      "text": "Corin handed three fish to Garrick.",
+      "time": 120.5,
+      "witnesses": [
+        "fisherman",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "160792515_4",
+      "kind": "baked",
+      "text": "Lysa baked four fresh loaves.",
+      "time": 130.0,
+      "witnesses": [
+        "baker"
+      ]
+    },
+    {
+      "id": "196725388_5",
+      "kind": "bread_delivery",
+      "text": "Elowen handed four loaves to Garrick.",
+      "time": 165.9,
+      "witnesses": [
+        "elowen",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "239874064_6",
+      "kind": "meal",
+      "text": "Nessa ate fish and bread at the Marsh Hall.",
+      "time": 208.9,
+      "witnesses": [
+        "resident_living",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "291252517_7",
+      "kind": "baked",
+      "text": "Lysa baked four fresh loaves.",
+      "time": 260.0,
+      "witnesses": [
+        "baker"
+      ]
+    },
+    {
+      "id": "302857726_8",
+      "kind": "bread_report",
+      "text": "Elowen reported her completed bread delivery to Osric.",
+      "time": 271.6,
+      "witnesses": [
+        "elowen",
+        "crier"
+      ]
+    },
+    {
+      "id": "317902120_9",
+      "kind": "catch",
+      "text": "Corin landed three fish.",
+      "time": 286.7,
+      "witnesses": [
+        "fisherman"
+      ]
+    },
+    {
+      "id": "406693971_10",
+      "kind": "fish_delivery",
+      "text": "Corin handed three fish to Garrick.",
+      "time": 375.1,
+      "witnesses": [
+        "fisherman",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "421686081_11",
+      "kind": "baked",
+      "text": "Lysa baked four fresh loaves.",
+      "time": 390.0,
+      "witnesses": [
+        "baker"
+      ]
+    }
+  ],
+  "helper": {
+    "ai": "available",
+    "failures": 0.0,
+    "last_error": "",
+    "latencies_ms": [
+      580.0,
+      630.0,
+      589.0,
+      641.0,
+      607.0,
+      609.0,
+      583.0,
+      574.0,
+      584.0,
+      525.0
+    ],
+    "request_limit": 120.0,
+    "spend_limit_usd": 0.01,
+    "usage": {
+      "day": "2026-09-19",
+      "estimated_usd": 0.00067557,
+      "input_tokens": 16085.0,
+      "output_tokens": 1013.0,
+      "requests": 32.0,
+      "reserved_usd": 0.00504823199999999
+    },
+    "voice": "local Kokoro",
+    "voice_jobs": 1.0,
+    "voice_metrics": [
+      {
+        "cached": false,
+        "duration": 7.488,
+        "generation_seconds": 2.198,
+        "peak": 0.49
+      }
+    ]
+  },
+  "metrics": {
+    "arrivals": 12,
+    "conversations": 10,
+    "failed_routes": 0,
+    "frame_max_ms": 143.324333333333,
+    "frame_ms_sum": 443251.517666572,
+    "frame_samples": 33175,
+    "max_queue": 1,
+    "overlaps": 0,
+    "recoveries": 0,
+    "repaths": 0,
+    "stale_decisions": 1,
+    "utterances": 14
+  },
+  "speech": [
+    {
+      "duration": 7.38133333333333,
+      "id": "welcome_0",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "Hear ye, good people of Vesper! Welcome to the city of bridges. Keep the quays clear, and lend an ear to your neighbours.",
+      "time": 7.00021200000003
+    },
+    {
+      "duration": 5.78133333333333,
+      "id": "courier_request_0",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "Elowen, could you take a basket from Lysa to the Marsh Hall? The kitchen is short of bread.",
+      "time": 17.0132949999996
+    },
+    {
+      "duration": 4.01066666666667,
+      "id": "courier_accept_0",
+      "position": [
+        -6.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "elowen",
+      "text": "I can help. I will collect the bread from Lysa, then carry it to Garrick.",
+      "time": 23.3731359999993
+    },
+    {
+      "duration": 4.05333333333333,
+      "id": "fish_offer_0",
+      "position": [
+        9.28192234039307,
+        2.01031732559204,
+        72.3025512695313
+      ],
+      "speaker": "fisherman",
+      "text": "Garrick, the catch is landed. I can bring three fresh fish to your kitchen.",
+      "time": 120.501109333351
+    },
+    {
+      "duration": 6.464,
+      "id": "fish_thanks_0",
+      "position": [
+        7.43127393722534,
+        1.99753832817078,
+        70.5383605957031
+      ],
+      "speaker": "barkeep",
+      "text": "Well caught, Corin. I will take the three fish. There is room for you at the table when your work is done.",
+      "time": 124.961412666686
+    },
+    {
+      "duration": 4.84266666666667,
+      "id": "meal_empty_0",
+      "position": [
+        7.43127393722534,
+        1.99753832817078,
+        70.5383605957031
+      ],
+      "speaker": "barkeep",
+      "text": "I am waiting for supplies before I can serve that. Give me a little time.",
+      "time": 158.45390866666
+    },
+    {
+      "duration": 4.71466666666667,
+      "id": "bread_arrival_0",
+      "position": [
+        5.0054759979248,
+        2.01035594940186,
+        71.387825012207
+      ],
+      "speaker": "elowen",
+      "text": "Garrick, I brought Lysa's bread. All four loaves, and not a crumb lost on the bridges.",
+      "time": 165.920388666654
+    },
+    {
+      "duration": 5.248,
+      "id": "bread_thanks_0",
+      "position": [
+        7.43127393722534,
+        1.99753832817078,
+        70.5383605957031
+      ],
+      "speaker": "barkeep",
+      "text": "Thank you, Elowen. That is one promise kept and four good loaves in the kitchen.",
+      "time": 171.21358966665
+    },
+    {
+      "duration": 6.16533333333333,
+      "id": "bread_open_0",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "The Twisted Oven sells warm bread for two gold a loaf. Ask Lysa when you reach her shop.",
+      "time": 267.02862566657
+    },
+    {
+      "duration": 4.45866666666667,
+      "id": "courier_report_0",
+      "position": [
+        -5.9999885559082,
+        1.95093703269959,
+        -113.682586669922
+      ],
+      "speaker": "elowen",
+      "text": "Osric, the bread reached Garrick safely. Lysa's basket is in the kitchen now.",
+      "time": 273.788456666565
+    },
+    {
+      "duration": 4.45866666666667,
+      "id": "report_ack_0",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "Thank you, Elowen. I will let the square know when the next notice is due.",
+      "time": 278.81499766656
+    },
+    {
+      "duration": 6.82666666666667,
+      "id": "bread_news_0",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "Bread from the Twisted Oven has arrived at the Marsh Hall. Elowen has delivered Lysa's basket safely.",
+      "time": 332.037323999849
+    },
+    {
+      "duration": 7.14666666666667,
+      "id": "welcome_1",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "Good day, travellers. The Mint stands beside this square. Ask for news if you wish to know what is happening in town.",
+      "time": 397.039339666462
+    },
+    {
+      "duration": 7.488,
+      "id": "live_supplies",
+      "position": [
+        7.43127393722534,
+        1.99753832817078,
+        70.5383605957031
+      ],
+      "speaker": "barkeep",
+      "text": "At last count, I have 5 fish and 3 loaves in the kitchen. The number of meals served to our neighbours is 1.",
+      "time": 423.17201966644
+    }
+  ],
+  "world": {
+    "bakery_stock": 12,
+    "bread": 3,
+    "bread_deliveries": 1,
+    "courier_phase": "reported",
+    "fish": 5,
+    "fish_deliveries": 2,
+    "meals": 1,
+    "player_deliveries": 0,
+    "player_promise": false,
+    "reported_bread": 1
+  }
+}

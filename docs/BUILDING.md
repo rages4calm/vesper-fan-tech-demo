@@ -4,9 +4,9 @@ Players should download the Windows playable ZIP, not build from source.
 
 ## Open the source project
 
-1. Clone this repository or download its source ZIP, using the **v0.3.2** tag for the initial public release.
-2. Download **Vesper-v0.3.2-Source-Assets.zip** and **SHA256SUMS.txt** from [the v0.3.2 release](https://github.com/rages4calm/vesper-fan-tech-demo/releases/tag/v0.3.2).
-3. Check the asset ZIP with PowerShell: `Get-FileHash .\Vesper-v0.3.2-Source-Assets.zip -Algorithm SHA256`. Compare it to SHA256SUMS.txt.
+1. Clone this repository or download its source ZIP, using the **v0.6.1** tag for the matching public release.
+2. Download **Vesper-v0.6.1-Source-Assets.zip** and **SHA256SUMS.txt** from [the v0.6.1 release](https://github.com/rages4calm/vesper-fan-tech-demo/releases/tag/v0.6.1).
+3. Check the asset ZIP with PowerShell: `Get-FileHash .\Vesper-v0.6.1-Source-Assets.zip -Algorithm SHA256`. Compare it to SHA256SUMS.txt.
 4. Extract that ZIP **into the repository root**. You should now have `godot/assets/vesper_city.glb`, alongside `godot/project.godot` and `godot/scripts/`.
 5. Open `godot/project.godot` with **Godot 4.7.2 stable**. Let the imports finish, then press F6/F5 as appropriate to run the main scene/project.
 
@@ -39,3 +39,7 @@ The exported executable accepts QA modes. Run one at a time, with a writable out
 ```
 
 The gameplay check can additionally receive `--qa-music=C:/path/to/your-test.ogg` to test local soundtrack import. QA uses `qa_journey.json`, `qa_route_journey.json`, and `qa_music.*`, separate from normal player data. Rendering checks need a working GPU; do not run them headless.
+
+## Living-town helper and trade props
+
+The source asset pack also includes `godot/art/` and the generated voice library. For the optional helper, see [helper/BUILDING.md](../helper/BUILDING.md). Its matching source, dependency notices and GPL source archives accompany the Windows download. Run the game directly for offline rules and included voices, or use the launcher beside an exported executable and packaged helper. No paid service or credential is required for the offline town.

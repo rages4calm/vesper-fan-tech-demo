@@ -1,0 +1,11 @@
+{
+  "model": "jev-latest",
+  "ai_enabled": true,
+  "daily_request_limit": 360,
+  "daily_spend_limit_usd": 0.01,
+  "input_price_per_million_usd": 0.042,
+  "minimum_request_interval_seconds": 8,
+  "network_timeout_seconds": 6,
+  "voice_cache_limit_mb": 150,
+  "voice_enabled": true
+}

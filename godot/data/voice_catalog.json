@@ -1,0 +1,1504 @@
+{
+  "welcome": [
+    {
+      "id": "welcome_0",
+      "speaker": "crier",
+      "text": "Hear ye, good people of Vesper! Welcome to the city of bridges. Keep the quays clear, and lend an ear to your neighbours.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/welcome_0.wav"
+    },
+    {
+      "id": "welcome_1",
+      "speaker": "crier",
+      "text": "Good day, travellers. The Mint stands beside this square. Ask for news if you wish to know what is happening in town.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/welcome_1.wav"
+    }
+  ],
+  "bank": [
+    {
+      "id": "bank_0",
+      "speaker": "crier",
+      "text": "The Mint keeps your valuables safe. Speak to the banker, or simply say bank when you are nearby.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/bank_0.wav"
+    },
+    {
+      "id": "bank_1",
+      "speaker": "crier",
+      "text": "Travellers, the Mint serves both sides of its doorway. You need not crowd the counter to reach your bank box.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/bank_1.wav"
+    }
+  ],
+  "flavor": [
+    {
+      "id": "flavor_0",
+      "speaker": "crier",
+      "text": "Vesper is a city of traders, canals, and stone bridges. From the docks to the museum, every crossing has a story.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/flavor_0.wav"
+    },
+    {
+      "id": "flavor_1",
+      "speaker": "crier",
+      "text": "For a quiet hour, visit the museum. For a warm welcome, seek the Ironwood Inn.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/flavor_1.wav"
+    }
+  ],
+  "shortage": [
+    {
+      "id": "shortage_0",
+      "speaker": "crier",
+      "text": "News from the Marsh Hall! Garrick needs fresh fish for his kitchen. A patient angler can earn an honest supper.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/shortage_0.wav"
+    },
+    {
+      "id": "shortage_1",
+      "speaker": "crier",
+      "text": "The Marsh Hall kitchen is short of fish. Anglers and helpful travellers, Garrick could use your catch.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/shortage_1.wav"
+    }
+  ],
+  "fish_news": [
+    {
+      "id": "fish_news_0",
+      "speaker": "crier",
+      "text": "Fresh fish have reached the Marsh Hall! Corin has delivered his catch to Garrick. The kitchen is supplied again.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/fish_news_0.wav"
+    },
+    {
+      "id": "fish_news_1",
+      "speaker": "crier",
+      "text": "Good news from the waterfront. Corin has kept his promise, and his fish have reached the tavern kitchen.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/fish_news_1.wav"
+    }
+  ],
+  "bread_news": [
+    {
+      "id": "bread_news_0",
+      "speaker": "crier",
+      "text": "Bread from the Twisted Oven has arrived at the Marsh Hall. Elowen has delivered Lysa's basket safely.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/bread_news_0.wav"
+    },
+    {
+      "id": "bread_news_1",
+      "speaker": "crier",
+      "text": "A delivery well done! The tavern now has fresh bread, carried over the bridges by Elowen.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/bread_news_1.wav"
+    }
+  ],
+  "player_news": [
+    {
+      "id": "player_news_0",
+      "speaker": "crier",
+      "text": "A traveller has helped supply the Marsh Hall. Garrick sends his thanks for the fresh fish.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/player_news_0.wav"
+    },
+    {
+      "id": "player_news_1",
+      "speaker": "crier",
+      "text": "News worth sharing: a visitor has brought fish to the tavern kitchen. Vesper remembers a helping hand.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/player_news_1.wav"
+    }
+  ],
+  "museum_news": [
+    {
+      "id": "museum_news_0",
+      "speaker": "crier",
+      "text": "The museum's astrolabe has arrived! A traveller has completed Elowen's delivery and returned a piece of history to Vesper.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/museum_news_0.wav"
+    }
+  ],
+  "bread_open": [
+    {
+      "id": "bread_open_0",
+      "speaker": "crier",
+      "text": "The Twisted Oven sells warm bread for two gold a loaf. Ask Lysa when you reach her shop.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/bread_open_0.wav"
+    }
+  ],
+  "courier_request": [
+    {
+      "id": "courier_request_0",
+      "speaker": "crier",
+      "text": "Elowen, could you take a basket from Lysa to the Marsh Hall? The kitchen is short of bread.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/courier_request_0.wav"
+    }
+  ],
+  "courier_accept": [
+    {
+      "id": "courier_accept_0",
+      "speaker": "elowen",
+      "text": "I can help. I will collect the bread from Lysa, then carry it to Garrick.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/courier_accept_0.wav"
+    },
+    {
+      "id": "courier_accept_1",
+      "speaker": "elowen",
+      "text": "Yes, I have room for a basket. I will go to the Twisted Oven first.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/courier_accept_1.wav"
+    }
+  ],
+  "bread_pickup": [
+    {
+      "id": "bread_pickup_0",
+      "speaker": "elowen",
+      "text": "Lysa, I promised to take bread to the Marsh Hall. Is the basket ready?",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/bread_pickup_0.wav"
+    },
+    {
+      "id": "bread_pickup_1",
+      "speaker": "elowen",
+      "text": "I am here for Garrick's bread, Lysa. The bridges should be quiet enough now.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/bread_pickup_1.wav"
+    }
+  ],
+  "bread_handover": [
+    {
+      "id": "bread_handover_0",
+      "speaker": "baker",
+      "text": "Here you are, Elowen. Four fresh loaves, wrapped for the walk. Thank you for carrying them.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/bread_handover_0.wav"
+    },
+    {
+      "id": "bread_handover_1",
+      "speaker": "baker",
+      "text": "The basket is ready. Mind the cloth; those loaves are still warm.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/bread_handover_1.wav"
+    }
+  ],
+  "bread_arrival": [
+    {
+      "id": "bread_arrival_0",
+      "speaker": "elowen",
+      "text": "Garrick, I brought Lysa's bread. All four loaves, and not a crumb lost on the bridges.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/bread_arrival_0.wav"
+    },
+    {
+      "id": "bread_arrival_1",
+      "speaker": "elowen",
+      "text": "A basket from the Twisted Oven. Lysa sends her regards, along with your bread.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/bread_arrival_1.wav"
+    }
+  ],
+  "bread_thanks": [
+    {
+      "id": "bread_thanks_0",
+      "speaker": "barkeep",
+      "text": "Thank you, Elowen. That is one promise kept and four good loaves in the kitchen.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/bread_thanks_0.wav"
+    },
+    {
+      "id": "bread_thanks_1",
+      "speaker": "barkeep",
+      "text": "Set the basket here. Lysa's bread always brings people back to the table.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/bread_thanks_1.wav"
+    }
+  ],
+  "fish_offer": [
+    {
+      "id": "fish_offer_0",
+      "speaker": "fisherman",
+      "text": "Garrick, the catch is landed. I can bring three fresh fish to your kitchen.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/fish_offer_0.wav"
+    },
+    {
+      "id": "fish_offer_1",
+      "speaker": "fisherman",
+      "text": "Three good fish in the basket. Shall I leave them with you, Garrick?",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/fish_offer_1.wav"
+    }
+  ],
+  "fish_thanks": [
+    {
+      "id": "fish_thanks_0",
+      "speaker": "barkeep",
+      "text": "Well caught, Corin. I will take the three fish. There is room for you at the table when your work is done.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/fish_thanks_0.wav"
+    },
+    {
+      "id": "fish_thanks_1",
+      "speaker": "barkeep",
+      "text": "Fresh from the water. Thank you, Corin. These will do nicely for supper.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/fish_thanks_1.wav"
+    }
+  ],
+  "fish_promise": [
+    {
+      "id": "fish_promise_0",
+      "speaker": "fisherman",
+      "text": "Garrick needs fish. I will take this catch to the Marsh Hall before I cast again.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/fish_promise_0.wav"
+    },
+    {
+      "id": "fish_promise_1",
+      "speaker": "fisherman",
+      "text": "Enough for a basket. I promised the tavern a catch, and I mean to keep that promise.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/fish_promise_1.wav"
+    }
+  ],
+  "fish_work": [
+    {
+      "id": "fish_work_0",
+      "speaker": "fisherman",
+      "text": "A little patience. Watch the water, not the end of the rod.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/fish_work_0.wav"
+    },
+    {
+      "id": "fish_work_1",
+      "speaker": "fisherman",
+      "text": "There is a good current along this quay. Let us see what it brings.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/fish_work_1.wav"
+    }
+  ],
+  "rest": [
+    {
+      "id": "rest_0",
+      "speaker": "fisherman",
+      "text": "A moment off my feet, then back to the water.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/rest_0.wav"
+    },
+    {
+      "id": "rest_1",
+      "speaker": "fisherman",
+      "text": "The tide can wait while I catch my breath.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/rest_1.wav"
+    }
+  ],
+  "courier_report": [
+    {
+      "id": "courier_report_0",
+      "speaker": "elowen",
+      "text": "Osric, the bread reached Garrick safely. Lysa's basket is in the kitchen now.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/courier_report_0.wav"
+    }
+  ],
+  "report_ack": [
+    {
+      "id": "report_ack_0",
+      "speaker": "crier",
+      "text": "Thank you, Elowen. I will let the square know when the next notice is due.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/report_ack_0.wav"
+    }
+  ],
+  "social_hello": [
+    {
+      "id": "social_hello_0",
+      "speaker": "resident_living",
+      "text": "Good day, Elowen. You look as though you have crossed every bridge in Vesper.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/social_hello_0.wav"
+    },
+    {
+      "id": "social_hello_1",
+      "speaker": "resident_living",
+      "text": "Elowen! Is there a quiet table at the Marsh Hall today?",
+      "voice": "af_heart",
+      "file": "res://assets/voices/social_hello_1.wav"
+    }
+  ],
+  "social_reply": [
+    {
+      "id": "social_reply_0",
+      "speaker": "elowen",
+      "text": "More than a few bridges, Nessa. A warm meal will be welcome.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/social_reply_0.wav"
+    },
+    {
+      "id": "social_reply_1",
+      "speaker": "elowen",
+      "text": "Garrick will find you a place. I am hoping to stop there myself.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/social_reply_1.wav"
+    }
+  ],
+  "meal_order": [
+    {
+      "id": "meal_order_0",
+      "speaker": "resident_living",
+      "text": "Garrick, may I have a little fish and bread? The walk has given me an appetite.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/meal_order_0.wav"
+    }
+  ],
+  "meal_served": [
+    {
+      "id": "meal_served_0",
+      "speaker": "barkeep",
+      "text": "Here you are, Nessa. Fresh fish and Lysa's bread. Take your time with it.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/meal_served_0.wav"
+    }
+  ],
+  "meal_thanks": [
+    {
+      "id": "meal_thanks_0",
+      "speaker": "resident_living",
+      "text": "That was just what I needed. Please thank the people who brought it in.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/meal_thanks_0.wav"
+    }
+  ],
+  "meal_empty": [
+    {
+      "id": "meal_empty_0",
+      "speaker": "barkeep",
+      "text": "I am waiting for supplies before I can serve that. Give me a little time.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/meal_empty_0.wav"
+    }
+  ],
+  "baking": [
+    {
+      "id": "baking_0",
+      "speaker": "baker",
+      "text": "Another batch ready. There is nothing like the smell of a warm oven.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/baking_0.wav"
+    },
+    {
+      "id": "baking_1",
+      "speaker": "baker",
+      "text": "A little flour on the sleeves is the mark of an honest morning.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/baking_1.wav"
+    }
+  ],
+  "greet_crier": [
+    {
+      "id": "greet_crier_0",
+      "speaker": "crier",
+      "text": "Good day. Ask me for news, services, or work. I only report what has reached my ears.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/greet_crier_0.wav"
+    }
+  ],
+  "greet_fisherman": [
+    {
+      "id": "greet_fisherman_0",
+      "speaker": "fisherman",
+      "text": "Good day. I fish these quays and bring part of my catch to Garrick. Ask about work if you want to help.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/greet_fisherman_0.wav"
+    }
+  ],
+  "greet_barkeep": [
+    {
+      "id": "greet_barkeep_0",
+      "speaker": "barkeep",
+      "text": "Welcome to the Marsh Hall. I buy fresh fish for three gold each. There is always work in keeping a kitchen supplied.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/greet_barkeep_0.wav"
+    }
+  ],
+  "greet_baker": [
+    {
+      "id": "greet_baker_0",
+      "speaker": "baker",
+      "text": "Welcome to the Twisted Oven. A warm loaf is two gold. Elowen sometimes carries a basket over to the tavern for me.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/greet_baker_0.wav"
+    }
+  ],
+  "greet_elowen": [
+    {
+      "id": "greet_elowen_0",
+      "speaker": "elowen",
+      "text": "Good to see you. Between museum deliveries and errands for the neighbours, there is always another bridge to cross.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/greet_elowen_0.wav"
+    }
+  ],
+  "greet_resident_living": [
+    {
+      "id": "greet_resident_living_0",
+      "speaker": "resident_living",
+      "text": "I am Nessa. I mend nets when there is work, and visit the Marsh Hall when my stomach insists.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/greet_resident_living_0.wav"
+    }
+  ],
+  "greet_banker": [
+    {
+      "id": "greet_banker_0",
+      "speaker": "banker",
+      "text": "Welcome to the Mint. Say bank nearby, and I will open your box. Your valuables remain yours.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/greet_banker_0.wav"
+    }
+  ],
+  "greet_joiner": [
+    {
+      "id": "greet_joiner_0",
+      "speaker": "joiner",
+      "text": "Good timber deserves careful hands. What brings you to my workshop?",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/greet_joiner_0.wav"
+    }
+  ],
+  "greet_shipwright": [
+    {
+      "id": "greet_shipwright_0",
+      "speaker": "shipwright",
+      "text": "Mind your step in the yard. We have boats on the water and work on the bench.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/greet_shipwright_0.wav"
+    }
+  ],
+  "greet_curator": [
+    {
+      "id": "greet_curator_0",
+      "speaker": "curator",
+      "text": "Welcome to Vesper Museum. Our city trades in many things, but memory is what we keep here.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/greet_curator_0.wav"
+    }
+  ],
+  "greet_innkeeper": [
+    {
+      "id": "greet_innkeeper_0",
+      "speaker": "innkeeper",
+      "text": "Welcome to the Ironwood Inn. Rest a while. The bridges will still be here when you are ready.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/greet_innkeeper_0.wav"
+    }
+  ],
+  "greet_healer": [
+    {
+      "id": "greet_healer_0",
+      "speaker": "healer",
+      "text": "Take a breath, traveller. There is no charge for a little kindness.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/greet_healer_0.wav"
+    }
+  ],
+  "player_help": [
+    {
+      "id": "player_help_0",
+      "speaker": "barkeep",
+      "text": "Bring one fish back here and say deliver fish. I will pay three gold when it is handed over.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/player_help_0.wav"
+    }
+  ],
+  "player_accept": [
+    {
+      "id": "player_accept_0",
+      "speaker": "barkeep",
+      "text": "Then we have an agreement. One fish for the kitchen, three gold for your trouble. Come back when you have it.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/player_accept_0.wav"
+    }
+  ],
+  "player_delivered": [
+    {
+      "id": "player_delivered_0",
+      "speaker": "barkeep",
+      "text": "A fish for the kitchen, and three gold for you. Thank you for keeping your word.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/player_delivered_0.wav"
+    }
+  ],
+  "player_no_fish": [
+    {
+      "id": "player_no_fish_0",
+      "speaker": "barkeep",
+      "text": "You have not brought a fish yet. Corin can show you where to cast a line.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/player_no_fish_0.wav"
+    }
+  ],
+  "player_no_promise": [
+    {
+      "id": "player_no_promise_0",
+      "speaker": "barkeep",
+      "text": "We have no delivery arranged yet. Ask about work, or use vendor sell to sell your catch.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/player_no_promise_0.wav"
+    }
+  ],
+  "player_remember": [
+    {
+      "id": "player_remember_0",
+      "speaker": "barkeep",
+      "text": "I remember your delivery. A kitchen runs on people who keep their word.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/player_remember_0.wav"
+    }
+  ],
+  "player_waiting": [
+    {
+      "id": "player_waiting_0",
+      "speaker": "barkeep",
+      "text": "I am still waiting for the fish you promised. No hurry; bring it when you have a catch.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/player_waiting_0.wav"
+    }
+  ],
+  "unknown": [
+    {
+      "id": "unknown_0",
+      "speaker": "crier",
+      "text": "That is beyond my news today. Ask about news, services, or work, and I will help where I can.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/unknown_0.wav"
+    }
+  ],
+  "work_direction": [
+    {
+      "id": "work_direction_0",
+      "speaker": "crier",
+      "text": "Ask Garrick at the Marsh Hall about work. He can offer a small fish delivery when the kitchen needs help.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/work_direction_0.wav"
+    }
+  ],
+  "no_news": [
+    {
+      "id": "no_news_0",
+      "speaker": "crier",
+      "text": "No fresh notice has reached me just now. I will speak when there is something worth sharing.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/no_news_0.wav"
+    }
+  ],
+  "thanks": [
+    {
+      "id": "thanks_0",
+      "speaker": "elowen",
+      "text": "You are welcome. A little help makes these bridges feel shorter.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/thanks_0.wav"
+    }
+  ],
+  "greet_neighbour_0": [
+    {
+      "id": "greet_neighbour_0_0",
+      "speaker": "neighbour_0",
+      "text": "I am Rowan. I copy the museum notices. A misplaced date can start a very old argument.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/greet_neighbour_0_0.wav"
+    }
+  ],
+  "chat_neighbour_0": [
+    {
+      "id": "chat_neighbour_0_0",
+      "speaker": "neighbour_0",
+      "text": "I copy the museum notices. A misplaced date can start a very old argument.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/chat_neighbour_0_0.wav"
+    },
+    {
+      "id": "chat_neighbour_0_1",
+      "speaker": "neighbour_0",
+      "text": "There is always another story to bring home.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/chat_neighbour_0_1.wav"
+    }
+  ],
+  "reply_neighbour_0": [
+    {
+      "id": "reply_neighbour_0_0",
+      "speaker": "neighbour_0",
+      "text": "There is always another story to bring home.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/reply_neighbour_0_0.wav"
+    },
+    {
+      "id": "reply_neighbour_0_1",
+      "speaker": "neighbour_0",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/reply_neighbour_0_1.wav"
+    }
+  ],
+  "greet_neighbour_1": [
+    {
+      "id": "greet_neighbour_1_0",
+      "speaker": "neighbour_1",
+      "text": "I am Wren. Salt gets into everything by the canals. Even the cloth needs a little care.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/greet_neighbour_1_0.wav"
+    }
+  ],
+  "chat_neighbour_1": [
+    {
+      "id": "chat_neighbour_1_0",
+      "speaker": "neighbour_1",
+      "text": "Salt gets into everything by the canals. Even the cloth needs a little care.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/chat_neighbour_1_0.wav"
+    },
+    {
+      "id": "chat_neighbour_1_1",
+      "speaker": "neighbour_1",
+      "text": "Good company makes a long day shorter.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/chat_neighbour_1_1.wav"
+    }
+  ],
+  "reply_neighbour_1": [
+    {
+      "id": "reply_neighbour_1_0",
+      "speaker": "neighbour_1",
+      "text": "Good company makes a long day shorter.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/reply_neighbour_1_0.wav"
+    },
+    {
+      "id": "reply_neighbour_1_1",
+      "speaker": "neighbour_1",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/reply_neighbour_1_1.wav"
+    }
+  ],
+  "greet_neighbour_2": [
+    {
+      "id": "greet_neighbour_2_0",
+      "speaker": "neighbour_2",
+      "text": "I am Hobb. I am learning a tune for the tavern. Best give me another week before you listen.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/greet_neighbour_2_0.wav"
+    }
+  ],
+  "chat_neighbour_2": [
+    {
+      "id": "chat_neighbour_2_0",
+      "speaker": "neighbour_2",
+      "text": "I am learning a tune for the tavern. Best give me another week before you listen.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/chat_neighbour_2_0.wav"
+    },
+    {
+      "id": "chat_neighbour_2_1",
+      "speaker": "neighbour_2",
+      "text": "I will remember that next time I cross the square.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/chat_neighbour_2_1.wav"
+    }
+  ],
+  "reply_neighbour_2": [
+    {
+      "id": "reply_neighbour_2_0",
+      "speaker": "neighbour_2",
+      "text": "I will remember that next time I cross the square.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/reply_neighbour_2_0.wav"
+    },
+    {
+      "id": "reply_neighbour_2_1",
+      "speaker": "neighbour_2",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/reply_neighbour_2_1.wav"
+    }
+  ],
+  "greet_neighbour_3": [
+    {
+      "id": "greet_neighbour_3_0",
+      "speaker": "neighbour_3",
+      "text": "I am Mira. Keep a little room on the bridge. We all reach the other side faster that way.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/greet_neighbour_3_0.wav"
+    }
+  ],
+  "chat_neighbour_3": [
+    {
+      "id": "chat_neighbour_3_0",
+      "speaker": "neighbour_3",
+      "text": "Keep a little room on the bridge. We all reach the other side faster that way.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/chat_neighbour_3_0.wav"
+    },
+    {
+      "id": "chat_neighbour_3_1",
+      "speaker": "neighbour_3",
+      "text": "Take care on your way. I will keep an eye on this crossing.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/chat_neighbour_3_1.wav"
+    }
+  ],
+  "reply_neighbour_3": [
+    {
+      "id": "reply_neighbour_3_0",
+      "speaker": "neighbour_3",
+      "text": "Take care on your way. I will keep an eye on this crossing.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/reply_neighbour_3_0.wav"
+    },
+    {
+      "id": "reply_neighbour_3_1",
+      "speaker": "neighbour_3",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/reply_neighbour_3_1.wav"
+    }
+  ],
+  "greet_neighbour_4": [
+    {
+      "id": "greet_neighbour_4_0",
+      "speaker": "neighbour_4",
+      "text": "I am Oren. I came here to mend books. I may stay for the view from the bridges.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/greet_neighbour_4_0.wav"
+    }
+  ],
+  "chat_neighbour_4": [
+    {
+      "id": "chat_neighbour_4_0",
+      "speaker": "neighbour_4",
+      "text": "I came here to mend books. I may stay for the view from the bridges.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/chat_neighbour_4_0.wav"
+    },
+    {
+      "id": "chat_neighbour_4_1",
+      "speaker": "neighbour_4",
+      "text": "A town is better when its people have time for one another.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/chat_neighbour_4_1.wav"
+    }
+  ],
+  "reply_neighbour_4": [
+    {
+      "id": "reply_neighbour_4_0",
+      "speaker": "neighbour_4",
+      "text": "A town is better when its people have time for one another.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/reply_neighbour_4_0.wav"
+    },
+    {
+      "id": "reply_neighbour_4_1",
+      "speaker": "neighbour_4",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/reply_neighbour_4_1.wav"
+    }
+  ],
+  "greet_neighbour_5": [
+    {
+      "id": "greet_neighbour_5_0",
+      "speaker": "neighbour_5",
+      "text": "I am Jory. A sound hull starts with sound timber. Maren checks every plank I bring.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/greet_neighbour_5_0.wav"
+    }
+  ],
+  "chat_neighbour_5": [
+    {
+      "id": "chat_neighbour_5_0",
+      "speaker": "neighbour_5",
+      "text": "A sound hull starts with sound timber. Maren checks every plank I bring.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/chat_neighbour_5_0.wav"
+    },
+    {
+      "id": "chat_neighbour_5_1",
+      "speaker": "neighbour_5",
+      "text": "I had better keep moving. These parcels do not carry themselves.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/chat_neighbour_5_1.wav"
+    }
+  ],
+  "reply_neighbour_5": [
+    {
+      "id": "reply_neighbour_5_0",
+      "speaker": "neighbour_5",
+      "text": "I had better keep moving. These parcels do not carry themselves.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/reply_neighbour_5_0.wav"
+    },
+    {
+      "id": "reply_neighbour_5_1",
+      "speaker": "neighbour_5",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/reply_neighbour_5_1.wav"
+    }
+  ],
+  "greet_neighbour_6": [
+    {
+      "id": "greet_neighbour_6_0",
+      "speaker": "neighbour_6",
+      "text": "I am Tessa. I make pots for people who use them. The prettiest one still needs to hold water.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/greet_neighbour_6_0.wav"
+    }
+  ],
+  "chat_neighbour_6": [
+    {
+      "id": "chat_neighbour_6_0",
+      "speaker": "neighbour_6",
+      "text": "I make pots for people who use them. The prettiest one still needs to hold water.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/chat_neighbour_6_0.wav"
+    },
+    {
+      "id": "chat_neighbour_6_1",
+      "speaker": "neighbour_6",
+      "text": "That sounds like a good reason to stop at the tavern.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/chat_neighbour_6_1.wav"
+    }
+  ],
+  "reply_neighbour_6": [
+    {
+      "id": "reply_neighbour_6_0",
+      "speaker": "neighbour_6",
+      "text": "That sounds like a good reason to stop at the tavern.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/reply_neighbour_6_0.wav"
+    },
+    {
+      "id": "reply_neighbour_6_1",
+      "speaker": "neighbour_6",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/reply_neighbour_6_1.wav"
+    }
+  ],
+  "greet_neighbour_7": [
+    {
+      "id": "greet_neighbour_7_0",
+      "speaker": "neighbour_7",
+      "text": "I am Bram. Sella keeps a careful inn. Clean linen, warm water, and remedies within reach.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/greet_neighbour_7_0.wav"
+    }
+  ],
+  "chat_neighbour_7": [
+    {
+      "id": "chat_neighbour_7_0",
+      "speaker": "neighbour_7",
+      "text": "Sella keeps a careful inn. Clean linen, warm water, and remedies within reach.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/chat_neighbour_7_0.wav"
+    },
+    {
+      "id": "chat_neighbour_7_1",
+      "speaker": "neighbour_7",
+      "text": "I will see you again when my errands are done.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/chat_neighbour_7_1.wav"
+    }
+  ],
+  "reply_neighbour_7": [
+    {
+      "id": "reply_neighbour_7_0",
+      "speaker": "neighbour_7",
+      "text": "I will see you again when my errands are done.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/reply_neighbour_7_0.wav"
+    },
+    {
+      "id": "reply_neighbour_7_1",
+      "speaker": "neighbour_7",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/reply_neighbour_7_1.wav"
+    }
+  ],
+  "greet_neighbour_8": [
+    {
+      "id": "greet_neighbour_8_0",
+      "speaker": "neighbour_8",
+      "text": "I am Ada. I mend clocks, but Vesper seems to run on tides and gossip.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/greet_neighbour_8_0.wav"
+    }
+  ],
+  "chat_neighbour_8": [
+    {
+      "id": "chat_neighbour_8_0",
+      "speaker": "neighbour_8",
+      "text": "I mend clocks, but Vesper seems to run on tides and gossip.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/chat_neighbour_8_0.wav"
+    },
+    {
+      "id": "chat_neighbour_8_1",
+      "speaker": "neighbour_8",
+      "text": "A moment to talk is time well spent.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/chat_neighbour_8_1.wav"
+    }
+  ],
+  "reply_neighbour_8": [
+    {
+      "id": "reply_neighbour_8_0",
+      "speaker": "neighbour_8",
+      "text": "A moment to talk is time well spent.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/reply_neighbour_8_0.wav"
+    },
+    {
+      "id": "reply_neighbour_8_1",
+      "speaker": "neighbour_8",
+      "text": "Good to see you. Safe travels across the bridges.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/reply_neighbour_8_1.wav"
+    }
+  ],
+  "chat_crier": [
+    {
+      "id": "chat_crier_0",
+      "speaker": "crier",
+      "text": "News travels on feet in this town. Bring me facts, and I will give them a voice.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/chat_crier_0.wav"
+    },
+    {
+      "id": "chat_crier_1",
+      "speaker": "crier",
+      "text": "Thank you for stopping. I keep an ear open for the neighbours.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/chat_crier_1.wav"
+    }
+  ],
+  "reply_crier": [
+    {
+      "id": "reply_crier_0",
+      "speaker": "crier",
+      "text": "Thank you for stopping. I keep an ear open for the neighbours.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/reply_crier_0.wav"
+    }
+  ],
+  "friend_crier": [
+    {
+      "id": "friend_crier_0",
+      "speaker": "crier",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/friend_crier_0.wav"
+    }
+  ],
+  "chat_fisherman": [
+    {
+      "id": "chat_fisherman_0",
+      "speaker": "fisherman",
+      "text": "The water teaches patience. The kitchen teaches you not to waste a catch.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/chat_fisherman_0.wav"
+    },
+    {
+      "id": "chat_fisherman_1",
+      "speaker": "fisherman",
+      "text": "Good company, and a little luck with the tide. That is enough for me.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/chat_fisherman_1.wav"
+    }
+  ],
+  "reply_fisherman": [
+    {
+      "id": "reply_fisherman_0",
+      "speaker": "fisherman",
+      "text": "Good company, and a little luck with the tide. That is enough for me.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/reply_fisherman_0.wav"
+    }
+  ],
+  "friend_fisherman": [
+    {
+      "id": "friend_fisherman_0",
+      "speaker": "fisherman",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bm_daniel",
+      "file": "res://assets/voices/friend_fisherman_0.wav"
+    }
+  ],
+  "chat_elowen": [
+    {
+      "id": "chat_elowen_0",
+      "speaker": "elowen",
+      "text": "Every errand is another reason to cross a bridge. I am getting to know them all.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/chat_elowen_0.wav"
+    },
+    {
+      "id": "chat_elowen_1",
+      "speaker": "elowen",
+      "text": "I will look in again when my deliveries are finished.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/chat_elowen_1.wav"
+    }
+  ],
+  "reply_elowen": [
+    {
+      "id": "reply_elowen_0",
+      "speaker": "elowen",
+      "text": "I will look in again when my deliveries are finished.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/reply_elowen_0.wav"
+    }
+  ],
+  "friend_elowen": [
+    {
+      "id": "friend_elowen_0",
+      "speaker": "elowen",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/friend_elowen_0.wav"
+    }
+  ],
+  "chat_barkeep": [
+    {
+      "id": "chat_barkeep_0",
+      "speaker": "barkeep",
+      "text": "A warm table takes more than a fire. Someone has to bring the fish and bread.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/chat_barkeep_0.wav"
+    },
+    {
+      "id": "chat_barkeep_1",
+      "speaker": "barkeep",
+      "text": "Come back when you have a moment. There is always company at the Marsh Hall.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/chat_barkeep_1.wav"
+    }
+  ],
+  "reply_barkeep": [
+    {
+      "id": "reply_barkeep_0",
+      "speaker": "barkeep",
+      "text": "Come back when you have a moment. There is always company at the Marsh Hall.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/reply_barkeep_0.wav"
+    }
+  ],
+  "friend_barkeep": [
+    {
+      "id": "friend_barkeep_0",
+      "speaker": "barkeep",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/friend_barkeep_0.wav"
+    }
+  ],
+  "chat_baker": [
+    {
+      "id": "chat_baker_0",
+      "speaker": "baker",
+      "text": "People say bread brings a town together. I think they mostly mean the smell.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/chat_baker_0.wav"
+    },
+    {
+      "id": "chat_baker_1",
+      "speaker": "baker",
+      "text": "Take care on the bridges. And do not forget to eat.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/chat_baker_1.wav"
+    }
+  ],
+  "reply_baker": [
+    {
+      "id": "reply_baker_0",
+      "speaker": "baker",
+      "text": "Take care on the bridges. And do not forget to eat.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/reply_baker_0.wav"
+    }
+  ],
+  "friend_baker": [
+    {
+      "id": "friend_baker_0",
+      "speaker": "baker",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/friend_baker_0.wav"
+    }
+  ],
+  "chat_banker": [
+    {
+      "id": "chat_banker_0",
+      "speaker": "banker",
+      "text": "I count coins all morning. It is good to see a familiar face between the figures.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/chat_banker_0.wav"
+    },
+    {
+      "id": "chat_banker_1",
+      "speaker": "banker",
+      "text": "Your bank box will be here when you need it.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/chat_banker_1.wav"
+    }
+  ],
+  "reply_banker": [
+    {
+      "id": "reply_banker_0",
+      "speaker": "banker",
+      "text": "Your bank box will be here when you need it.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/reply_banker_0.wav"
+    }
+  ],
+  "friend_banker": [
+    {
+      "id": "friend_banker_0",
+      "speaker": "banker",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/friend_banker_0.wav"
+    }
+  ],
+  "chat_joiner": [
+    {
+      "id": "chat_joiner_0",
+      "speaker": "joiner",
+      "text": "A plank is a promise. It may become a chair, or carry someone safely over the sea.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/chat_joiner_0.wav"
+    },
+    {
+      "id": "chat_joiner_1",
+      "speaker": "joiner",
+      "text": "Bring it by the workshop if it needs mending.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/chat_joiner_1.wav"
+    }
+  ],
+  "reply_joiner": [
+    {
+      "id": "reply_joiner_0",
+      "speaker": "joiner",
+      "text": "Bring it by the workshop if it needs mending.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/reply_joiner_0.wav"
+    }
+  ],
+  "friend_joiner": [
+    {
+      "id": "friend_joiner_0",
+      "speaker": "joiner",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/friend_joiner_0.wav"
+    }
+  ],
+  "chat_shipwright": [
+    {
+      "id": "chat_shipwright_0",
+      "speaker": "shipwright",
+      "text": "A boat is a thousand small jobs. Miss one, and the sea will find it.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/chat_shipwright_0.wav"
+    },
+    {
+      "id": "chat_shipwright_1",
+      "speaker": "shipwright",
+      "text": "Safe steps on the quay. The water gives no second warning.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/chat_shipwright_1.wav"
+    }
+  ],
+  "reply_shipwright": [
+    {
+      "id": "reply_shipwright_0",
+      "speaker": "shipwright",
+      "text": "Safe steps on the quay. The water gives no second warning.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/reply_shipwright_0.wav"
+    }
+  ],
+  "friend_shipwright": [
+    {
+      "id": "friend_shipwright_0",
+      "speaker": "shipwright",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/friend_shipwright_0.wav"
+    }
+  ],
+  "chat_healer": [
+    {
+      "id": "chat_healer_0",
+      "speaker": "healer",
+      "text": "Rest and a warm meal do more good than most people allow themselves.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/chat_healer_0.wav"
+    },
+    {
+      "id": "chat_healer_1",
+      "speaker": "healer",
+      "text": "Look after yourself. Vesper has time for kindness.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/chat_healer_1.wav"
+    }
+  ],
+  "reply_healer": [
+    {
+      "id": "reply_healer_0",
+      "speaker": "healer",
+      "text": "Look after yourself. Vesper has time for kindness.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/reply_healer_0.wav"
+    }
+  ],
+  "friend_healer": [
+    {
+      "id": "friend_healer_0",
+      "speaker": "healer",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/friend_healer_0.wav"
+    }
+  ],
+  "chat_innkeeper": [
+    {
+      "id": "chat_innkeeper_0",
+      "speaker": "innkeeper",
+      "text": "Travellers bring stories with their muddy boots. I could listen all evening.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/chat_innkeeper_0.wav"
+    },
+    {
+      "id": "chat_innkeeper_1",
+      "speaker": "innkeeper",
+      "text": "There is a welcome at the Ironwood when your day is done.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/chat_innkeeper_1.wav"
+    }
+  ],
+  "reply_innkeeper": [
+    {
+      "id": "reply_innkeeper_0",
+      "speaker": "innkeeper",
+      "text": "There is a welcome at the Ironwood when your day is done.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/reply_innkeeper_0.wav"
+    }
+  ],
+  "friend_innkeeper": [
+    {
+      "id": "friend_innkeeper_0",
+      "speaker": "innkeeper",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/friend_innkeeper_0.wav"
+    }
+  ],
+  "chat_curator": [
+    {
+      "id": "chat_curator_0",
+      "speaker": "curator",
+      "text": "The smallest objects can tell the longest stories. That is why I keep them.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/chat_curator_0.wav"
+    },
+    {
+      "id": "chat_curator_1",
+      "speaker": "curator",
+      "text": "Call at the museum when you have a quiet hour.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/chat_curator_1.wav"
+    }
+  ],
+  "reply_curator": [
+    {
+      "id": "reply_curator_0",
+      "speaker": "curator",
+      "text": "Call at the museum when you have a quiet hour.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/reply_curator_0.wav"
+    }
+  ],
+  "friend_curator": [
+    {
+      "id": "friend_curator_0",
+      "speaker": "curator",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/friend_curator_0.wav"
+    }
+  ],
+  "chat_resident_living": [
+    {
+      "id": "chat_resident_living_0",
+      "speaker": "resident_living",
+      "text": "Mending nets is patient work. A good knot is worth doing twice.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/chat_resident_living_0.wav"
+    },
+    {
+      "id": "chat_resident_living_1",
+      "speaker": "resident_living",
+      "text": "Perhaps I will see you at the tavern later.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/chat_resident_living_1.wav"
+    }
+  ],
+  "reply_resident_living": [
+    {
+      "id": "reply_resident_living_0",
+      "speaker": "resident_living",
+      "text": "Perhaps I will see you at the tavern later.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/reply_resident_living_0.wav"
+    }
+  ],
+  "friend_resident_living": [
+    {
+      "id": "friend_resident_living_0",
+      "speaker": "resident_living",
+      "text": "Good to see you again. I remember your help. People who keep their word are welcome here.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/friend_resident_living_0.wav"
+    }
+  ],
+  "timber_collect": [
+    {
+      "id": "timber_collect_0",
+      "speaker": "neighbour_5",
+      "text": "Tomas, I have come for three planks for Maren. I will take them straight to the boatyard.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/timber_collect_0.wav"
+    }
+  ],
+  "timber_give": [
+    {
+      "id": "timber_give_0",
+      "speaker": "joiner",
+      "text": "Three planks, dry and sound. Mind the ends when you cross the bridges.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/timber_give_0.wav"
+    }
+  ],
+  "timber_arrival": [
+    {
+      "id": "timber_arrival_0",
+      "speaker": "neighbour_5",
+      "text": "Maren, here is the timber from Tomas. Three planks, and all of them dry.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/timber_arrival_0.wav"
+    }
+  ],
+  "timber_thanks": [
+    {
+      "id": "timber_thanks_0",
+      "speaker": "shipwright",
+      "text": "Thank you, Jory. That is timber I can put to work.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/timber_thanks_0.wav"
+    }
+  ],
+  "remedies_collect": [
+    {
+      "id": "remedies_collect_0",
+      "speaker": "neighbour_7",
+      "text": "Anwen, Sella asked for two jars for the inn. I will carry them carefully.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/remedies_collect_0.wav"
+    }
+  ],
+  "remedies_give": [
+    {
+      "id": "remedies_give_0",
+      "speaker": "healer",
+      "text": "Here are the two jars. Keep the lids closed and tell Sella they are ready.",
+      "voice": "af_heart",
+      "file": "res://assets/voices/remedies_give_0.wav"
+    }
+  ],
+  "remedies_arrival": [
+    {
+      "id": "remedies_arrival_0",
+      "speaker": "neighbour_7",
+      "text": "Sella, the remedies have arrived. Two jars from Anwen, safely carried.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/remedies_arrival_0.wav"
+    }
+  ],
+  "remedies_thanks": [
+    {
+      "id": "remedies_thanks_0",
+      "speaker": "innkeeper",
+      "text": "Thank you, Bram. I will keep them ready for our guests.",
+      "voice": "bf_isabella",
+      "file": "res://assets/voices/remedies_thanks_0.wav"
+    }
+  ],
+  "timber_news": [
+    {
+      "id": "timber_news_0",
+      "speaker": "crier",
+      "text": "Word from the boatyard. Jory has delivered timber from Tomas to Maren. Another errand safely done.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/timber_news_0.wav"
+    }
+  ],
+  "remedies_news": [
+    {
+      "id": "remedies_news_0",
+      "speaker": "crier",
+      "text": "News from the Ironwood Inn. Bram has brought Anwen's remedies to Sella. The jars arrived safely.",
+      "voice": "bm_george",
+      "file": "res://assets/voices/remedies_news_0.wav"
+    }
+  ],
+  "parcel_accept": [
+    {
+      "id": "parcel_accept_0",
+      "speaker": "joiner",
+      "text": "Take this plank to Maren at the Majestic Boat. Say deliver parcel when you arrive. Five gold for a careful delivery.",
+      "voice": "bm_fable",
+      "file": "res://assets/voices/parcel_accept_0.wav"
+    }
+  ],
+  "parcel_delivered": [
+    {
+      "id": "parcel_delivered_0",
+      "speaker": "shipwright",
+      "text": "The plank is sound. Here are five gold, and my thanks for carrying it.",
+      "voice": "bf_emma",
+      "file": "res://assets/voices/parcel_delivered_0.wav"
+    }
+  ],
+  "friend_supper": [
+    {
+      "id": "friend_supper_0",
+      "speaker": "barkeep",
+      "text": "You have helped the neighbours. Let us do something for you. Fish and bread, on the house. Pull up a chair.",
+      "voice": "am_michael",
+      "file": "res://assets/voices/friend_supper_0.wav"
+    }
+  ]
+}

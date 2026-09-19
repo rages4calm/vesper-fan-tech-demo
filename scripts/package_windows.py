@@ -5,7 +5,7 @@ import hashlib
 import shutil
 
 ROOT=Path(__file__).resolve().parents[1]
-BUILD=ROOT/'build/Vesper'
+BUILD=ROOT/'build/Vesper-0.6.1'
 OUT=ROOT/'build/release'
 OUT.mkdir(parents=True,exist_ok=True)
 for name in ['README.md','CREDITS.md','LICENSE.md']:
@@ -16,14 +16,18 @@ lines=[]
 for path in files:
     lines.append(hashlib.sha256(path.read_bytes()).hexdigest()+'  '+path.relative_to(BUILD).as_posix())
 (BUILD/'SHA256SUMS.txt').write_text('\n'.join(lines)+'\n',encoding='utf-8')
-archive_path=OUT/'Vesper-Fan-Tech-Demo-v0.3.2-Windows-x64.zip'
+archive_path=OUT/'Vesper-Fan-Tech-Demo-v0.6.1-Windows-x64.zip'
 with ZipFile(archive_path,'w',compression=ZIP_DEFLATED,compresslevel=5) as archive:
     for file in sorted(BUILD.rglob('*')):
-        if file.is_file():archive.write(file,'Vesper-Fan-Tech-Demo/'+file.relative_to(BUILD).as_posix())
+        if file.is_file():
+            relative=file.relative_to(BUILD)
+            if relative.parts[0]=='music' or file.name in ['connection.json','usage.json','telemetry.jsonl'] or file.name.startswith('.env'):
+                raise ValueError('Private runtime data must not be packaged: '+str(relative))
+            archive.write(file,'Vesper-Fan-Tech-Demo/'+relative.as_posix())
 with ZipFile(archive_path) as archive:
     assert archive.testzip() is None
 checks=[]
-for file in sorted(OUT.glob('*.zip')):
+for file in sorted(OUT.glob('*v0.6.1*.zip')):
     checks.append(hashlib.sha256(file.read_bytes()).hexdigest()+'  '+file.name)
 (OUT/'SHA256SUMS.txt').write_text('\n'.join(checks)+'\n',encoding='utf-8')
 print(f'Packaged {archive_path.name}: {archive_path.stat().st_size} bytes',flush=True)

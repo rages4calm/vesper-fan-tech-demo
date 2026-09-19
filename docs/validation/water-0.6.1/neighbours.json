@@ -1,0 +1,1611 @@
+{
+  "actors": {
+    "baker": {
+      "action": "rounds",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Lysa gave four loaves to Elowen.",
+          "time": 97.9
+        },
+        {
+          "text": "Lysa baked four fresh loaves.",
+          "time": 130.0
+        },
+        {
+          "text": "Lysa gave four loaves to Elowen.",
+          "time": 474.1
+        }
+      ],
+      "position": [
+        100.0,
+        1.95062065124512,
+        -49.0
+      ],
+      "routine_step": 4,
+      "target": [
+        100.0,
+        2.07999992370605,
+        -49.0
+      ],
+      "trips": 8
+    },
+    "banker": {
+      "action": "rounds",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [],
+      "position": [
+        -8.0,
+        2.01652336120605,
+        -134.0
+      ],
+      "routine_step": 3,
+      "target": [
+        -8.0,
+        2.07999992370605,
+        -134.0
+      ],
+      "trips": 8
+    },
+    "barkeep": {
+      "action": "work",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "The Marsh Hall kitchen needs fish.",
+          "time": 0.0
+        },
+        {
+          "text": "Corin handed three fish to Garrick.",
+          "time": 156.3
+        },
+        {
+          "text": "Met Corin near The Marsh Hall.",
+          "time": 168.2
+        },
+        {
+          "text": "Elowen handed four loaves to Garrick.",
+          "time": 211.5
+        },
+        {
+          "text": "Nessa ate fish and bread at the Marsh Hall.",
+          "time": 255.5
+        },
+        {
+          "text": "Tessa ate fish and bread at the Marsh Hall.",
+          "time": 360.8
+        },
+        {
+          "text": "Corin handed three fish to Garrick.",
+          "time": 466.5
+        },
+        {
+          "text": "Met Corin near The Marsh Hall.",
+          "time": 472.7
+        }
+      ],
+      "position": [
+        10.0,
+        2.02531242370605,
+        70.0
+      ],
+      "routine_step": 1,
+      "target": [
+        10.0,
+        2.07999992370605,
+        70.0
+      ],
+      "trips": 9
+    },
+    "crier": {
+      "action": "work",
+      "action_time": 0.1,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "The Marsh Hall kitchen needs fish.",
+          "time": 0.0
+        },
+        {
+          "text": "Jory reported: Jory delivered three planks to Maren.",
+          "time": 181.4
+        },
+        {
+          "text": "Elowen reported her completed bread delivery to Osric.",
+          "time": 331.7
+        },
+        {
+          "text": "Bram reported: Bram delivered two jars of remedies to Sella.",
+          "time": 453.2
+        }
+      ],
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "routine_step": 3,
+      "target": [
+        -4.0,
+        2.07999992370605,
+        -117.0
+      ],
+      "trips": 7
+    },
+    "curator": {
+      "action": "work",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Met Tessa near Vesper Museum.",
+          "time": 240.3
+        },
+        {
+          "text": "Met Rowan near Vesper Museum.",
+          "time": 408.6
+        }
+      ],
+      "position": [
+        32.0,
+        2.05485343933105,
+        137.0
+      ],
+      "routine_step": 2,
+      "target": [
+        32.0,
+        2.07999992370605,
+        137.0
+      ],
+      "trips": 11
+    },
+    "elowen": {
+      "action": "bread_delivery",
+      "action_time": 0.0,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 4,
+      "memory": [
+        {
+          "text": "Promised Osric to collect four loaves from Lysa and deliver them to Garrick.",
+          "time": 17.0
+        },
+        {
+          "text": "Lysa gave four loaves to Elowen.",
+          "time": 97.9
+        },
+        {
+          "text": "Elowen handed four loaves to Garrick.",
+          "time": 211.5
+        },
+        {
+          "text": "Elowen reported her completed bread delivery to Osric.",
+          "time": 331.7
+        },
+        {
+          "text": "Promised Osric to collect four loaves from Lysa and deliver them to Garrick.",
+          "time": 392.5
+        },
+        {
+          "text": "Lysa gave four loaves to Elowen.",
+          "time": 474.1
+        }
+      ],
+      "position": [
+        82.222412109375,
+        1.94987297058105,
+        -50.0
+      ],
+      "routine_step": 1,
+      "target": [
+        9.0,
+        2.07999992370605,
+        71.0
+      ],
+      "trips": 6
+    },
+    "fisherman": {
+      "action": "rest",
+      "action_time": 16.516666666667,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Garrick's kitchen starts short of fish; he asked me for a catch.",
+          "time": 0.0
+        },
+        {
+          "text": "The Marsh Hall kitchen needs fish.",
+          "time": 0.0
+        },
+        {
+          "text": "Landed three fish at the quay.",
+          "time": 32.0
+        },
+        {
+          "text": "Corin landed three fish.",
+          "time": 32.0
+        },
+        {
+          "text": "Corin handed three fish to Garrick.",
+          "time": 156.3
+        },
+        {
+          "text": "Spoke with Garrick while crossing town.",
+          "time": 168.2
+        },
+        {
+          "text": "Landed three fish at the quay.",
+          "time": 318.1
+        },
+        {
+          "text": "Corin landed three fish.",
+          "time": 318.1
+        },
+        {
+          "text": "Corin handed three fish to Garrick.",
+          "time": 466.5
+        },
+        {
+          "text": "Spoke with Garrick while crossing town.",
+          "time": 472.7
+        }
+      ],
+      "position": [
+        11.0,
+        2.02531242370605,
+        71.0
+      ],
+      "routine_step": 4,
+      "target": [
+        11.0,
+        2.07999992370605,
+        71.0
+      ],
+      "trips": 4
+    },
+    "healer": {
+      "action": "work",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [],
+      "position": [
+        26.0,
+        1.95109367370605,
+        31.0
+      ],
+      "routine_step": 0,
+      "target": [
+        26.0,
+        2.07999992370605,
+        31.0
+      ],
+      "trips": 9
+    },
+    "innkeeper": {
+      "action": "work",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Bram delivered two jars of remedies to Sella.",
+          "time": 310.0
+        }
+      ],
+      "position": [
+        -98.0,
+        2.01066398620605,
+        125.0
+      ],
+      "routine_step": 3,
+      "target": [
+        -98.0,
+        2.07999992370605,
+        125.0
+      ],
+      "trips": 9
+    },
+    "joiner": {
+      "action": "work",
+      "action_time": 0.0,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Met Jory near Hammer and Nail.",
+          "time": 56.1
+        },
+        {
+          "text": "Traveller promised to take one plank to Maren for five gold.",
+          "time": 479.2
+        }
+      ],
+      "position": [
+        26.0,
+        1.95109367370605,
+        -22.0
+      ],
+      "routine_step": 1,
+      "target": [
+        26.0,
+        2.07999992370605,
+        -22.0
+      ],
+      "trips": 10
+    },
+    "neighbour_0": {
+      "action": "tavern_visit",
+      "action_time": 0.0,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Spoke with Aldren while crossing town.",
+          "time": 408.6
+        }
+      ],
+      "position": [
+        -58.0224342346191,
+        2.08028674125671,
+        113.190376281738
+      ],
+      "routine_step": 2,
+      "target": [
+        11.0,
+        2.07999992370605,
+        73.0
+      ],
+      "trips": 3
+    },
+    "neighbour_1": {
+      "action": "harbor_visit",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Spoke with Maren while crossing town.",
+          "time": 480.7
+        }
+      ],
+      "position": [
+        99.0,
+        2.01066398620605,
+        -11.0
+      ],
+      "routine_step": 4,
+      "target": [
+        99.0,
+        2.07999992370605,
+        -11.0
+      ],
+      "trips": 5
+    },
+    "neighbour_2": {
+      "action": "work",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Spoke with Ada while crossing town.",
+          "time": 312.4
+        }
+      ],
+      "position": [
+        -7.0,
+        1.95109367370605,
+        -73.0
+      ],
+      "routine_step": 2,
+      "target": [
+        -7.0,
+        2.07999992370605,
+        -73.0
+      ],
+      "trips": 7
+    },
+    "neighbour_3": {
+      "action": "harbor_visit",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [],
+      "position": [
+        99.0,
+        2.01066398620605,
+        -11.0
+      ],
+      "routine_step": 2,
+      "target": [
+        99.0,
+        2.07999992370605,
+        -11.0
+      ],
+      "trips": 6
+    },
+    "neighbour_4": {
+      "action": "tavern_visit",
+      "action_time": 0.0,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [],
+      "position": [
+        50.8534507751465,
+        0.355132341384888,
+        58.1539115905762
+      ],
+      "routine_step": 4,
+      "target": [
+        11.0,
+        2.07999992370605,
+        73.0
+      ],
+      "trips": 3
+    },
+    "neighbour_5": {
+      "action": "museum_visit",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Collected a parcel from Tomas and promised to carry it safely.",
+          "time": 56.0
+        },
+        {
+          "text": "Spoke with Tomas while crossing town.",
+          "time": 56.1
+        },
+        {
+          "text": "Jory delivered three planks to Maren.",
+          "time": 104.3
+        }
+      ],
+      "position": [
+        34.0,
+        2.01066398620605,
+        137.0
+      ],
+      "routine_step": 2,
+      "target": [
+        34.0,
+        2.07999992370605,
+        137.0
+      ],
+      "trips": 6
+    },
+    "neighbour_6": {
+      "action": "square",
+      "action_time": 2.23333333333333,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.0611166666666624,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Met Bram near The Marsh Hall.",
+          "time": 80.1
+        },
+        {
+          "text": "Spoke with Aldren while crossing town.",
+          "time": 240.3
+        },
+        {
+          "text": "Tessa ate fish and bread at the Marsh Hall.",
+          "time": 360.8
+        }
+      ],
+      "position": [
+        -5.0,
+        1.95040619373322,
+        -112.728858947754
+      ],
+      "routine_step": 3,
+      "target": [
+        -5.0,
+        2.07999992370605,
+        -113.0
+      ],
+      "trips": 3
+    },
+    "neighbour_7": {
+      "action": "work",
+      "action_time": 0.0,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Spoke with Tessa while crossing town.",
+          "time": 80.1
+        },
+        {
+          "text": "Collected a parcel from Anwen and promised to carry it safely.",
+          "time": 171.6
+        },
+        {
+          "text": "Bram delivered two jars of remedies to Sella.",
+          "time": 310.0
+        }
+      ],
+      "position": [
+        -72.5307769775391,
+        1.95033586025238,
+        -101.469223022461
+      ],
+      "routine_step": 1,
+      "target": [
+        -107.0,
+        2.07999992370605,
+        133.0
+      ],
+      "trips": 3
+    },
+    "neighbour_8": {
+      "action": "work",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Met Hobb near The Gadget’s Corner.",
+          "time": 312.4
+        }
+      ],
+      "position": [
+        1.0,
+        1.94987297058105,
+        -29.0
+      ],
+      "routine_step": 2,
+      "target": [
+        1.0,
+        2.07999992370605,
+        -29.0
+      ],
+      "trips": 5
+    },
+    "resident_living": {
+      "action": "visit",
+      "action_time": 3.81666666666666,
+      "cargo": "",
+      "fatigue": 0.016575,
+      "hunger": 0.11372499999999,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Garrick was waiting for supplies when I visited.",
+          "time": 205.5
+        },
+        {
+          "text": "Nessa ate fish and bread at the Marsh Hall.",
+          "time": 255.5
+        }
+      ],
+      "position": [
+        -7.0,
+        1.94914054870605,
+        -114.0
+      ],
+      "routine_step": 2,
+      "target": [
+        -7.0,
+        2.07999992370605,
+        -114.0
+      ],
+      "trips": 5
+    },
+    "shipwright": {
+      "action": "work",
+      "action_time": 3.08333333333333,
+      "cargo": "",
+      "fatigue": 0.413960833333429,
+      "hunger": 0.441508333333307,
+      "inventory": 0,
+      "memory": [
+        {
+          "text": "Jory delivered three planks to Maren.",
+          "time": 104.3
+        },
+        {
+          "text": "The traveller helped us. I will remember that kindness.",
+          "time": 479.2
+        },
+        {
+          "text": "Traveller delivered a plank to Maren for five gold.",
+          "time": 479.2
+        },
+        {
+          "text": "Met Wren near The Majestic Boat.",
+          "time": 480.7
+        }
+      ],
+      "position": [
+        97.25,
+        2.01066398620605,
+        -13.0066528320313
+      ],
+      "routine_step": 1,
+      "target": [
+        97.0,
+        2.07999992370605,
+        -13.0
+      ],
+      "trips": 10
+    }
+  },
+  "animation_max_time": 1.867616,
+  "checks": [
+    {
+      "check": "All 21 citizens share physical movement and town behaviour",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Elowen",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Tomas",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Maren",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Aldren",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Sella",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Garrick",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Lysa",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Anwen",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Corin",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Theodric",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Rowan",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Wren",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Hobb",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Mira",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Oren",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Jory",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Tessa",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Bram",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Ada",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Osric",
+      "pass": true
+    },
+    {
+      "check": "Clear starting capsule: Nessa",
+      "pass": true
+    },
+    {
+      "check": "Garrick starts in the aisle outside the counter",
+      "pass": true
+    },
+    {
+      "check": "Elowen's gait advances beyond the formerly repeating first third of a second",
+      "pass": true
+    },
+    {
+      "check": "Crossing path cells never restarts walking with an Idle frame",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Elowen",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Tomas",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Maren",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Aldren",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Sella",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Garrick",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Lysa",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Anwen",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Corin",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Theodric",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Rowan",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Wren",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Hobb",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Mira",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Oren",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Jory",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Tessa",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Bram",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Ada",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Osric",
+      "pass": true
+    },
+    {
+      "check": "Completed physical trip: Nessa",
+      "pass": true
+    },
+    {
+      "check": "Connected transaction completed: fish_deliveries",
+      "pass": true
+    },
+    {
+      "check": "Connected transaction completed: bread_deliveries",
+      "pass": true
+    },
+    {
+      "check": "Connected transaction completed: timber_deliveries",
+      "pass": true
+    },
+    {
+      "check": "Connected transaction completed: remedy_deliveries",
+      "pass": true
+    },
+    {
+      "check": "No repeatedly stalled citizens during observation",
+      "pass": true
+    },
+    {
+      "check": "No citizen fell into the water",
+      "pass": true
+    },
+    {
+      "check": "People initiated conversations when they met",
+      "pass": true
+    },
+    {
+      "check": "Speech queue stayed bounded",
+      "pass": true
+    },
+    {
+      "check": "Nearby spoken turns never overlap",
+      "pass": true
+    },
+    {
+      "check": "Spatial speech has a finite hearing range",
+      "pass": true
+    },
+    {
+      "check": "Trade news is backed by completed deliveries reported to the crier",
+      "pass": true
+    },
+    {
+      "check": "Player parcel reserves one real plank",
+      "pass": true
+    },
+    {
+      "check": "Repeated acceptance cannot create another parcel",
+      "pass": true
+    },
+    {
+      "check": "One delivery pays exactly once and earns remembered reputation",
+      "pass": true
+    },
+    {
+      "check": "Reputation and the witness's memory survive restore",
+      "pass": true
+    },
+    {
+      "check": "Town runs normally without an optional personal soundtrack",
+      "pass": true
+    },
+    {
+      "check": "Music volume independently reaches silence",
+      "pass": true
+    },
+    {
+      "check": "Measured speech bus fades out beyond hearing range (near -5.0 dB, far -200.0 dB)",
+      "pass": true
+    },
+    {
+      "check": "Out-of-range speech does not display a remote subtitle",
+      "pass": true
+    }
+  ],
+  "decisions": [
+    {
+      "actor": "resident_living",
+      "choice": "meal",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 82.1
+    },
+    {
+      "actor": "baker",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 92.1
+    },
+    {
+      "actor": "banker",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 102.1
+    },
+    {
+      "actor": "neighbour_1",
+      "choice": "tavern_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 112.1
+    },
+    {
+      "actor": "neighbour_4",
+      "choice": "harbor_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 122.1
+    },
+    {
+      "actor": "neighbour_6",
+      "choice": "museum_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 132.1
+    },
+    {
+      "actor": "crier",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 142.2
+    },
+    {
+      "actor": "curator",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 152.2
+    },
+    {
+      "actor": "innkeeper",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 162.2
+    },
+    {
+      "actor": "fisherman",
+      "choice": "fish",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 172.2
+    },
+    {
+      "actor": "neighbour_4",
+      "choice": "work",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 182.2
+    },
+    {
+      "actor": "barkeep",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 192.2
+    },
+    {
+      "actor": "baker",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 202.2
+    },
+    {
+      "actor": "neighbour_1",
+      "choice": "square",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 212.2
+    },
+    {
+      "actor": "banker",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 222.3
+    },
+    {
+      "actor": "neighbour_0",
+      "choice": "museum_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 232.3
+    },
+    {
+      "actor": "neighbour_6",
+      "choice": "tavern_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 242.3
+    },
+    {
+      "actor": "neighbour_2",
+      "choice": "square",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 252.3
+    },
+    {
+      "actor": "neighbour_3",
+      "choice": "work",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 262.3
+    },
+    {
+      "actor": "neighbour_8",
+      "choice": "square",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 272.3
+    },
+    {
+      "actor": "crier",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 282.3
+    },
+    {
+      "actor": "fisherman",
+      "choice": "fish",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 292.3
+    },
+    {
+      "actor": "neighbour_4",
+      "choice": "museum_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 302.4
+    },
+    {
+      "actor": "neighbour_5",
+      "choice": "museum_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 312.4
+    },
+    {
+      "actor": "neighbour_1",
+      "choice": "work",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 322.4
+    },
+    {
+      "actor": "baker",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 332.4
+    },
+    {
+      "actor": "elowen",
+      "choice": "square",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 342.4
+    },
+    {
+      "actor": "fisherman",
+      "choice": "deliver",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 352.4
+    },
+    {
+      "actor": "neighbour_6",
+      "choice": "square",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 362.4
+    },
+    {
+      "actor": "neighbour_3",
+      "choice": "harbor_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 372.4
+    },
+    {
+      "actor": "innkeeper",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 382.4
+    },
+    {
+      "actor": "neighbour_2",
+      "choice": "work",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 392.5
+    },
+    {
+      "actor": "neighbour_1",
+      "choice": "harbor_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 402.5
+    },
+    {
+      "actor": "neighbour_0",
+      "choice": "tavern_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 412.5
+    },
+    {
+      "actor": "resident_living",
+      "choice": "rest",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 422.5
+    },
+    {
+      "actor": "crier",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 432.5
+    },
+    {
+      "actor": "neighbour_4",
+      "choice": "tavern_visit",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 442.5
+    },
+    {
+      "actor": "neighbour_8",
+      "choice": "work",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 452.5
+    },
+    {
+      "actor": "baker",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 462.5
+    },
+    {
+      "actor": "banker",
+      "choice": "rounds",
+      "latency_ms": 0,
+      "mode": "rules fallback",
+      "time": 472.6
+    }
+  ],
+  "duration_seconds": 484.883,
+  "events": [
+    {
+      "id": "25372278_0",
+      "kind": "shortage",
+      "text": "The Marsh Hall kitchen needs fish.",
+      "time": 0.0,
+      "witnesses": [
+        "barkeep",
+        "fisherman",
+        "crier"
+      ]
+    },
+    {
+      "id": "57535696_1",
+      "kind": "catch",
+      "text": "Corin landed three fish.",
+      "time": 32.0,
+      "witnesses": [
+        "fisherman"
+      ]
+    },
+    {
+      "id": "123599135_2",
+      "kind": "bread_collected",
+      "text": "Lysa gave four loaves to Elowen.",
+      "time": 97.9,
+      "witnesses": [
+        "baker",
+        "elowen"
+      ]
+    },
+    {
+      "id": "130015155_3",
+      "kind": "timber_delivery",
+      "text": "Jory delivered three planks to Maren.",
+      "time": 104.3,
+      "witnesses": [
+        "neighbour_5",
+        "shipwright",
+        "crier"
+      ]
+    },
+    {
+      "id": "155785745_4",
+      "kind": "baked",
+      "text": "Lysa baked four fresh loaves.",
+      "time": 130.0,
+      "witnesses": [
+        "baker"
+      ]
+    },
+    {
+      "id": "182090017_5",
+      "kind": "fish_delivery",
+      "text": "Corin handed three fish to Garrick.",
+      "time": 156.3,
+      "witnesses": [
+        "fisherman",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "237452527_6",
+      "kind": "bread_delivery",
+      "text": "Elowen handed four loaves to Garrick.",
+      "time": 211.5,
+      "witnesses": [
+        "elowen",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "281722428_7",
+      "kind": "meal",
+      "text": "Nessa ate fish and bread at the Marsh Hall.",
+      "time": 255.5,
+      "witnesses": [
+        "resident_living",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "306484915_8",
+      "kind": "baked",
+      "text": "Lysa baked four fresh loaves.",
+      "time": 280.0,
+      "witnesses": [
+        "baker"
+      ]
+    },
+    {
+      "id": "336656716_9",
+      "kind": "remedy_delivery",
+      "text": "Bram delivered two jars of remedies to Sella.",
+      "time": 310.0,
+      "witnesses": [
+        "neighbour_7",
+        "innkeeper",
+        "crier"
+      ]
+    },
+    {
+      "id": "344788416_10",
+      "kind": "catch",
+      "text": "Corin landed three fish.",
+      "time": 318.1,
+      "witnesses": [
+        "fisherman"
+      ]
+    },
+    {
+      "id": "358403504_11",
+      "kind": "bread_report",
+      "text": "Elowen reported her completed bread delivery to Osric.",
+      "time": 331.7,
+      "witnesses": [
+        "elowen",
+        "crier"
+      ]
+    },
+    {
+      "id": "387573093_12",
+      "kind": "meal",
+      "text": "Tessa ate fish and bread at the Marsh Hall.",
+      "time": 360.8,
+      "witnesses": [
+        "neighbour_6",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "456999427_13",
+      "kind": "baked",
+      "text": "Lysa baked four fresh loaves.",
+      "time": 430.0,
+      "witnesses": [
+        "baker"
+      ]
+    },
+    {
+      "id": "493478118_14",
+      "kind": "fish_delivery",
+      "text": "Corin handed three fish to Garrick.",
+      "time": 466.5,
+      "witnesses": [
+        "fisherman",
+        "barkeep"
+      ]
+    },
+    {
+      "id": "501120808_15",
+      "kind": "bread_collected",
+      "text": "Lysa gave four loaves to Elowen.",
+      "time": 474.1,
+      "witnesses": [
+        "baker",
+        "elowen"
+      ]
+    },
+    {
+      "id": "506201810_16",
+      "kind": "player_parcel",
+      "text": "Traveller delivered a plank to Maren for five gold.",
+      "time": 479.2,
+      "witnesses": [
+        "shipwright"
+      ]
+    }
+  ],
+  "helper": {},
+  "metrics": {
+    "arrivals": 137,
+    "conversations": 9,
+    "failed_routes": 0,
+    "frame_max_ms": 141.226333333333,
+    "frame_ms_sum": 483012.649666578,
+    "frame_samples": 34163,
+    "max_queue": 2,
+    "overlaps": 0,
+    "recoveries": 1,
+    "repaths": 1,
+    "stale_decisions": 0,
+    "utterances": 14
+  },
+  "speech": [
+    {
+      "duration": 7.38133333333333,
+      "id": "welcome_0",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "Hear ye, good people of Vesper! Welcome to the city of bridges. Keep the quays clear, and lend an ear to your neighbours.",
+      "time": 7.00824733333339
+    },
+    {
+      "duration": 5.78133333333333,
+      "id": "courier_request_0",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "Elowen, could you take a basket from Lysa to the Marsh Hall? The kitchen is short of bread.",
+      "time": 17.007997333333
+    },
+    {
+      "duration": 4.01066666666667,
+      "id": "courier_accept_0",
+      "position": [
+        -6.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "elowen",
+      "text": "I can help. I will collect the bread from Lysa, then carry it to Garrick.",
+      "time": 23.3678383333327
+    },
+    {
+      "duration": 4.56533333333333,
+      "id": "chat_neighbour_6_0",
+      "position": [
+        1.0117175579071,
+        2.14646053314209,
+        78.0
+      ],
+      "speaker": "neighbour_6",
+      "text": "I make pots for people who use them. The prettiest one still needs to hold water.",
+      "time": 80.0966363333426
+    },
+    {
+      "duration": 2.77333333333333,
+      "id": "reply_neighbour_7_0",
+      "position": [
+        -2.38325166702271,
+        2.72235941886902,
+        78.0000305175781
+      ],
+      "speaker": "neighbour_7",
+      "text": "I will see you again when my errands are done.",
+      "time": 85.2298413333437
+    },
+    {
+      "duration": 4.05333333333333,
+      "id": "fish_offer_0",
+      "position": [
+        11.0000038146973,
+        2.02482008934021,
+        71.3211822509766
+      ],
+      "speaker": "fisherman",
+      "text": "Garrick, the catch is landed. I can bring three fresh fish to your kitchen.",
+      "time": 156.281692999996
+    },
+    {
+      "duration": 6.464,
+      "id": "fish_thanks_0",
+      "position": [
+        10.2823400497437,
+        2.02531242370605,
+        70.0
+      ],
+      "speaker": "barkeep",
+      "text": "Well caught, Corin. I will take the three fish. There is room for you at the table when your work is done.",
+      "time": 160.908243999992
+    },
+    {
+      "duration": 4.62933333333333,
+      "id": "remedies_arrival_0",
+      "position": [
+        -96.7855682373047,
+        2.02539873123169,
+        126.226333618164
+      ],
+      "speaker": "neighbour_7",
+      "text": "Sella, the remedies have arrived. Two jars from Anwen, safely carried.",
+      "time": 309.985969333244
+    },
+    {
+      "duration": 3.008,
+      "id": "remedies_thanks_0",
+      "position": [
+        -98.00244140625,
+        2.0097119808197,
+        125.278747558594
+      ],
+      "speaker": "innkeeper",
+      "text": "Thank you, Bram. I will keep them ready for our guests.",
+      "time": 315.19949233324
+    },
+    {
+      "duration": 5.78133333333333,
+      "id": "courier_request_0",
+      "position": [
+        -3.99985003471375,
+        1.95090842247009,
+        -117.234848022461
+      ],
+      "speaker": "crier",
+      "text": "Elowen, could you take a basket from Lysa to the Marsh Hall? The kitchen is short of bread.",
+      "time": 392.501029333176
+    },
+    {
+      "duration": 4.01066666666667,
+      "id": "courier_accept_1",
+      "position": [
+        -6.04637050628662,
+        1.95070219039917,
+        -121.682929992676
+      ],
+      "speaker": "elowen",
+      "text": "Yes, I have room for a basket. I will go to the Twisted Oven first.",
+      "time": 398.84753733317
+    },
+    {
+      "duration": 6.336,
+      "id": "remedies_news_0",
+      "position": [
+        -4.2163553237915,
+        1.95090842247009,
+        -117.020362854004
+      ],
+      "speaker": "crier",
+      "text": "News from the Ironwood Inn. Bram has brought Anwen's remedies to Sella. The jars arrived safely.",
+      "time": 462.053173666451
+    },
+    {
+      "duration": 3.86133333333333,
+      "id": "parcel_delivered_0",
+      "position": [
+        98.9699249267578,
+        2.01066398620605,
+        -13.0468196868896
+      ],
+      "speaker": "shipwright",
+      "text": "The plank is sound. Here are five gold, and my thanks for carrying it.",
+      "time": 479.199411666436
+    },
+    {
+      "duration": 7.14666666666667,
+      "id": "welcome_1",
+      "position": [
+        -4.0,
+        1.95109367370605,
+        -117.0
+      ],
+      "speaker": "crier",
+      "text": "Good day, travellers. The Mint stands beside this square. Ask for news if you wish to know what is happening in town.",
+      "time": 479.306075666436
+    }
+  ],
+  "speech_far_db": -199.999984741211,
+  "speech_near_db": -5.00577878952026,
+  "walk_idle_frames": 0,
+  "world": {
+    "bakery_stock": 8,
+    "bread": 2,
+    "bread_deliveries": 1,
+    "courier_phase": "carrying",
+    "fish": 4,
+    "fish_deliveries": 2,
+    "gathering": false,
+    "last_bread_delivery": 211.470466666616,
+    "meals": 2,
+    "next_bake": 580.027307666478,
+    "player_deliveries": 0,
+    "player_parcel": "",
+    "player_parcels": 1,
+    "player_promise": false,
+    "remedies": 2,
+    "remedy_deliveries": 1,
+    "remedy_source": 2,
+    "reported_bread": 1,
+    "reported_help": 0,
+    "reputation": 1,
+    "supper_claimed": false,
+    "timber": 4,
+    "timber_deliveries": 1,
+    "timber_source": 2
+  }
+}

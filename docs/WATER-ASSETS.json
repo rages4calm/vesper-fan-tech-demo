@@ -1,0 +1,18 @@
+{
+  "name": "UnionBytes Realistic Water textures",
+  "creator": "Achim Menzel (AiYori), UnionBytes and Realistic Water Shader contributors",
+  "godot_4_port": "Hayden Connor (SpicyChicken.Club)",
+  "source": "https://github.com/spicyhaydenc/Godot-4-Realistic-Water",
+  "revision": "319662844448f2b9562e10e360b465ddd9593107",
+  "license": "MIT",
+  "license_file": "licenses/UNIONBYTES-WATER.txt",
+  "authors_file": "licenses/UNIONBYTES-AUTHORS.md",
+  "verified": "2026-09-19",
+  "files": [
+    {"path":"godot/assets/water/Water_N_A.png","size":"512 x 512","purpose":"Broad wave normals"},
+    {"path":"godot/assets/water/Water_N_B.png","size":"1024 x 1024","purpose":"Fine ripple normals"},
+    {"path":"godot/assets/water/Foam.png","size":"256 x 256","purpose":"Contact foam breakup"}
+  ],
+  "integration": "Original source textures copied unchanged. Vesper shader integrates layered flow, long-wave displacement, reverse-Z contact depth, restrained foam and existing planar reflections. The entire upstream water system and its sample boat are not used. No upscaling or claim of 4K assets.",
+  "cost": "Free; no subscription or runtime service"
+}

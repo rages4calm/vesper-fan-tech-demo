@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "check": "Unauthenticated access rejected",
+      "pass": true
+    },
+    {
+      "check": "Browser-origin access rejected",
+      "pass": true
+    },
+    {
+      "check": "Invalid voice job rejected",
+      "pass": true
+    },
+    {
+      "check": "Packaged local speech generated with isolated Python environment",
+      "pass": true
+    },
+    {
+      "check": "Valid multi-second mono PCM speech",
+      "pass": true
+    },
+    {
+      "check": "Generated speech has headroom",
+      "pass": true
+    },
+    {
+      "check": "Voice generation leaves helper responsive",
+      "pass": true
+    }
+  ],
+  "synthesis": {
+    "ready": true,
+    "id": "99e48e9decbfdd314071ef8eb701c6675125109f26f1c1e959d4b4e908553cdc",
+    "generation_seconds": 0.947,
+    "duration": 4.715,
+    "peak": 0.493,
+    "cached": false
+  },
+  "job_response_ms": 169,
+  "max_status_ms": 632,
+  "duration_seconds": 4.714666666666667,
+  "peak": 0.49322509765625
+}

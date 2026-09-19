@@ -1,0 +1,26 @@
+[
+  {
+    "check": "Prior normal journey inventory resumes in the isolated QA copy",
+    "pass": true
+  },
+  {
+    "check": "Old six-person town save expands to all 21 citizens",
+    "pass": true
+  },
+  {
+    "check": "Resumed Garrick is clear of the counter",
+    "pass": true
+  },
+  {
+    "check": "Original normal save remains byte-for-byte unchanged",
+    "pass": true
+  },
+  {
+    "check": "Thank-you supper consumes supplies once and cannot be redeemed twice",
+    "pass": true
+  },
+  {
+    "check": "Long town notices are contained in a scrollable reading area",
+    "pass": true
+  }
+]

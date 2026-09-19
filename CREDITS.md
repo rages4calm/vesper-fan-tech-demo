@@ -2,6 +2,8 @@
 
 ## Project and intent
 
+The 0.6 atmosphere preview adds original Blender trade-dressing geometry and physical shop pictograms, prepared with OpenAI Codex assistance. Its timber uses **Brown Planks 03 by Rob Tuytel / Poly Haven (CC0)**. Existing licensed city surfaces remain in use beneath a new world-anchored weathering shader. See [the preview asset manifest](docs/ATMOSPHERE-ASSETS.json) for generation sources and license scope. No new commercial-game assets were extracted.
+
 **Carl Prewitt Jr. / [rages4calm](https://github.com/rages4calm)** initiated the project, supplied the Ultima Online references and creative direction, played successive builds, and guided the revisions.
 
 **OpenAI Codex** assisted with research, programming, procedural Blender modeling, asset preparation, interface implementation, testing, and video capture. The journal background was created with **OpenAI image generation**. This was an AI-assisted collaboration, not a claim that every asset was hand-made or created from scratch.
@@ -78,8 +80,34 @@ The journal background is a generated project asset; the pack, journal cover, an
 - **[Godot Engine](https://godotengine.org/)**, 4.7.2 stable, Forward+ renderer. Credit to Juan Linietsky, Ariel Manzur, and Godot Engine contributors. Its MIT license and bundled third-party notices are in [docs/licenses](docs/licenses/).
 - **[Blender](https://www.blender.org/)**, 5.2.1 LTS, used through its Python API to build and prepare models. Credit to the Blender Foundation and Blender contributors. Blender itself is not bundled in the playable release.
 - **[Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond)**, SIL Open Font License; see `docs/licenses/OFL.txt`. Interface text uses the operating system's Segoe UI when available; no Microsoft font file is redistributed.
-- **[Three.js](https://github.com/mrdoob/three.js)** example `waternormals.jpg`, used as the water normal texture, with its MIT license in `docs/licenses/THREE.txt`.
+- **[Three.js](https://github.com/mrdoob/three.js)** example `waternormals.jpg`, retained as a legacy source asset; replaced in 0.6.1, with its MIT license in `docs/licenses/THREE.txt`.
 - **NumPy** was used during development for synthesized audio and validation. It is not required to run the executable.
 - **FFmpeg** was used for development film editing and verification. It is not bundled with or required by the game.
 
 All licenses apply to their respective components. See [LICENSE.md](LICENSE.md) for the scope of the public project and personal-play permission.
+
+## Living-town experiment
+
+Project direction and ownership: **Carl Prewitt Jr. / rages4calm**. Development, research, integration, procedural props and QA with OpenAI Codex assistance. The original Ultima Online setting, names and inspiration remain the property of their respective rights holders. This unofficial fan experiment is not endorsed by them.
+
+- **hexgrad / Kokoro-82M contributors**: local synthetic voice model and voice embeddings, Apache-2.0. No real person's voice was cloned for this project.
+- **thewh1teagle / kokoro-onnx contributors**: MIT local inference wrapper.
+- **eSpeak NG contributors** and **phonemizer contributors**: pronunciation and phonemization, GPL-3.0-or-later; source and license notices accompany the helper.
+- **Quaternius**: previously adapted CC0 characters, clothing and animations reused for the town residents. Existing character/animation pack notices remain in this project.
+- **TypeSafe / Jev**: optional bounded action selection through the user's own account. No API key is distributed.
+- **Matt Shumer's village-of-agents video**: experiential inspiration for task-linked conversations; its implementation and assets were not copied.
+
+The 178 included voice clips contain original project dialogue synthesized locally. New crier livery, bell, board and baskets are procedural project geometry. Full sources and licensing are listed in `docs/LIVING-ASSET-MANIFEST.json`.
+
+
+### Personal Neighbours build (0.5.0)
+
+The optional `music/Vesper.ogg` in this local build is the user's existing Vesper recording, rendered on Roland Sound Canvas SC-55 and archived by Rabbit's Lair. Composition/arrangement credits in the reference archive: Joe Basquez and Kirk Winterowd. Source: http://ultima.rabbitslair.de/ultima_online.htm . Original composition and recording rights remain with their respective holders. This addition does not change the older public v0.3.2 release or grant a new license to the soundtrack.
+
+The expanded citizen voice library uses the same locally generated Kokoro voices and existing licenses. New dialogue, routines, trade parcels and town-notice presentation are project work by Carl Prewitt Jr. with OpenAI Codex assistance. No additional commercial game assets or voice impersonations were used.
+
+## Water update (0.6.1)
+
+**UnionBytes / Achim Menzel (AiYori), Realistic Water Shader contributors, and Hayden Connor (Godot 4 port):** two wave-normal textures and the foam texture from [Godot-4-Realistic-Water](https://github.com/spicyhaydenc/Godot-4-Realistic-Water), MIT. The complete license and author notices are retained in `docs/licenses/UNIONBYTES-WATER.txt` and `UNIONBYTES-AUTHORS.md`. Vesper uses a custom integration rather than the complete upstream system; see `docs/WATER-ASSETS.json`.
+
+The public 0.6.1 package includes the living-town and atmosphere work. Original UO music remains an optional local import, not a bundled release asset.

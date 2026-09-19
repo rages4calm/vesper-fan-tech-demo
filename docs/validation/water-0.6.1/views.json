@@ -1,0 +1,86 @@
+[
+  {
+    "high": true,
+    "median_frame_ms": 13.334,
+    "p95_frame_ms": 13.422,
+    "phase": 1,
+    "view": "harbor"
+  },
+  {
+    "high": true,
+    "median_frame_ms": 13.342,
+    "p95_frame_ms": 13.456,
+    "phase": 1,
+    "view": "canal"
+  },
+  {
+    "high": true,
+    "median_frame_ms": 13.339,
+    "p95_frame_ms": 13.419,
+    "phase": 0,
+    "view": "harbor"
+  },
+  {
+    "high": true,
+    "median_frame_ms": 13.342,
+    "p95_frame_ms": 13.597,
+    "phase": 0,
+    "view": "canal"
+  },
+  {
+    "high": true,
+    "median_frame_ms": 13.319,
+    "p95_frame_ms": 13.461,
+    "phase": 2,
+    "view": "harbor"
+  },
+  {
+    "high": true,
+    "median_frame_ms": 13.334,
+    "p95_frame_ms": 13.432,
+    "phase": 2,
+    "view": "canal"
+  },
+  {
+    "high": false,
+    "median_frame_ms": 13.333,
+    "p95_frame_ms": 13.433,
+    "phase": 1,
+    "view": "harbor"
+  },
+  {
+    "high": false,
+    "median_frame_ms": 13.333,
+    "p95_frame_ms": 13.372,
+    "phase": 1,
+    "view": "canal"
+  },
+  {
+    "high": false,
+    "median_frame_ms": 13.333,
+    "p95_frame_ms": 13.398,
+    "phase": 0,
+    "view": "harbor"
+  },
+  {
+    "high": false,
+    "median_frame_ms": 13.333,
+    "p95_frame_ms": 13.393,
+    "phase": 0,
+    "view": "canal"
+  },
+  {
+    "high": false,
+    "median_frame_ms": 13.333,
+    "p95_frame_ms": 13.333,
+    "phase": 2,
+    "view": "harbor"
+  },
+  {
+    "high": false,
+    "median_frame_ms": 13.333,
+    "p95_frame_ms": 13.622,
+    "phase": 2,
+    "view": "canal"
+  }
+]

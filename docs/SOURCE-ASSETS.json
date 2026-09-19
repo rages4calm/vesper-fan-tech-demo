@@ -1,13 +1,68 @@
 [
   {
+    "path": "godot/art/fishing_rack.glb",
+    "bytes": 4618412,
+    "sha256": "0f7353bd341dae68ca5da99d62769b242f237883b9b6d028219f96e5b3ffbb37"
+  },
+  {
+    "path": "godot/art/quay_casks.glb",
+    "bytes": 3283888,
+    "sha256": "aa969e46746c8d868d6070550ec25555fe041b1552c471151c4f880e945d225b"
+  },
+  {
+    "path": "godot/art/sign_anchor.glb",
+    "bytes": 1967932,
+    "sha256": "9ef7c7d5702928891a901c35b60d07ad7aad0385f07db0752998f2be2b1b946f"
+  },
+  {
+    "path": "godot/art/sign_bottle.glb",
+    "bytes": 1870592,
+    "sha256": "9cb4b7ec5ddcce51b9a223296c582fe1079691c923a68f5656dfa077256d219d"
+  },
+  {
+    "path": "godot/art/sign_bread.glb",
+    "bytes": 1907912,
+    "sha256": "df91012403e38b35e162eec11b4bdbf2a1625f90652ee354fc6757bf5e91b7ba"
+  },
+  {
+    "path": "godot/art/sign_fish.glb",
+    "bytes": 1870028,
+    "sha256": "4a0635ac70cd2a3dd45819c47ef4bac45773a585f30ca328cf15a9964f78761d"
+  },
+  {
+    "path": "godot/art/sign_hammer.glb",
+    "bytes": 1861552,
+    "sha256": "fa193c75a4a0d396be5c4cef5c61eeab640594071a7734b77ef762bc1d52137e"
+  },
+  {
+    "path": "godot/art/sign_mug.glb",
+    "bytes": 1913360,
+    "sha256": "2fc81836e7a692ce7df893e0d4306b4773e56855cf25d6e092947b398be7eadb"
+  },
+  {
+    "path": "godot/art/tavern_backbar.glb",
+    "bytes": 3857776,
+    "sha256": "bd4874cfcd6da732e728138302aa96fe2e698cc2a6c318107aa47d995bf42bab"
+  },
+  {
+    "path": "godot/art/timber_work.glb",
+    "bytes": 2081524,
+    "sha256": "5565a065f8edb3d0ffdb921c635e8ca0719e8e4ffd71bd76c1dd59e8f1486a53"
+  },
+  {
+    "path": "godot/art/trade_dressing.json",
+    "bytes": 3194,
+    "sha256": "3ab0f6c77bd39b847acf1ca6e62bd7c25ef7e2cccc9457474e507501fa19fe4d"
+  },
+  {
+    "path": "godot/art/trade_shelf.glb",
+    "bytes": 2699668,
+    "sha256": "2cd797db3066251737cfdf9e11ed7c1c909abb76d624a71592b353199b75b990"
+  },
+  {
     "path": "godot/assets/audio/bell.wav",
     "bytes": 132344,
     "sha256": "4ee6d87044f9838f94b95d4e7e0d76f8d6ee38fcfaf5bff355544cd567ecb363"
-  },
-  {
-    "path": "godot/assets/audio/bell.wav.import",
-    "bytes": 483,
-    "sha256": "d5651f03901a001e2ff921093f185d0efe9105c22d9f8e27986c765754161450"
   },
   {
     "path": "godot/assets/audio/canal-air.wav",
@@ -15,19 +70,9 @@
     "sha256": "d71d9df4a6afc6b8ed6a334b45ce31ddc3a07240cdafa750f3c9a9408453d7f2"
   },
   {
-    "path": "godot/assets/audio/canal-air.wav.import",
-    "bytes": 498,
-    "sha256": "908f2d4ad878803c2b24f379a803526c724aaf6827ee09100a959945eee3ef42"
-  },
-  {
     "path": "godot/assets/audio/demo-bird.wav",
     "bytes": 61782,
     "sha256": "2321fa80aa01eafc2ce1aaa0bd2bb1cc044f227633ab098baa05418d0fe9a4df"
-  },
-  {
-    "path": "godot/assets/audio/demo-bird.wav.import",
-    "bytes": 498,
-    "sha256": "65993c4cf13496afefd8705df0d9f3a5e7869448ebc77701b996198c3da4f811"
   },
   {
     "path": "godot/assets/audio/demo-chest.wav",
@@ -35,19 +80,9 @@
     "sha256": "e6fdb2cceb3a0a30c7fce38179874fc144fc017905db6770ee0a853543e5c11c"
   },
   {
-    "path": "godot/assets/audio/demo-chest.wav.import",
-    "bytes": 500,
-    "sha256": "7999d69c0d54533a7a76574d1772c254b5793ccd096ce1396dc22c688d1b70d7"
-  },
-  {
     "path": "godot/assets/audio/demo-coins.wav",
     "bytes": 61782,
     "sha256": "d48379955fa012c670aeb3851d0e6c748427223214dafb36de5b06b065cda8bb"
-  },
-  {
-    "path": "godot/assets/audio/demo-coins.wav.import",
-    "bytes": 500,
-    "sha256": "3c102a2622c3caad5535478586facb6e287ede53c9098884db17766711f2e274"
   },
   {
     "path": "godot/assets/audio/demo-door-close.wav",
@@ -55,19 +90,9 @@
     "sha256": "ed7b1c0e07ac65de23ded1b6c6aeef1e32f2e6cb410bdd3f3c016ee658ee8947"
   },
   {
-    "path": "godot/assets/audio/demo-door-close.wav.import",
-    "bytes": 516,
-    "sha256": "2255ab2d6a672a6db38cb6070dbf17e2aba1083056916c51c9bcab9f13ce264f"
-  },
-  {
     "path": "godot/assets/audio/demo-door-open.wav",
     "bytes": 61782,
     "sha256": "a5884f68264dfb57e30431142770580a46a9d8b2180159b7c1b1cdcf7ec16a18"
-  },
-  {
-    "path": "godot/assets/audio/demo-door-open.wav.import",
-    "bytes": 513,
-    "sha256": "706e5588eff4c62f50ca8ba526b677d6428b0931a6990eed46ac2de6fce3c706"
   },
   {
     "path": "godot/assets/audio/demo-eat.wav",
@@ -75,19 +100,9 @@
     "sha256": "bbf884dc3126ea475f0bf71798b9ec5d8f0eeb14f29ec74ff8b46d0d91b7bcd7"
   },
   {
-    "path": "godot/assets/audio/demo-eat.wav.import",
-    "bytes": 495,
-    "sha256": "8d0057954a5ee10736a731d604503e1fc945285e67b2369982d62e443e97c089"
-  },
-  {
     "path": "godot/assets/audio/demo-hammer.wav",
     "bytes": 61782,
     "sha256": "f374c8f113e34b5d92868d62ee7281d636522dfec1ff8fbc6992b5c0ff265a96"
-  },
-  {
-    "path": "godot/assets/audio/demo-hammer.wav.import",
-    "bytes": 504,
-    "sha256": "4d955df20d9b3c0ae604a8f963fdcf82ee6dfa0436d75b5a4129b11b3078b037"
   },
   {
     "path": "godot/assets/audio/demo-pack.wav",
@@ -95,19 +110,9 @@
     "sha256": "9d5c18f84284ac86a29741572fe9f9ffb5e39e75ea62a7db7e8fce506b954923"
   },
   {
-    "path": "godot/assets/audio/demo-pack.wav.import",
-    "bytes": 498,
-    "sha256": "c0ac46af1bd8f75ec16140e2cc3e9545505b3dcbf03512ce9364835ed489e6e6"
-  },
-  {
     "path": "godot/assets/audio/demo-page.wav",
     "bytes": 61782,
     "sha256": "bac51f3bf3bb4531782a15d2d0acb5226cb7274b01a550637a67c23deb904d1a"
-  },
-  {
-    "path": "godot/assets/audio/demo-page.wav.import",
-    "bytes": 498,
-    "sha256": "03c74631889a6157f443699a47248437a46407982e1757d4c091e985aa715517"
   },
   {
     "path": "godot/assets/audio/demo-splash.wav",
@@ -115,19 +120,9 @@
     "sha256": "f8bfd7896623f8761614edbe8adbb5dd59bd1f28bca729a31edaedd5fac4667a"
   },
   {
-    "path": "godot/assets/audio/demo-splash.wav.import",
-    "bytes": 504,
-    "sha256": "9ac49037e60883b7ff36a0aab22ad00ddba2279cf0ac00a7c06a651ea79cad89"
-  },
-  {
     "path": "godot/assets/audio/gull.wav",
     "bytes": 57374,
     "sha256": "89418d742f39f6ffb3f45134264402de553e6d14a3fab5687757de2704f2db66"
-  },
-  {
-    "path": "godot/assets/audio/gull.wav.import",
-    "bytes": 483,
-    "sha256": "357c720fc9f565e9d505ab1b94969e7f3eab17839b4e81d209826950b98b8a9c"
   },
   {
     "path": "godot/assets/audio/step-0.wav",
@@ -135,19 +130,9 @@
     "sha256": "4bf3bc7a7955f6952862a8adab1c7fa0febb9d99e29e8a712ada6caa39b6dc76"
   },
   {
-    "path": "godot/assets/audio/step-0.wav.import",
-    "bytes": 488,
-    "sha256": "9d9ec41d089ee78b9095b29de9aa573c50bb80220572925bd5e3d07dddb64c04"
-  },
-  {
     "path": "godot/assets/audio/step-1.wav",
     "bytes": 7100,
     "sha256": "11eaf42f64f646e3ea126eb02ca5a491cefd7705fe5ddff0bb0a2f9d7906333c"
-  },
-  {
-    "path": "godot/assets/audio/step-1.wav.import",
-    "bytes": 489,
-    "sha256": "8bda4af47e8468e3c041e839ff194785abc981374c06164af897727b1a43da99"
   },
   {
     "path": "godot/assets/audio/step-2.wav",
@@ -155,19 +140,9 @@
     "sha256": "ea7375f5f2084ec25ac4543a63b01410e6b62866037ed0281ff0e234b64cfd81"
   },
   {
-    "path": "godot/assets/audio/step-2.wav.import",
-    "bytes": 489,
-    "sha256": "13c3de13d24d0bad7d397350c1e5f9c72ae2fcfd50c28d293f8b28e58e83e357"
-  },
-  {
     "path": "godot/assets/audio/step-3.wav",
     "bytes": 7100,
     "sha256": "fe2f05aac615819c1290bbf6331a71bdc7651a8cc95142e2affb84e8161fd1bf"
-  },
-  {
-    "path": "godot/assets/audio/step-3.wav.import",
-    "bytes": 488,
-    "sha256": "b60aaa95b5dd03ada52a48eafcf469d0e5864a2d7f7269f7cdec03a41be20c64"
   },
   {
     "path": "godot/assets/citizen-female.glb",
@@ -175,19 +150,9 @@
     "sha256": "ba28c0d3a0287aaceae2699d0c9933e8741741e5fb2a8b778c9475900ec03082"
   },
   {
-    "path": "godot/assets/citizen-female.glb.import",
-    "bytes": 1164,
-    "sha256": "ff9a98bd0c858e8d8f249f9629c5997f90c4fc8db05d4e52abee01669ee53e86"
-  },
-  {
     "path": "godot/assets/citizen-female_T_Eye_Brown.png",
     "bytes": 35958,
     "sha256": "d08e3356a83211bc6ca21fe3a8e39f4b5c1a3b8f85457fc2c0fb57be09935025"
-  },
-  {
-    "path": "godot/assets/citizen-female_T_Eye_Brown.png.import",
-    "bytes": 1055,
-    "sha256": "2030e380242997851f6293a1925fb48dbabd69e5a8651c93114ba1919bbbcfc8"
   },
   {
     "path": "godot/assets/citizen-female_T_Eye_Normal.png",
@@ -195,19 +160,9 @@
     "sha256": "9ed61f7726a54fe346a78b9e5a18905d8e2b88f86235d97f53cd207a26f3f8c7"
   },
   {
-    "path": "godot/assets/citizen-female_T_Eye_Normal.png.import",
-    "bytes": 1057,
-    "sha256": "8335542e70d00512b97652f71c630195996b51d281b92ea8c9bb49406fe055eb"
-  },
-  {
     "path": "godot/assets/citizen-female_T_Hair_2_BaseColor.png",
     "bytes": 1729467,
     "sha256": "f9f4f2fb3eeeefb0b6f0fdef38b0770fd6607640c1c680b8139dd76697e9f9b3"
-  },
-  {
-    "path": "godot/assets/citizen-female_T_Hair_2_BaseColor.png.import",
-    "bytes": 1076,
-    "sha256": "ebdb722a35acece21dc29acf36ed3db968ad4b7e7f45a30196a421021ab9e96f"
   },
   {
     "path": "godot/assets/citizen-female_T_Hair_2_Normal.png",
@@ -215,19 +170,9 @@
     "sha256": "172f230aae0d4366c3cfc0402b2e6d1811b11f8487344bff28605eeacac1558d"
   },
   {
-    "path": "godot/assets/citizen-female_T_Hair_2_Normal.png.import",
-    "bytes": 1066,
-    "sha256": "3991ec0dde2370b27e09c7ab14e43fcda506c4d7ffb8164e3dc9121224e52985"
-  },
-  {
     "path": "godot/assets/citizen-female_T_Peasant_BaseColor.png",
     "bytes": 5055760,
     "sha256": "a43635628d95571cd62fd4db0cc3a6ea32778b2bc02f242dda224c89d07f1ade"
-  },
-  {
-    "path": "godot/assets/citizen-female_T_Peasant_BaseColor.png.import",
-    "bytes": 1078,
-    "sha256": "41d558f14d64e274d19635643fbfc702c61c11983872312c29c37ccf36012cda"
   },
   {
     "path": "godot/assets/citizen-female_T_Peasant_Normal.png",
@@ -235,19 +180,9 @@
     "sha256": "7598fa7b63e46fd4dac29708bf5a81e05eb9a67280f7b13c61e28a9110eeb679"
   },
   {
-    "path": "godot/assets/citizen-female_T_Peasant_Normal.png.import",
-    "bytes": 1070,
-    "sha256": "e13c3f91c094451575d96361a0e9b99c7ab023628191e15a14dc3e5bb730f837"
-  },
-  {
     "path": "godot/assets/citizen-female_T_Peasant_ORM.png",
     "bytes": 9903835,
     "sha256": "e1932f5f91104afca89c501416a5fec09069b8552734237fc09045fabc4ca9b4"
-  },
-  {
-    "path": "godot/assets/citizen-female_T_Peasant_ORM.png.import",
-    "bytes": 1061,
-    "sha256": "459e12a14885780c2761a4fabac2720f08ce58c7e70c9d1a5d7ae0b0a1b49df3"
   },
   {
     "path": "godot/assets/citizen-female_T_Superhero_Female_Dark_BaseColor.png",
@@ -255,19 +190,9 @@
     "sha256": "d366843ee7d9e9f37ec87a0e1c98c7f2e45573c08eeb80a51a6d9344e68cf288"
   },
   {
-    "path": "godot/assets/citizen-female_T_Superhero_Female_Dark_BaseColor.png.import",
-    "bytes": 1121,
-    "sha256": "410f6bbe7964061497fed17cb76ca5c6e7ea7310575b2476181054277470b8ec"
-  },
-  {
     "path": "godot/assets/citizen-female_T_Superhero_Female_Normal.png",
     "bytes": 3940537,
     "sha256": "cf922460b43ccd31e983e34db05514c9d451dd2f9cdd01a843978e797719f859"
-  },
-  {
-    "path": "godot/assets/citizen-female_T_Superhero_Female_Normal.png.import",
-    "bytes": 1097,
-    "sha256": "e9a5965d06b6be5120e7fc4ba2466b92853195cff766007371f316701b526e31"
   },
   {
     "path": "godot/assets/citizen-female_T_Superhero_Female_Roughness.png",
@@ -275,19 +200,9 @@
     "sha256": "d2beabf2bd0313e32c68dcdbb80dca371a6e994fabf96efa97128bf9f14fa57b"
   },
   {
-    "path": "godot/assets/citizen-female_T_Superhero_Female_Roughness.png.import",
-    "bytes": 1105,
-    "sha256": "86bd649dc2a0883c758f3f77e5a3e4ae3e443e194869ff299e8d15871b16faa5"
-  },
-  {
     "path": "godot/assets/citizen-male.glb",
     "bytes": 57665840,
     "sha256": "6b5c41cb6be00f0e1c594f0944019c4f7f762aac28f8f6feb015c2d0b338bf5b"
-  },
-  {
-    "path": "godot/assets/citizen-male.glb.import",
-    "bytes": 1158,
-    "sha256": "f54d6e291b816a6ce9a1ebd8dfcddec4c89da37b6b31e2561daad56f74ba83b4"
   },
   {
     "path": "godot/assets/citizen-male_T_Eye_Brown.png",
@@ -295,19 +210,9 @@
     "sha256": "d08e3356a83211bc6ca21fe3a8e39f4b5c1a3b8f85457fc2c0fb57be09935025"
   },
   {
-    "path": "godot/assets/citizen-male_T_Eye_Brown.png.import",
-    "bytes": 1048,
-    "sha256": "1c8dbf2c6b08dcf1a3e533edb513a76e36247ca8954e086aa4e3c0e09ec63fd6"
-  },
-  {
     "path": "godot/assets/citizen-male_T_Eye_Normal.png",
     "bytes": 15099,
     "sha256": "9ed61f7726a54fe346a78b9e5a18905d8e2b88f86235d97f53cd207a26f3f8c7"
-  },
-  {
-    "path": "godot/assets/citizen-male_T_Eye_Normal.png.import",
-    "bytes": 1052,
-    "sha256": "70b093ab6edfda705e105f1823343113a34176c039faaca28fa2bd36bb352290"
   },
   {
     "path": "godot/assets/citizen-male_T_Hair_1_BaseColor.png",
@@ -315,19 +220,9 @@
     "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
   },
   {
-    "path": "godot/assets/citizen-male_T_Hair_1_BaseColor.png.import",
-    "bytes": 1070,
-    "sha256": "1f8c8384aa49252259acca817fe6074ebb3869db8686fddaac6cc2f1fa063b5b"
-  },
-  {
     "path": "godot/assets/citizen-male_T_Hair_1_Normal.png",
     "bytes": 3770683,
     "sha256": "fd4530bb696a083ac7f9c2f685b4bb15d91150040e76c905db591c7644b4aa87"
-  },
-  {
-    "path": "godot/assets/citizen-male_T_Hair_1_Normal.png.import",
-    "bytes": 1061,
-    "sha256": "0c8d5b79e34983b4058a6c9e3156413594faa33c6bdf0ef1ca76c33c383bb408"
   },
   {
     "path": "godot/assets/citizen-male_T_Hair_1_Normal_4.png",
@@ -335,19 +230,9 @@
     "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
   },
   {
-    "path": "godot/assets/citizen-male_T_Hair_1_Normal_4.png.import",
-    "bytes": 1067,
-    "sha256": "6cd3a5ad228654cb7ef7bff8a9465057411b83dfaeeb93f8c1d85f14b1e96a94"
-  },
-  {
     "path": "godot/assets/citizen-male_T_Peasant_BaseColor.png",
     "bytes": 5055760,
     "sha256": "a43635628d95571cd62fd4db0cc3a6ea32778b2bc02f242dda224c89d07f1ade"
-  },
-  {
-    "path": "godot/assets/citizen-male_T_Peasant_BaseColor.png.import",
-    "bytes": 1073,
-    "sha256": "e22bf8a8249e4cfa89594f4e4398010c7270e3f0a8bbf3330e3c5d1df9c71c7d"
   },
   {
     "path": "godot/assets/citizen-male_T_Peasant_Normal.png",
@@ -355,19 +240,9 @@
     "sha256": "7598fa7b63e46fd4dac29708bf5a81e05eb9a67280f7b13c61e28a9110eeb679"
   },
   {
-    "path": "godot/assets/citizen-male_T_Peasant_Normal.png.import",
-    "bytes": 1063,
-    "sha256": "ef6d94e19b34965dd57788955829f9c17ef2a8f9fef50ee34089f18db7950118"
-  },
-  {
     "path": "godot/assets/citizen-male_T_Peasant_ORM.png",
     "bytes": 9903835,
     "sha256": "e1932f5f91104afca89c501416a5fec09069b8552734237fc09045fabc4ca9b4"
-  },
-  {
-    "path": "godot/assets/citizen-male_T_Peasant_ORM.png.import",
-    "bytes": 1055,
-    "sha256": "69be504939adbedb75c35e90c9caee5c290a1516459cddeb161f27ef4cf7dc2e"
   },
   {
     "path": "godot/assets/citizen-male_T_Regular_Male_Dark_BaseColor.png",
@@ -375,19 +250,9 @@
     "sha256": "b4dcc0f4139aab548d7c070c4655bd2080ef16caeaaabee6c4aeb693c524e802"
   },
   {
-    "path": "godot/assets/citizen-male_T_Regular_Male_Dark_BaseColor.png.import",
-    "bytes": 1103,
-    "sha256": "195dd912bb82cc7ed792fdd38a4257de4b265d0336af07b8100eb43321eb87ed"
-  },
-  {
     "path": "godot/assets/citizen-male_T_Regular_Male_Normal.png",
     "bytes": 4064184,
     "sha256": "10cd71e2453e577fdd43e912b6016a99baf64964f0593e524bdd304855e15e2a"
-  },
-  {
-    "path": "godot/assets/citizen-male_T_Regular_Male_Normal.png.import",
-    "bytes": 1079,
-    "sha256": "61a78e500007ed658f8a8e25582f565f08ea05fd1a5fc7fd0c886b47c25033a0"
   },
   {
     "path": "godot/assets/citizen-male_T_Regular_Male_Roughness.png",
@@ -395,19 +260,9 @@
     "sha256": "086c2eb25bddfdb77d8e639ccbffb8df723ef4a1910d8e1b217e852f8668bfe5"
   },
   {
-    "path": "godot/assets/citizen-male_T_Regular_Male_Roughness.png.import",
-    "bytes": 1088,
-    "sha256": "8e78aa171e3684087a02935a0b4ea0c23ac127e977e0bbd4236c234a11b825a3"
-  },
-  {
     "path": "godot/assets/citizen-male_T_Superhero_Male_Dark.png",
     "bytes": 1384380,
     "sha256": "df680cbc1967a61e85998bfafb8f7bc0a36dd604bb3266486c4b06b1a184bb45"
-  },
-  {
-    "path": "godot/assets/citizen-male_T_Superhero_Male_Dark.png.import",
-    "bytes": 1079,
-    "sha256": "71e85497cdc464c6f01053f3966e4bba424fa09966c6e4e1dcd290a308e4b461"
   },
   {
     "path": "godot/assets/citizen-male_T_Superhero_Male_Normal.png",
@@ -415,19 +270,9 @@
     "sha256": "9b25cf9200216eb754b79cf4c63b5380c419780788322f3c57cdd2b3e02679a6"
   },
   {
-    "path": "godot/assets/citizen-male_T_Superhero_Male_Normal.png.import",
-    "bytes": 1084,
-    "sha256": "ee3fd2073e9d160b0cf6de9b122e5b37caa94418d985d61669c943a2df87e65f"
-  },
-  {
     "path": "godot/assets/citizen-male_T_Superhero_Male_Roughness.png",
     "bytes": 3152049,
     "sha256": "c70dabf48574cda55644d556beae1ee7cf1bdcf68a50d259d20f2f2358f27991"
-  },
-  {
-    "path": "godot/assets/citizen-male_T_Superhero_Male_Roughness.png.import",
-    "bytes": 1094,
-    "sha256": "d3370d2c0657dfbc28213de9d8143928d9029427ab761a71f6cfd315e6a54cc8"
   },
   {
     "path": "godot/assets/crest.svg",
@@ -435,19 +280,9 @@
     "sha256": "97aaf3969ba8f95274dafe8296bdae31a810afe48635335fa7a21a87dc3b7ecb"
   },
   {
-    "path": "godot/assets/crest.svg.import",
-    "bytes": 1023,
-    "sha256": "e8abf442257e27d3177040557459fd1898e9ed7a96a1d4f7089287023f0db739"
-  },
-  {
     "path": "godot/assets/fonts/CormorantGaramond.ttf",
     "bytes": 1195560,
     "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
-  },
-  {
-    "path": "godot/assets/fonts/CormorantGaramond.ttf.import",
-    "bytes": 789,
-    "sha256": "2f2372841e526c7f0653ca7b010f59bbf751919713e430f5d638b2e7f59cca78"
   },
   {
     "path": "godot/assets/fonts/OFL.txt",
@@ -460,19 +295,9 @@
     "sha256": "6be752a31a384aacf5a51178b0e6732accf67ba7152a56ba2d7f159d387c26df"
   },
   {
-    "path": "godot/assets/furnishings/brass_candleholders.glb.import",
-    "bytes": 1191,
-    "sha256": "0e54703f090198ebfaf9a586431d5c83de710786891efb9801c2b9b949ee3984"
-  },
-  {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_01_arm_2k.jpg",
     "bytes": 3441450,
     "sha256": "505fe318fe91e328d7a1549bcfd81fc2f1a205a49508e75bba40d5818f813983"
-  },
-  {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_01_arm_2k.jpg.import",
-    "bytes": 1135,
-    "sha256": "a95250871872add78ac2864e522814dfea3664e9948f172efcebc6cba1e334b3"
   },
   {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_01_diff_2k.jpg",
@@ -480,19 +305,9 @@
     "sha256": "db0c838558db0bc0191043fd3e27c62065d70fc278549a9acb4e5e75f470938c"
   },
   {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_01_diff_2k.jpg.import",
-    "bytes": 1139,
-    "sha256": "cee9baf36e11df269c4fa08e8ef58a1483ab3a4a44864a9f5b08042659e1f829"
-  },
-  {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_01_nor_gl_2k.jpg",
     "bytes": 2380892,
     "sha256": "17a8ab08db17b8fc4a270d52aacc26efecc4546f3f7815ffa31d86d592d9c041"
-  },
-  {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_01_nor_gl_2k.jpg.import",
-    "bytes": 1144,
-    "sha256": "e80dfd9583f84b169c3c7228af6b2480e524896c0ca180fe7459c34bd1e4e5e6"
   },
   {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_02_arm_2k.jpg",
@@ -500,19 +315,9 @@
     "sha256": "a83aea6bbd8058358e3e118f22939dc432265abdccad6d5e28ad265cfcb4ceef"
   },
   {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_02_arm_2k.jpg.import",
-    "bytes": 1136,
-    "sha256": "325f2c09a70eb15458d7c93d146cb82346bf9673f0b19a58bf7c938be02ae838"
-  },
-  {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_02_diff_2k.jpg",
     "bytes": 3479550,
     "sha256": "e3379942c5bd39b73c2434a1fbe1e78cb164894dcf18ea72099215ba5e4871ea"
-  },
-  {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_02_diff_2k.jpg.import",
-    "bytes": 1139,
-    "sha256": "964aee8e2d82d3b3008028952bc7c464aa594e6d14c5e4494f6969a23c2cb49b"
   },
   {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_02_nor_gl_2k.jpg",
@@ -520,19 +325,9 @@
     "sha256": "451d0a61815ddf224d05ca54020fb84044965e9fe37e6369704d9c06646e4dbb"
   },
   {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_02_nor_gl_2k.jpg.import",
-    "bytes": 1144,
-    "sha256": "4418b16396cdefa8b5eaaf12de55a693babbd6bd3526cae3ce5cd769ac2bcf48"
-  },
-  {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_03_arm_2k.jpg",
     "bytes": 3302021,
     "sha256": "4c9c8833d85a912753167914039f2ffe95039e469058e6b92a97ed17fd73e3a8"
-  },
-  {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_03_arm_2k.jpg.import",
-    "bytes": 1135,
-    "sha256": "d488ec38e6a9994d2b1d270251409e366fbe43e2e18b7ea5e4a0b62f7b50dbcc"
   },
   {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_03_diff_2k.jpg",
@@ -540,19 +335,9 @@
     "sha256": "c173c49d40df2c09654aa910bc66f8511ee26607eabaf069b49a80e6dd71c626"
   },
   {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_03_diff_2k.jpg.import",
-    "bytes": 1139,
-    "sha256": "b14d167ae24a13b10864991902dc7802e2707230be4318ae69cdb78cb1152902"
-  },
-  {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_03_nor_gl_2k.jpg",
     "bytes": 2912192,
     "sha256": "b9bf98695e9d6f90d2425ed3c374dc3e16630ce14a0927f854a0c91bd05a9494"
-  },
-  {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_03_nor_gl_2k.jpg.import",
-    "bytes": 1145,
-    "sha256": "a1511247e39f6b88db812df7fb69b642e0d1ef90724acf31c107ad5f5c13e5f8"
   },
   {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_candles_arm_2k.jpg",
@@ -560,19 +345,9 @@
     "sha256": "68b1e75fab09f2a7e90eb91113d45f850de0ba74e29ea9092076b02ed8a4b2f8"
   },
   {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_candles_arm_2k.jpg.import",
-    "bytes": 1150,
-    "sha256": "06f0e9a81a3757746aabf64d1be20547520423017853f2985bab8b7144744b8e"
-  },
-  {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_candles_diff_2k.jpg",
     "bytes": 952690,
     "sha256": "34c02390e4a811eac3b6f00b53ae020e97fbe2a2e7abec910579834195e91022"
-  },
-  {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_candles_diff_2k.jpg.import",
-    "bytes": 1154,
-    "sha256": "54bafa6754c0c68b9e81cecd0a2c4505124227a916f736f03543d197fe113092"
   },
   {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_candles_nor_gl_2k.jpg",
@@ -580,19 +355,9 @@
     "sha256": "62ee01bcd05f992200cde7ac2880e0746fd52886360be2cccf22f045daacb0fb"
   },
   {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_candles_nor_gl_2k.jpg.import",
-    "bytes": 1160,
-    "sha256": "607572e3e56bee6f373d69bec13784c7d0b1a7d71cc0642f075299eccfd40048"
-  },
-  {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_flame_diff_2k.jpg",
     "bytes": 330500,
     "sha256": "03093bd57d2bc993df88b657e3b94fcbf6ace3fe497ce6adfe6696995222d0ad"
-  },
-  {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_flame_diff_2k.jpg.import",
-    "bytes": 1148,
-    "sha256": "067af10abd6d551fecc1f665fe257ab1a061c77cc989359163acbb7bcb229830"
   },
   {
     "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_flame_diff_2k_4.png",
@@ -600,19 +365,9 @@
     "sha256": "800b44af0b8fa5b2155c6a20966e72388eaa7bf9047a4372c26f201098776ac2"
   },
   {
-    "path": "godot/assets/furnishings/brass_candleholders_brass_candleholders_flame_diff_2k_4.png.import",
-    "bytes": 1153,
-    "sha256": "5aa3c9c099e22c71fbf33063fc15167cc40d58bb00aeebb4b94d23e3b77057e9"
-  },
-  {
     "path": "godot/assets/furnishings/treasure_chest.glb",
     "bytes": 11726612,
     "sha256": "7af9e37274017a5222be18aff4e9eaad361f9d8b9a1260252a35df90a3cc37c0"
-  },
-  {
-    "path": "godot/assets/furnishings/treasure_chest.glb.import",
-    "bytes": 1176,
-    "sha256": "2d07566e04027886f342798d3275944774827be25789377617fc6b981f86725c"
   },
   {
     "path": "godot/assets/furnishings/treasure_chest_treasure_chest_arm_2k.jpg",
@@ -620,19 +375,9 @@
     "sha256": "f232d968ee8a57a3fecf253c32e5bb8f69ef20b804df11432b74c4603d160066"
   },
   {
-    "path": "godot/assets/furnishings/treasure_chest_treasure_chest_arm_2k.jpg.import",
-    "bytes": 1097,
-    "sha256": "2ed4904bc2cd2428cc5ea8cb879dd2fcb417e16c3413e7e45b2160d98d5848f7"
-  },
-  {
     "path": "godot/assets/furnishings/treasure_chest_treasure_chest_diff_2k.jpg",
     "bytes": 2999401,
     "sha256": "d3e30f10911677b72e4aa1975cae984dee80bdad30c7b6fe29cb9c1f7e3be222"
-  },
-  {
-    "path": "godot/assets/furnishings/treasure_chest_treasure_chest_diff_2k.jpg.import",
-    "bytes": 1100,
-    "sha256": "78db6f28110367aa00ba060fc138c79818a7ed867c72d33be3504d65dfc0c9aa"
   },
   {
     "path": "godot/assets/furnishings/treasure_chest_treasure_chest_nor_gl_2k.jpg",
@@ -640,19 +385,9 @@
     "sha256": "21fc97fd8ce65f07db325eb69d9503c4eec0f85760a623bb0d3ff46fcb6800df"
   },
   {
-    "path": "godot/assets/furnishings/treasure_chest_treasure_chest_nor_gl_2k.jpg.import",
-    "bytes": 1106,
-    "sha256": "b9081e61ba3ba5504efa6bc69e635b4bbc5d5bb6ac21aac3a143c7dcb42ab12b"
-  },
-  {
     "path": "godot/assets/furnishings/wooden_bookshelf_worn.glb",
     "bytes": 10316940,
     "sha256": "3de69629d275a806a766966e8ab49de3a4edb8a27322541b9a415dafa26f58cc"
-  },
-  {
-    "path": "godot/assets/furnishings/wooden_bookshelf_worn.glb.import",
-    "bytes": 1197,
-    "sha256": "6cb8fcf2eb8f0debe0b556473fa2c3c12beb105a33c3f86934f08610a29e64a3"
   },
   {
     "path": "godot/assets/furnishings/wooden_bookshelf_worn_wooden_bookshelf_worn_arm_2k.jpg",
@@ -660,19 +395,9 @@
     "sha256": "e61cb355df38ab67feaf9df9e898703cb99d93e33b86028c87d0947f2b7664c0"
   },
   {
-    "path": "godot/assets/furnishings/wooden_bookshelf_worn_wooden_bookshelf_worn_arm_2k.jpg.import",
-    "bytes": 1139,
-    "sha256": "a7f1c15e78fbfc3923a2e499ea044e7b43f496003777b3828a0ba1d3fb9ee3e0"
-  },
-  {
     "path": "godot/assets/furnishings/wooden_bookshelf_worn_wooden_bookshelf_worn_diff_2k.jpg",
     "bytes": 3196349,
     "sha256": "2a6b9d7bff3a02aaa07cb9de30f57673bdc4b8c43ed50c95f4bb7eeaed3a5468"
-  },
-  {
-    "path": "godot/assets/furnishings/wooden_bookshelf_worn_wooden_bookshelf_worn_diff_2k.jpg.import",
-    "bytes": 1142,
-    "sha256": "5ca6c41e0413d2763e626597b20bd42dc34284bd0627731dfc676acd542cfd7d"
   },
   {
     "path": "godot/assets/furnishings/wooden_bookshelf_worn_wooden_bookshelf_worn_nor_gl_2k.jpg",
@@ -680,19 +405,9 @@
     "sha256": "90f575dc0623901240c54a1b617833584f1f18e56b6f1ddd11a6a04e84c62b07"
   },
   {
-    "path": "godot/assets/furnishings/wooden_bookshelf_worn_wooden_bookshelf_worn_nor_gl_2k.jpg.import",
-    "bytes": 1148,
-    "sha256": "663262fa647cc0e6c3aca7d2a3fcbd0e8b6ad6f5a2fe32d7dbcf98aaecc4b183"
-  },
-  {
     "path": "godot/assets/furnishings/WoodenChair_01.glb",
     "bytes": 2289440,
     "sha256": "162732352b56245fd482fd36382cdbc4f08c1bfe0c7a6712cb9ba5f00c738fb6"
-  },
-  {
-    "path": "godot/assets/furnishings/WoodenChair_01.glb.import",
-    "bytes": 1175,
-    "sha256": "c0905d23427a470108131b8e938085d1a8d3939d90f727f1ec003bb4162fc9aa"
   },
   {
     "path": "godot/assets/furnishings/WoodenChair_01_WoodenChair_01_arm_2k.jpg",
@@ -700,19 +415,9 @@
     "sha256": "82cc24a3859aedb7e898aa935c9e106994af94302f2182d04e0c37534687e572"
   },
   {
-    "path": "godot/assets/furnishings/WoodenChair_01_WoodenChair_01_arm_2k.jpg.import",
-    "bytes": 1096,
-    "sha256": "4e6b717ba3949d8b765a27b5b8f201f17b2ea7cde50e124874649a126ca7d6ff"
-  },
-  {
     "path": "godot/assets/furnishings/WoodenChair_01_WoodenChair_01_diff_2k.jpg",
     "bytes": 529310,
     "sha256": "0a542d26b33bc66bb25c5c03d358aef102a7c59daf1d66b87b326706575f0b77"
-  },
-  {
-    "path": "godot/assets/furnishings/WoodenChair_01_WoodenChair_01_diff_2k.jpg.import",
-    "bytes": 1099,
-    "sha256": "495062fab05fa2523ba5e59d6f5375f3b94940cb9a746e3eda9b4ac863c9e4d2"
   },
   {
     "path": "godot/assets/furnishings/WoodenChair_01_WoodenChair_01_nor_gl_2k.jpg",
@@ -720,19 +425,9 @@
     "sha256": "6485d80a91e96ce4ac402469e97a5093c8494f4c482538562dc5f395947b3ebf"
   },
   {
-    "path": "godot/assets/furnishings/WoodenChair_01_WoodenChair_01_nor_gl_2k.jpg.import",
-    "bytes": 1106,
-    "sha256": "46127fad922258f3a78de16862ecf7ff7b48cd795bb551cb72505b3985d47b75"
-  },
-  {
     "path": "godot/assets/furnishings/WoodenTable_01.glb",
     "bytes": 1823340,
     "sha256": "697b80497d797ae5a5745cff73cb1fc9db2b9ceab351945c0d3a674d7e5ba885"
-  },
-  {
-    "path": "godot/assets/furnishings/WoodenTable_01.glb.import",
-    "bytes": 1175,
-    "sha256": "2ff1ac4b336eb0cb150a6c83a9055688be3d33cece00b0430feff7ed4ec76cca"
   },
   {
     "path": "godot/assets/furnishings/WoodenTable_01_WoodenTable_01_arm_2k.jpg",
@@ -740,19 +435,9 @@
     "sha256": "7551f1c235f39577e18ba5d7af2c70eb5a7252e4e506794f9e8166e80525188a"
   },
   {
-    "path": "godot/assets/furnishings/WoodenTable_01_WoodenTable_01_arm_2k.jpg.import",
-    "bytes": 1096,
-    "sha256": "262f1ce90638dc67dbd4f18e8588eb4dfdd285bb5409ed9a935b82110693caf2"
-  },
-  {
     "path": "godot/assets/furnishings/WoodenTable_01_WoodenTable_01_diff_2k.jpg",
     "bytes": 537903,
     "sha256": "3bde4f1a9af22eea8a00a6137dd6054839146a6fb1efea98bdd3a81f2c829946"
-  },
-  {
-    "path": "godot/assets/furnishings/WoodenTable_01_WoodenTable_01_diff_2k.jpg.import",
-    "bytes": 1099,
-    "sha256": "b01cd0342cc493c34d06412ccafc19642754bd9ee7e5ee2df2d46817962a8ed5"
   },
   {
     "path": "godot/assets/furnishings/WoodenTable_01_WoodenTable_01_nor_gl_2k.jpg",
@@ -760,19 +445,9 @@
     "sha256": "b82b89d11ccdea7c53f99f89b4cb1414d5a8b39701f38e11b890790ece069048"
   },
   {
-    "path": "godot/assets/furnishings/WoodenTable_01_WoodenTable_01_nor_gl_2k.jpg.import",
-    "bytes": 1106,
-    "sha256": "950f4dff30326d9398adaddf9ebe08decb9549e8a370d91f34187829a5903eb9"
-  },
-  {
     "path": "godot/assets/harbor/fisherman.glb",
     "bytes": 57350112,
     "sha256": "afd332d6c0456bbb8cc27251708bb67c694e27fd55424fb4456a71ea9a80fdeb"
-  },
-  {
-    "path": "godot/assets/harbor/fisherman.glb.import",
-    "bytes": 1156,
-    "sha256": "118be5dcb757c67fa5b84faff8f0437691c6f18e09a9911d7390d097a97a3b2d"
   },
   {
     "path": "godot/assets/harbor/fisherman_T_Eye_Brown.png",
@@ -780,19 +455,9 @@
     "sha256": "d08e3356a83211bc6ca21fe3a8e39f4b5c1a3b8f85457fc2c0fb57be09935025"
   },
   {
-    "path": "godot/assets/harbor/fisherman_T_Eye_Brown.png.import",
-    "bytes": 1046,
-    "sha256": "d5b8ed913abee3ea924ed0b9d21cfecc06fc7789fae3e9f9a3aa82de7e6e346f"
-  },
-  {
     "path": "godot/assets/harbor/fisherman_T_Eye_Normal.png",
     "bytes": 15099,
     "sha256": "9ed61f7726a54fe346a78b9e5a18905d8e2b88f86235d97f53cd207a26f3f8c7"
-  },
-  {
-    "path": "godot/assets/harbor/fisherman_T_Eye_Normal.png.import",
-    "bytes": 1049,
-    "sha256": "583a59dea8cf73c3884dab2ace31903ef7a267b0ce926bac288da9c69a5a0468"
   },
   {
     "path": "godot/assets/harbor/fisherman_T_Hair_1_BaseColor.png",
@@ -800,19 +465,9 @@
     "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
   },
   {
-    "path": "godot/assets/harbor/fisherman_T_Hair_1_BaseColor.png.import",
-    "bytes": 1068,
-    "sha256": "c64b0004c713918d082ea7363440fbfb751b4ab2ad9d993b6518067616fdbd40"
-  },
-  {
     "path": "godot/assets/harbor/fisherman_T_Hair_1_Normal.png",
     "bytes": 3770683,
     "sha256": "fd4530bb696a083ac7f9c2f685b4bb15d91150040e76c905db591c7644b4aa87"
-  },
-  {
-    "path": "godot/assets/harbor/fisherman_T_Hair_1_Normal.png.import",
-    "bytes": 1059,
-    "sha256": "0a43a2da6fee05246e7fb56248fbf8737ee51ca46e7b5c2ebe561f8585ccb013"
   },
   {
     "path": "godot/assets/harbor/fisherman_T_Hair_1_Normal_4.png",
@@ -820,19 +475,9 @@
     "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
   },
   {
-    "path": "godot/assets/harbor/fisherman_T_Hair_1_Normal_4.png.import",
-    "bytes": 1065,
-    "sha256": "1a4c5dc119c99613bcbb18120c09ee080047bb08b49461bc8b62db5373d7d354"
-  },
-  {
     "path": "godot/assets/harbor/fisherman_T_Peasant_BaseColor.png",
     "bytes": 5055760,
     "sha256": "a43635628d95571cd62fd4db0cc3a6ea32778b2bc02f242dda224c89d07f1ade"
-  },
-  {
-    "path": "godot/assets/harbor/fisherman_T_Peasant_BaseColor.png.import",
-    "bytes": 1071,
-    "sha256": "2a3ad00b5cee31031f6a4c0f69db36ac297fe845cb67844b2fcb14e53236868b"
   },
   {
     "path": "godot/assets/harbor/fisherman_T_Peasant_Normal.png",
@@ -840,19 +485,9 @@
     "sha256": "7598fa7b63e46fd4dac29708bf5a81e05eb9a67280f7b13c61e28a9110eeb679"
   },
   {
-    "path": "godot/assets/harbor/fisherman_T_Peasant_Normal.png.import",
-    "bytes": 1062,
-    "sha256": "708830adcf55694da8f86efef530e72c663cabf657224fd4b2d93116aa7e56e5"
-  },
-  {
     "path": "godot/assets/harbor/fisherman_T_Peasant_ORM.png",
     "bytes": 9903835,
     "sha256": "e1932f5f91104afca89c501416a5fec09069b8552734237fc09045fabc4ca9b4"
-  },
-  {
-    "path": "godot/assets/harbor/fisherman_T_Peasant_ORM.png.import",
-    "bytes": 1053,
-    "sha256": "303e32d325947c6269c94babac309089fd3e03386f2c1e5b3e1e7c89f2be7949"
   },
   {
     "path": "godot/assets/harbor/fisherman_T_Regular_Male_Dark_BaseColor.png",
@@ -860,19 +495,9 @@
     "sha256": "b4dcc0f4139aab548d7c070c4655bd2080ef16caeaaabee6c4aeb693c524e802"
   },
   {
-    "path": "godot/assets/harbor/fisherman_T_Regular_Male_Dark_BaseColor.png.import",
-    "bytes": 1101,
-    "sha256": "bd6e72dffcdab996af062161d2e599be5ffb07df8ac2d26c815d38109b14bd59"
-  },
-  {
     "path": "godot/assets/harbor/fisherman_T_Regular_Male_Normal.png",
     "bytes": 4064184,
     "sha256": "10cd71e2453e577fdd43e912b6016a99baf64964f0593e524bdd304855e15e2a"
-  },
-  {
-    "path": "godot/assets/harbor/fisherman_T_Regular_Male_Normal.png.import",
-    "bytes": 1077,
-    "sha256": "5d5c83a7142909d275f591d4f07449251fc779c13f44798c0e03792977dd184a"
   },
   {
     "path": "godot/assets/harbor/fisherman_T_Regular_Male_Roughness.png",
@@ -880,19 +505,9 @@
     "sha256": "086c2eb25bddfdb77d8e639ccbffb8df723ef4a1910d8e1b217e852f8668bfe5"
   },
   {
-    "path": "godot/assets/harbor/fisherman_T_Regular_Male_Roughness.png.import",
-    "bytes": 1085,
-    "sha256": "aad3983cc5c38ec1fe3e05fbe2e25b821dc3ff5b3120946915e0324811a5b7ea"
-  },
-  {
     "path": "godot/assets/harbor/fisherman_T_Superhero_Male_Dark.png",
     "bytes": 1384380,
     "sha256": "df680cbc1967a61e85998bfafb8f7bc0a36dd604bb3266486c4b06b1a184bb45"
-  },
-  {
-    "path": "godot/assets/harbor/fisherman_T_Superhero_Male_Dark.png.import",
-    "bytes": 1077,
-    "sha256": "d133a8ac29eef966e205c3c2aeb383563e146379a1e06fbc51d1ced2ec1b1269"
   },
   {
     "path": "godot/assets/harbor/fisherman_T_Superhero_Male_Normal.png",
@@ -900,19 +515,9 @@
     "sha256": "9b25cf9200216eb754b79cf4c63b5380c419780788322f3c57cdd2b3e02679a6"
   },
   {
-    "path": "godot/assets/harbor/fisherman_T_Superhero_Male_Normal.png.import",
-    "bytes": 1083,
-    "sha256": "6647954fd278ea4ca6c8186367ff80d371c5d3b64742a4a967cf158341a428cd"
-  },
-  {
     "path": "godot/assets/harbor/fisherman_T_Superhero_Male_Roughness.png",
     "bytes": 3152049,
     "sha256": "c70dabf48574cda55644d556beae1ee7cf1bdcf68a50d259d20f2f2358f27991"
-  },
-  {
-    "path": "godot/assets/harbor/fisherman_T_Superhero_Male_Roughness.png.import",
-    "bytes": 1092,
-    "sha256": "ad734f96374cc9fb459797e8ee7d2d7717ed5260b97bcc25b64ffbf20071c884"
   },
   {
     "path": "godot/assets/harbor/fishing_cutter.glb",
@@ -920,19 +525,9 @@
     "sha256": "d8d7e60fb0ac6b676a98113a0ccd55d90c4b8b8458c8f7d3fffdbf20779890f0"
   },
   {
-    "path": "godot/assets/harbor/fishing_cutter.glb.import",
-    "bytes": 1171,
-    "sha256": "f9cdb8b649f7d243fe8681beb6acdda03a947727b4df0900a63832216d1cca2e"
-  },
-  {
     "path": "godot/assets/harbor/fishing_cutter_brown_planks_03_diff.jpg",
     "bytes": 570668,
     "sha256": "8dfae22286fa9bb0ed62ce7326e8bc14c284e567d38fd64b5a453838080ecf19"
-  },
-  {
-    "path": "godot/assets/harbor/fishing_cutter_brown_planks_03_diff.jpg.import",
-    "bytes": 1089,
-    "sha256": "aa311fe4c9f08b54f411adf481127f8dd72dc2203e4fe00bbbc5b07416a20247"
   },
   {
     "path": "godot/assets/harbor/fishing_cutter_brown_planks_03_nor_gl.jpg",
@@ -940,19 +535,9 @@
     "sha256": "868c153165ecaa7dd7259cb58214f06f6f86c80ac71fc92a827dff07708be077"
   },
   {
-    "path": "godot/assets/harbor/fishing_cutter_brown_planks_03_nor_gl.jpg.import",
-    "bytes": 1095,
-    "sha256": "14701b87009299e5e7ddbe64c373bf2687257caf830e69f1f81b9196c8535e1a"
-  },
-  {
     "path": "godot/assets/harbor/fishing_cutter_brown_planks_03_rough.png",
     "bytes": 725151,
     "sha256": "5faaaade1f89ad03a68eb0b331c73b895c6c79b5dd4296f9d36298ebb9459072"
-  },
-  {
-    "path": "godot/assets/harbor/fishing_cutter_brown_planks_03_rough.png.import",
-    "bytes": 1091,
-    "sha256": "ec586a1e7cf70f70fd70638fe9fc8eb3f3859fdb0f49b35a5ca0eb5368dc73ae"
   },
   {
     "path": "godot/assets/harbor/fishing_cutter_wooden_rough_planks_diff.jpg",
@@ -960,19 +545,9 @@
     "sha256": "a1821c8bbbf705fcca015583d30a2ba6ce83c487a5aefc8a77da146810faa260"
   },
   {
-    "path": "godot/assets/harbor/fishing_cutter_wooden_rough_planks_diff.jpg.import",
-    "bytes": 1100,
-    "sha256": "f466a9d022474417948149d1685a3d1b7734120eec61c2bf79e7c59efee045a3"
-  },
-  {
     "path": "godot/assets/harbor/fishing_cutter_wooden_rough_planks_nor_gl.jpg",
     "bytes": 1287377,
     "sha256": "0098050b634c58201067e92ab0511104a3b740db79850992c9f96437a325e47e"
-  },
-  {
-    "path": "godot/assets/harbor/fishing_cutter_wooden_rough_planks_nor_gl.jpg.import",
-    "bytes": 1107,
-    "sha256": "9741c36d535c746f24b4748c1d4f8ea9a242e771aebaea17b42ce1b4407fd816"
   },
   {
     "path": "godot/assets/harbor/fishing_cutter_wooden_rough_planks_rough.png",
@@ -980,19 +555,9 @@
     "sha256": "a9d2895ddae81f1c9cef6361e80cc87c687ae868ae3e0405a9d982f17fd09b92"
   },
   {
-    "path": "godot/assets/harbor/fishing_cutter_wooden_rough_planks_rough.png.import",
-    "bytes": 1103,
-    "sha256": "9fda4b97acf887a9c4dccae14de388cd244060635281ec882680e2895a8e17c5"
-  },
-  {
     "path": "godot/assets/harbor/fishing_launch.glb",
     "bytes": 12754444,
     "sha256": "258a09152e9629337c5693d527b8e2b25ac0d9a8d02697493301c9bc00a3ac8e"
-  },
-  {
-    "path": "godot/assets/harbor/fishing_launch.glb.import",
-    "bytes": 1171,
-    "sha256": "a4450f28298359efac243b299d1459a87cf45c3d8d044a41e025ae7decb00b05"
   },
   {
     "path": "godot/assets/harbor/fishing_launch_brown_planks_03_diff.jpg",
@@ -1000,19 +565,9 @@
     "sha256": "8dfae22286fa9bb0ed62ce7326e8bc14c284e567d38fd64b5a453838080ecf19"
   },
   {
-    "path": "godot/assets/harbor/fishing_launch_brown_planks_03_diff.jpg.import",
-    "bytes": 1089,
-    "sha256": "3c346d9b5cb0f4c23eaf6fea0371f3403b7531aa76ced07b871b28171458254e"
-  },
-  {
     "path": "godot/assets/harbor/fishing_launch_brown_planks_03_nor_gl.jpg",
     "bytes": 516860,
     "sha256": "868c153165ecaa7dd7259cb58214f06f6f86c80ac71fc92a827dff07708be077"
-  },
-  {
-    "path": "godot/assets/harbor/fishing_launch_brown_planks_03_nor_gl.jpg.import",
-    "bytes": 1095,
-    "sha256": "42df8126b3772ef1197e7948f859029508f13f5b147cf9ea4f7b63b360cfd652"
   },
   {
     "path": "godot/assets/harbor/fishing_launch_brown_planks_03_rough.png",
@@ -1020,19 +575,9 @@
     "sha256": "5faaaade1f89ad03a68eb0b331c73b895c6c79b5dd4296f9d36298ebb9459072"
   },
   {
-    "path": "godot/assets/harbor/fishing_launch_brown_planks_03_rough.png.import",
-    "bytes": 1092,
-    "sha256": "8c10c65a2455221af5c497e577aee66c171e73ec4640e150a8fe38dfb6d89974"
-  },
-  {
     "path": "godot/assets/harbor/fishing_launch_wooden_rough_planks_diff.jpg",
     "bytes": 2803506,
     "sha256": "a1821c8bbbf705fcca015583d30a2ba6ce83c487a5aefc8a77da146810faa260"
-  },
-  {
-    "path": "godot/assets/harbor/fishing_launch_wooden_rough_planks_diff.jpg.import",
-    "bytes": 1101,
-    "sha256": "bcb7f14aef3f10490b4551a343efc669a8045265b6ac95be1fb7e6b92bae9af4"
   },
   {
     "path": "godot/assets/harbor/fishing_launch_wooden_rough_planks_nor_gl.jpg",
@@ -1040,19 +585,9 @@
     "sha256": "0098050b634c58201067e92ab0511104a3b740db79850992c9f96437a325e47e"
   },
   {
-    "path": "godot/assets/harbor/fishing_launch_wooden_rough_planks_nor_gl.jpg.import",
-    "bytes": 1106,
-    "sha256": "527ac2a3834bbf23b338e8fc5adf82513c320e1c793b61738aae17e254851edc"
-  },
-  {
     "path": "godot/assets/harbor/fishing_launch_wooden_rough_planks_rough.png",
     "bytes": 4467899,
     "sha256": "a9d2895ddae81f1c9cef6361e80cc87c687ae868ae3e0405a9d982f17fd09b92"
-  },
-  {
-    "path": "godot/assets/harbor/fishing_launch_wooden_rough_planks_rough.png.import",
-    "bytes": 1104,
-    "sha256": "f67dafe87c915847a6c94ea8ff9f2a79bb1d6692d02b1674946c4526f37d8c3d"
   },
   {
     "path": "godot/assets/harbor/fresh_catch.glb",
@@ -1060,19 +595,9 @@
     "sha256": "e950380aa779ed6728d5c3e2f7c6a73f9c4dedc64ffc63052594fd4840649b13"
   },
   {
-    "path": "godot/assets/harbor/fresh_catch.glb.import",
-    "bytes": 1162,
-    "sha256": "c27690a283fe5393e68ab028f04f431f42087800a08ecf4dcc4da14aecee036f"
-  },
-  {
     "path": "godot/assets/harbor/merchant_cutter.glb",
     "bytes": 22935140,
     "sha256": "e155faecf295a5aa909b28097eeac8a09a3b1232f812e0325e764549853782d7"
-  },
-  {
-    "path": "godot/assets/harbor/merchant_cutter.glb.import",
-    "bytes": 1174,
-    "sha256": "471ebd7d2e051dc9c89d9743f04799caf60848ae62787f608c1e26db004ef251"
   },
   {
     "path": "godot/assets/harbor/merchant_cutter_brown_planks_03_diff.jpg",
@@ -1080,19 +605,9 @@
     "sha256": "8dfae22286fa9bb0ed62ce7326e8bc14c284e567d38fd64b5a453838080ecf19"
   },
   {
-    "path": "godot/assets/harbor/merchant_cutter_brown_planks_03_diff.jpg.import",
-    "bytes": 1092,
-    "sha256": "0c6fee5c32777e0d9d52cbca753dc9dd5d3c5189c9100715d3ecf041b24b4a63"
-  },
-  {
     "path": "godot/assets/harbor/merchant_cutter_brown_planks_03_nor_gl.jpg",
     "bytes": 516860,
     "sha256": "868c153165ecaa7dd7259cb58214f06f6f86c80ac71fc92a827dff07708be077"
-  },
-  {
-    "path": "godot/assets/harbor/merchant_cutter_brown_planks_03_nor_gl.jpg.import",
-    "bytes": 1098,
-    "sha256": "c64f2821306c2c8c32d7eaf6a84994497541144851caf2a394344c6b8e5dd504"
   },
   {
     "path": "godot/assets/harbor/merchant_cutter_brown_planks_03_rough.png",
@@ -1100,19 +615,9 @@
     "sha256": "5faaaade1f89ad03a68eb0b331c73b895c6c79b5dd4296f9d36298ebb9459072"
   },
   {
-    "path": "godot/assets/harbor/merchant_cutter_brown_planks_03_rough.png.import",
-    "bytes": 1095,
-    "sha256": "5b936c65dcf3d91087c7891b9555c654b839bafcee02988a749b08d49b604f16"
-  },
-  {
     "path": "godot/assets/harbor/merchant_cutter_fabric_pattern_07_diff.jpg",
     "bytes": 2585628,
     "sha256": "488e60bcc8cd11b4eba211898877255784a32582e266c596ac35c0df129cd4d1"
-  },
-  {
-    "path": "godot/assets/harbor/merchant_cutter_fabric_pattern_07_diff.jpg.import",
-    "bytes": 1098,
-    "sha256": "dc36668192594e1a89a06f14828a5d8d5e95af7f6eda73a95e9ebd66f90efabf"
   },
   {
     "path": "godot/assets/harbor/merchant_cutter_fabric_pattern_07_nor_gl.jpg",
@@ -1120,19 +625,9 @@
     "sha256": "84f15ee5f6b63e7e224051a22426c751cc1fe15a794efd001ebfdb5f84828602"
   },
   {
-    "path": "godot/assets/harbor/merchant_cutter_fabric_pattern_07_nor_gl.jpg.import",
-    "bytes": 1103,
-    "sha256": "746e8b90a10d5b098c0c52bb0660474cfa4fda2c33d4105d525e830ac035bbf8"
-  },
-  {
     "path": "godot/assets/harbor/merchant_cutter_fabric_pattern_07_rough.png",
     "bytes": 4273501,
     "sha256": "8036c144953a2a2118616cf9497cb4abb0b6bad5fcc55dcdd143850669b4be89"
-  },
-  {
-    "path": "godot/assets/harbor/merchant_cutter_fabric_pattern_07_rough.png.import",
-    "bytes": 1101,
-    "sha256": "8c1be165fc4b16ed148181f376d3ed3c5af2ae073e62e416d2ef52ddf65d6be7"
   },
   {
     "path": "godot/assets/harbor/merchant_cutter_wooden_rough_planks_diff.jpg",
@@ -1140,29 +635,14 @@
     "sha256": "a1821c8bbbf705fcca015583d30a2ba6ce83c487a5aefc8a77da146810faa260"
   },
   {
-    "path": "godot/assets/harbor/merchant_cutter_wooden_rough_planks_diff.jpg.import",
-    "bytes": 1104,
-    "sha256": "7e923f48c573585f254fc96e1889c9e277f220180127ab974d397871adfb7a58"
-  },
-  {
     "path": "godot/assets/harbor/merchant_cutter_wooden_rough_planks_nor_gl.jpg",
     "bytes": 1287377,
     "sha256": "0098050b634c58201067e92ab0511104a3b740db79850992c9f96437a325e47e"
   },
   {
-    "path": "godot/assets/harbor/merchant_cutter_wooden_rough_planks_nor_gl.jpg.import",
-    "bytes": 1109,
-    "sha256": "2b7cfb9476f957990912f66a810d45d99cc57fd679bb17a27b85de6fe8d5ffd2"
-  },
-  {
     "path": "godot/assets/harbor/merchant_cutter_wooden_rough_planks_rough.png",
     "bytes": 4467899,
     "sha256": "a9d2895ddae81f1c9cef6361e80cc87c687ae868ae3e0405a9d982f17fd09b92"
-  },
-  {
-    "path": "godot/assets/harbor/merchant_cutter_wooden_rough_planks_rough.png.import",
-    "bytes": 1106,
-    "sha256": "bb9966b7c89a2e26075c23a036aa566657b200ac137cac8aee8adf438f5861a7"
   },
   {
     "path": "godot/assets/harbor_plan.json",
@@ -1175,19 +655,9 @@
     "sha256": "a90a592635560d22d92bea102541787f76f24e775e7eb67432b54c7340adfc5c"
   },
   {
-    "path": "godot/assets/island_tree_02.glb.import",
-    "bytes": 1163,
-    "sha256": "b98ff56d247dd713065a5793777a006f03423fe1e36452e6e9bf8dd4181fa83a"
-  },
-  {
     "path": "godot/assets/island_tree_02_island_tree_02_arm_2k.jpg",
     "bytes": 2347246,
     "sha256": "89e20810f614231578314846acff92821249f4124f4aa6e2f630df45d7acb6b2"
-  },
-  {
-    "path": "godot/assets/island_tree_02_island_tree_02_arm_2k.jpg.import",
-    "bytes": 1085,
-    "sha256": "82e885e94c54c61efeeb6ce090d60c4a88041f8bf2137cc0a77cd392066ea5a2"
   },
   {
     "path": "godot/assets/island_tree_02_island_tree_02_branches_arm_2k.jpg",
@@ -1195,19 +665,9 @@
     "sha256": "a39d8291ba54adf1ca42f15abe2f622d0ac59fb13c87087a0fabc755b91dfee8"
   },
   {
-    "path": "godot/assets/island_tree_02_island_tree_02_branches_arm_2k.jpg.import",
-    "bytes": 1112,
-    "sha256": "84615493b219f8dc1dde462dd404b21dc3f9120dec308f4304549750a9302e64"
-  },
-  {
     "path": "godot/assets/island_tree_02_island_tree_02_branches_diff_2k.jpg",
     "bytes": 1476655,
     "sha256": "52cb2c660983836249e3f31ad286ca1bab8033e93070569b23e1867e3ae70b4d"
-  },
-  {
-    "path": "godot/assets/island_tree_02_island_tree_02_branches_diff_2k.jpg.import",
-    "bytes": 1115,
-    "sha256": "2da15aef8491abadd44bf4227119de2b82b6102a4b0182e9345a7f7851d81156"
   },
   {
     "path": "godot/assets/island_tree_02_island_tree_02_branches_nor_gl_2k.jpg",
@@ -1215,19 +675,9 @@
     "sha256": "e4cac77b4f35ad47ba4fcdb9061f91acf3318d9889dd259cb5e6e132b0ab60c7"
   },
   {
-    "path": "godot/assets/island_tree_02_island_tree_02_branches_nor_gl_2k.jpg.import",
-    "bytes": 1119,
-    "sha256": "d3794c5e6a0c827a133fee849612b5a4a788f39a1d3d7a9b78f06fe724c3fa78"
-  },
-  {
     "path": "godot/assets/island_tree_02_island_tree_02_diff_2k.jpg",
     "bytes": 2684467,
     "sha256": "2ca2706adc5bde6bc46fa4a4680041a1797cf6684a31629259559935a97e0057"
-  },
-  {
-    "path": "godot/assets/island_tree_02_island_tree_02_diff_2k.jpg.import",
-    "bytes": 1088,
-    "sha256": "17eef079b9398c20658b384219e6d58dcf4996dea3f4b636067698e3595bd635"
   },
   {
     "path": "godot/assets/island_tree_02_island_tree_02_leaves_arm_2k.jpg",
@@ -1235,19 +685,9 @@
     "sha256": "cf4d604711d955d74a13b656bdbf840015ac38a71e24821849efade730634cc6"
   },
   {
-    "path": "godot/assets/island_tree_02_island_tree_02_leaves_arm_2k.jpg.import",
-    "bytes": 1105,
-    "sha256": "01128c9a8166a77ddf55283f7bb59eabd0f8ce2879db4a954b91a78e4ef5619f"
-  },
-  {
     "path": "godot/assets/island_tree_02_island_tree_02_leaves_diff_2k.png",
     "bytes": 1741501,
     "sha256": "adca7dd51ff3db9c017845d9af68793a5975b88f0e1e9a93fc59b43d7bde42c2"
-  },
-  {
-    "path": "godot/assets/island_tree_02_island_tree_02_leaves_diff_2k.png.import",
-    "bytes": 1109,
-    "sha256": "2537ed2c6c1d6704f67d4e183dc0168b341de4e3a5d268e226e9bafdd788ea24"
   },
   {
     "path": "godot/assets/island_tree_02_island_tree_02_leaves_nor_gl_2k.jpg",
@@ -1255,19 +695,9 @@
     "sha256": "efa74b8b59a7466a295bf210505560002990183817b6c33663f3ec0dd438dd73"
   },
   {
-    "path": "godot/assets/island_tree_02_island_tree_02_leaves_nor_gl_2k.jpg.import",
-    "bytes": 1115,
-    "sha256": "a37bdeca0e1decdd54e57308e3480c33b580560d0675489740d0e6421bb4021f"
-  },
-  {
     "path": "godot/assets/island_tree_02_island_tree_02_nor_gl_2k.jpg",
     "bytes": 4339456,
     "sha256": "3b088058cd9c8759f1ee223fad90f860257f574ae2ba7401cd4982c687b853cf"
-  },
-  {
-    "path": "godot/assets/island_tree_02_island_tree_02_nor_gl_2k.jpg.import",
-    "bytes": 1094,
-    "sha256": "15439f6834295f9e39bd4d876170b8e26bb6a6c718560a150a96952f5fac112c"
   },
   {
     "path": "godot/assets/land_access.json",
@@ -1315,19 +745,9 @@
     "sha256": "8dfae22286fa9bb0ed62ce7326e8bc14c284e567d38fd64b5a453838080ecf19"
   },
   {
-    "path": "godot/assets/materials/brown_planks_03_diff.jpg.import",
-    "bytes": 981,
-    "sha256": "c19ba453aa8b67d7a1935abdbe854d8d4c22d1082eff714d3cd4ee76431c2003"
-  },
-  {
     "path": "godot/assets/materials/brown_planks_03_nor_gl.jpg",
     "bytes": 516860,
     "sha256": "868c153165ecaa7dd7259cb58214f06f6f86c80ac71fc92a827dff07708be077"
-  },
-  {
-    "path": "godot/assets/materials/brown_planks_03_nor_gl.jpg.import",
-    "bytes": 987,
-    "sha256": "b532ed7f0f9c3ab4f4bafb96674e1edd85bba152e14aaf9d5cb9fa7592b8a57b"
   },
   {
     "path": "godot/assets/materials/brown_planks_03_rough.jpg",
@@ -1335,19 +755,9 @@
     "sha256": "0395027c927a48b62c5d0615a055a369e5718c01b11189f53aaac5ff5879c05a"
   },
   {
-    "path": "godot/assets/materials/brown_planks_03_rough.jpg.import",
-    "bytes": 984,
-    "sha256": "27b47106a54940d0273708b36ff42951dfc946b028ed53abf2ba13696e7837e6"
-  },
-  {
     "path": "godot/assets/materials/clay_roof_tiles_03_diff.jpg",
     "bytes": 970368,
     "sha256": "6719293429932a27c8ed3526b22cd65d1cd1d43194ce30fa5f4590bb3c513844"
-  },
-  {
-    "path": "godot/assets/materials/clay_roof_tiles_03_diff.jpg.import",
-    "bytes": 989,
-    "sha256": "51538f72757540e0b03eec8a8183ebe4571a39da423eb2882728d8f2373da877"
   },
   {
     "path": "godot/assets/materials/clay_roof_tiles_03_nor_gl.jpg",
@@ -1355,19 +765,9 @@
     "sha256": "7db087939613b6b0ef1d0c21a3956eafcf7e9d0f146267290e409448f1adc17b"
   },
   {
-    "path": "godot/assets/materials/clay_roof_tiles_03_nor_gl.jpg.import",
-    "bytes": 996,
-    "sha256": "f2f49271495382336fd462a8c46b196734c726ab72c429914bf9c23805af412b"
-  },
-  {
     "path": "godot/assets/materials/clay_roof_tiles_03_rough.jpg",
     "bytes": 440788,
     "sha256": "7fff6d8344688df8aa3abddeb7d099700ebba291f05a516d4d9dcaeb47f2da8b"
-  },
-  {
-    "path": "godot/assets/materials/clay_roof_tiles_03_rough.jpg.import",
-    "bytes": 993,
-    "sha256": "8400e2c79e4c46dcff023785ca226ea7480205cca415a29271e40803fa4cf0aa"
   },
   {
     "path": "godot/assets/materials/cobblestone_floor_02_diff.jpg",
@@ -1375,19 +775,9 @@
     "sha256": "1a2d1f21ccff0f70cd181c28f529ce040c123b5c605cc0069f26450040bd6b40"
   },
   {
-    "path": "godot/assets/materials/cobblestone_floor_02_diff.jpg.import",
-    "bytes": 995,
-    "sha256": "c4798dc8482bf5fb1e913224b4fda297e64636d978792e8728bca67593a1265c"
-  },
-  {
     "path": "godot/assets/materials/cobblestone_floor_02_nor_gl.jpg",
     "bytes": 646806,
     "sha256": "3849d3d07b9de564a3b50c0878ce752502fd071f9b63cb6b2acea5d16de72606"
-  },
-  {
-    "path": "godot/assets/materials/cobblestone_floor_02_nor_gl.jpg.import",
-    "bytes": 1001,
-    "sha256": "8ddd2b65fbf3efbb73e69ebb470a687809b4f8e4c0221fc6f7e89fd90ca95af7"
   },
   {
     "path": "godot/assets/materials/cobblestone_floor_02_rough.jpg",
@@ -1395,19 +785,9 @@
     "sha256": "a696caf242e449531712fc31e7f402eaf1a89e2c4044ec6c4d3ea5bf60dd2bc6"
   },
   {
-    "path": "godot/assets/materials/cobblestone_floor_02_rough.jpg.import",
-    "bytes": 998,
-    "sha256": "5d8a8c88f6077ed5234669173d0fe161acb6b11143179be897e3114c5a3e1f0e"
-  },
-  {
     "path": "godot/assets/materials/cobblestone_floor_08_diff.jpg",
     "bytes": 585727,
     "sha256": "ec131f7a99a1e7f9df25d4725609c55a6dad1df487630685e9a66ecbf41ec33a"
-  },
-  {
-    "path": "godot/assets/materials/cobblestone_floor_08_diff.jpg.import",
-    "bytes": 996,
-    "sha256": "91cedf415cda5f309e7c79ecb1b156eee9bf6826c096737ea86e7145ee9a0416"
   },
   {
     "path": "godot/assets/materials/cobblestone_floor_08_nor_gl.jpg",
@@ -1415,19 +795,9 @@
     "sha256": "26bfff70b266a4e86983814c7e56a9b48daf93cd34dcdc16a5db13e4fabcfbb6"
   },
   {
-    "path": "godot/assets/materials/cobblestone_floor_08_nor_gl.jpg.import",
-    "bytes": 1002,
-    "sha256": "3aa15cf6bb8fbafc2f3677410821857fcb0a958184d2be424e4227d2d0e98096"
-  },
-  {
     "path": "godot/assets/materials/cobblestone_floor_08_rough.jpg",
     "bytes": 408718,
     "sha256": "f92bcaf897cd98bc3cf11e6409b3e42145e7d0f659eaaad8807dfb0c5d16afc6"
-  },
-  {
-    "path": "godot/assets/materials/cobblestone_floor_08_rough.jpg.import",
-    "bytes": 998,
-    "sha256": "fde677ed2ab2bcc505fc266016291b64678e0907a521f02aade5d96d68b70697"
   },
   {
     "path": "godot/assets/materials/fabric_pattern_07_diff.jpg",
@@ -1435,19 +805,9 @@
     "sha256": "488e60bcc8cd11b4eba211898877255784a32582e266c596ac35c0df129cd4d1"
   },
   {
-    "path": "godot/assets/materials/fabric_pattern_07_diff.jpg.import",
-    "bytes": 987,
-    "sha256": "e33e4263d74ed3c9e4b3648efbeaa10af2215c28550060fd2ba449f3b8816825"
-  },
-  {
     "path": "godot/assets/materials/fabric_pattern_07_nor_gl.jpg",
     "bytes": 2572375,
     "sha256": "84f15ee5f6b63e7e224051a22426c751cc1fe15a794efd001ebfdb5f84828602"
-  },
-  {
-    "path": "godot/assets/materials/fabric_pattern_07_nor_gl.jpg.import",
-    "bytes": 993,
-    "sha256": "3c97550d063c5dad2ae1eb20644f2795579e7c180a7443a4464415c33aacdfd5"
   },
   {
     "path": "godot/assets/materials/fabric_pattern_07_rough.jpg",
@@ -1455,19 +815,9 @@
     "sha256": "be3e311614ee6f31d4cb4a774ed678b7a64189d3e1a55ad71033142185da270a"
   },
   {
-    "path": "godot/assets/materials/fabric_pattern_07_rough.jpg.import",
-    "bytes": 989,
-    "sha256": "b9083c5e32e242c0ef305e2b50262800d4c497d577fe98c82674e73fcd43acdc"
-  },
-  {
     "path": "godot/assets/materials/grey_roof_tiles_diff.jpg",
     "bytes": 2039152,
     "sha256": "f0ccddb07c8b21cd7825fd2c4cdf04cff23ec9fc52a92578122036ccf22a8a90"
-  },
-  {
-    "path": "godot/assets/materials/grey_roof_tiles_diff.jpg.import",
-    "bytes": 981,
-    "sha256": "0a3c72c3d809d09696222b8b503e06ba0750c7d6e3b5bb61e2b5f677d8d78cea"
   },
   {
     "path": "godot/assets/materials/grey_roof_tiles_nor_gl.jpg",
@@ -1475,19 +825,9 @@
     "sha256": "e91134466a2aec440eae42ccef20f7055d87bf8caac208555eb1f069578eb29a"
   },
   {
-    "path": "godot/assets/materials/grey_roof_tiles_nor_gl.jpg.import",
-    "bytes": 987,
-    "sha256": "b77144ff97ef81c0ff700278dd60a99e138ec572a3ca43ba51fec5a687c5152d"
-  },
-  {
     "path": "godot/assets/materials/grey_roof_tiles_rough.jpg",
     "bytes": 1009346,
     "sha256": "404d04cfdb77f2537d5cf4f9249bd7c8d265a303c73b7bf362af1f109c88299c"
-  },
-  {
-    "path": "godot/assets/materials/grey_roof_tiles_rough.jpg.import",
-    "bytes": 984,
-    "sha256": "40d9436bfde737428cf094da8024853aa35552a4b7da842cf3e3645baf110c68"
   },
   {
     "path": "godot/assets/materials/leafy_grass_diff.jpg",
@@ -1495,19 +835,9 @@
     "sha256": "8e1c6d21365d4b89bc5a35ab664da98a78dbc3ab9ba6100474881c8619a5b113"
   },
   {
-    "path": "godot/assets/materials/leafy_grass_diff.jpg.import",
-    "bytes": 969,
-    "sha256": "81c8932cb3c6436c1487a9a2d93836a6d96415b7b49f22599aa4d02dae12947e"
-  },
-  {
     "path": "godot/assets/materials/leafy_grass_nor_gl.jpg",
     "bytes": 6047262,
     "sha256": "df0cf0ce96e653f033e5b934d5b12995464bda027aa53bd12e329be889aa9f45"
-  },
-  {
-    "path": "godot/assets/materials/leafy_grass_nor_gl.jpg.import",
-    "bytes": 973,
-    "sha256": "36df7a2ffe388dc1b1907a7616c7cfae8c9fd7e7dac4e816fb7cf8423ed001c3"
   },
   {
     "path": "godot/assets/materials/leafy_grass_rough.jpg",
@@ -1515,19 +845,9 @@
     "sha256": "34e1733bf4064b6950a575ff57e78c8b7ff71b63749eb48a49221bd65de6fb4f"
   },
   {
-    "path": "godot/assets/materials/leafy_grass_rough.jpg.import",
-    "bytes": 971,
-    "sha256": "a4a671d30eded76e6df506c0116b5c793d353e9dfb1c20e34b3619c381bdd01e"
-  },
-  {
     "path": "godot/assets/materials/medieval_blocks_03_diff.jpg",
     "bytes": 954113,
     "sha256": "3852b4a60e0f62d2914c895f884df8d58d8d12d788851d814859dae05b7620cf"
-  },
-  {
-    "path": "godot/assets/materials/medieval_blocks_03_diff.jpg.import",
-    "bytes": 990,
-    "sha256": "03cd32bb22f91749afa6c3267f41907322aae70dd7eeefbf2ca66b550e6a499b"
   },
   {
     "path": "godot/assets/materials/medieval_blocks_03_nor_gl.jpg",
@@ -1535,19 +855,9 @@
     "sha256": "52350ed4b577c9fd6b03effda069181ca0ed39ee99d88b912685266f6270c943"
   },
   {
-    "path": "godot/assets/materials/medieval_blocks_03_nor_gl.jpg.import",
-    "bytes": 996,
-    "sha256": "fbedca343d5f9571e5abaac7b0a10fcf393d527b1081ee8cf70afc2ead1efa9a"
-  },
-  {
     "path": "godot/assets/materials/medieval_blocks_03_rough.jpg",
     "bytes": 460951,
     "sha256": "9eba5fed68b8a705c5280a274a9d8238be89bf82fa783154b25325211d67373b"
-  },
-  {
-    "path": "godot/assets/materials/medieval_blocks_03_rough.jpg.import",
-    "bytes": 992,
-    "sha256": "83adbe59744a1b723099249ca403c93ac6a731575c2571441ee12899eac66490"
   },
   {
     "path": "godot/assets/materials/medieval_wall_02_diff.jpg",
@@ -1555,19 +865,9 @@
     "sha256": "0e8a24e36cd10da57b69f71874816ff77671c5909424e99ebda196515a23829d"
   },
   {
-    "path": "godot/assets/materials/medieval_wall_02_diff.jpg.import",
-    "bytes": 983,
-    "sha256": "fb744bb27e8665bb566e89487923cb70c237037512420a4d9251542193e36dc7"
-  },
-  {
     "path": "godot/assets/materials/medieval_wall_02_nor_gl.jpg",
     "bytes": 4513527,
     "sha256": "d0ba0bb6e41d6601d0e9d5eb04310fbcb2903e1e12b986e4514e7c89396e719c"
-  },
-  {
-    "path": "godot/assets/materials/medieval_wall_02_nor_gl.jpg.import",
-    "bytes": 990,
-    "sha256": "0f789a442da78a9d54e7bf96cde8fa4df972ab2f7e4a812e7a4910397e59bd43"
   },
   {
     "path": "godot/assets/materials/medieval_wall_02_rough.jpg",
@@ -1575,19 +875,9 @@
     "sha256": "649cdc5765f540e3b8b8dbdbd29831d9a3af709335423e0f117d5635febd525a"
   },
   {
-    "path": "godot/assets/materials/medieval_wall_02_rough.jpg.import",
-    "bytes": 987,
-    "sha256": "d10de4273f8592f6cb487e1d4995523861f7275f757f3a78ebda4bfff4e9d962"
-  },
-  {
     "path": "godot/assets/materials/plastered_stone_wall_diff.jpg",
     "bytes": 680077,
     "sha256": "b86e9a408aac5b493c31a4ec221e5022b0b704d2f51596006f7d6840a6a3300a"
-  },
-  {
-    "path": "godot/assets/materials/plastered_stone_wall_diff.jpg.import",
-    "bytes": 996,
-    "sha256": "638d399a7c8c79fdb6b0601af2a8f69a76c5d1e8521811fa60ad1c8e73ecc7a1"
   },
   {
     "path": "godot/assets/materials/plastered_stone_wall_nor_gl.jpg",
@@ -1595,19 +885,9 @@
     "sha256": "c64dc8d1ad382b8832e430e738f099343ed959b7ae7d9390919a497536d1191e"
   },
   {
-    "path": "godot/assets/materials/plastered_stone_wall_nor_gl.jpg.import",
-    "bytes": 1001,
-    "sha256": "82004afdec383eee49249b522249376fbc42a495d71f1622c848058f441a9e57"
-  },
-  {
     "path": "godot/assets/materials/plastered_stone_wall_rough.jpg",
     "bytes": 508548,
     "sha256": "978bd1d9f8d4132564d40375f705975e897ca588c2d756e6257f68946651bab0"
-  },
-  {
-    "path": "godot/assets/materials/plastered_stone_wall_rough.jpg.import",
-    "bytes": 999,
-    "sha256": "d0470424f1921b6ff01ecb76740f12d0110b028b12d0956f8cb7e3ad7e97f202"
   },
   {
     "path": "godot/assets/materials/plastered_wall_02_diff.jpg",
@@ -1615,19 +895,9 @@
     "sha256": "0a316ffd3f953a902325c06afb5a5863bbf71d13a353f9d85378562adca79603"
   },
   {
-    "path": "godot/assets/materials/plastered_wall_02_diff.jpg.import",
-    "bytes": 986,
-    "sha256": "06b0db7c67679c4230c07105714329f6173ada6ce51c090ba56078d433c29ee3"
-  },
-  {
     "path": "godot/assets/materials/plastered_wall_02_nor_gl.jpg",
     "bytes": 960241,
     "sha256": "0f1b4ea0c4707ea133f133c020923bddd8610a43a153281dad15d49f39ad9624"
-  },
-  {
-    "path": "godot/assets/materials/plastered_wall_02_nor_gl.jpg.import",
-    "bytes": 993,
-    "sha256": "e664af4e903c1fde26c09ab1c86fd524bccec1e720be3be24d64d2b19d1027c6"
   },
   {
     "path": "godot/assets/materials/plastered_wall_02_rough.jpg",
@@ -1635,19 +905,9 @@
     "sha256": "6c317c0e647b02259601690bd33501bbc825858c6d1715cd0f8f46a5b51f6db4"
   },
   {
-    "path": "godot/assets/materials/plastered_wall_02_rough.jpg.import",
-    "bytes": 990,
-    "sha256": "29af7bff57b9458c8d9077f04af4c4cc2cda8bdf6fc259ca2bc605db04236ae2"
-  },
-  {
     "path": "godot/assets/materials/water_normals.jpg",
     "bytes": 248813,
     "sha256": "add9912b158a4fe9c12421745babe68c44c8af75631ac4837236cb2a03bc373f"
-  },
-  {
-    "path": "godot/assets/materials/water_normals.jpg.import",
-    "bytes": 960,
-    "sha256": "5b5f25a900b31feb0f6f99d55a8a9326f14e0666b6c15eaf0eeb6d08af788b1e"
   },
   {
     "path": "godot/assets/materials/wooden_rough_planks_diff.jpg",
@@ -1655,19 +915,9 @@
     "sha256": "a1821c8bbbf705fcca015583d30a2ba6ce83c487a5aefc8a77da146810faa260"
   },
   {
-    "path": "godot/assets/materials/wooden_rough_planks_diff.jpg.import",
-    "bytes": 993,
-    "sha256": "c5c0dcdc3a1850318f542f96843f58eca4ade53f896cb2f349460d6808463cab"
-  },
-  {
     "path": "godot/assets/materials/wooden_rough_planks_nor_gl.jpg",
     "bytes": 1287377,
     "sha256": "0098050b634c58201067e92ab0511104a3b740db79850992c9f96437a325e47e"
-  },
-  {
-    "path": "godot/assets/materials/wooden_rough_planks_nor_gl.jpg.import",
-    "bytes": 998,
-    "sha256": "e044f2f288ed0de1382320df0db8b3162a0e204279f48626990007894a948390"
   },
   {
     "path": "godot/assets/materials/wooden_rough_planks_rough.jpg",
@@ -1675,19 +925,9 @@
     "sha256": "1e5ee7d83d090a4777ed8b5e89f4fa32d1b1d1c3798f96ae5c65457699d2c396"
   },
   {
-    "path": "godot/assets/materials/wooden_rough_planks_rough.jpg.import",
-    "bytes": 996,
-    "sha256": "607cd3b22a06d6376ab7e5b069ea7ffff4cc9604e7a29c0c90797b2ceef1b960"
-  },
-  {
     "path": "godot/assets/ranger.glb",
     "bytes": 59907168,
     "sha256": "db49f10ca8147cfb50b5b866db682447b8e85757892f3dfd3ccf5f95163e4b0c"
-  },
-  {
-    "path": "godot/assets/ranger.glb.import",
-    "bytes": 1139,
-    "sha256": "82cb402a8daa22e45d08f8569766a1594e83c137bf646e7a88ebb6d28385ac0f"
   },
   {
     "path": "godot/assets/ranger_T_Eye_Brown.png",
@@ -1695,19 +935,9 @@
     "sha256": "d08e3356a83211bc6ca21fe3a8e39f4b5c1a3b8f85457fc2c0fb57be09935025"
   },
   {
-    "path": "godot/assets/ranger_T_Eye_Brown.png.import",
-    "bytes": 1031,
-    "sha256": "6636b7f343039fe0512b9f85e3f173ce2390c37580dd6c3d5d00cd06909a46b6"
-  },
-  {
     "path": "godot/assets/ranger_T_Eye_Normal.png",
     "bytes": 15099,
     "sha256": "9ed61f7726a54fe346a78b9e5a18905d8e2b88f86235d97f53cd207a26f3f8c7"
-  },
-  {
-    "path": "godot/assets/ranger_T_Eye_Normal.png.import",
-    "bytes": 1034,
-    "sha256": "2e10296fbb8e2223960293678a8fc35d20dd4946fa4f1f35494237d6dd9b3858"
   },
   {
     "path": "godot/assets/ranger_T_Hair_1_BaseColor.png",
@@ -1715,19 +945,9 @@
     "sha256": "bc7aa863bd22ab0a995cd838cceb4d3a5186ee54ee2fb0108fad85d20c057e6e"
   },
   {
-    "path": "godot/assets/ranger_T_Hair_1_BaseColor.png.import",
-    "bytes": 1052,
-    "sha256": "6c5f3755ebb74222516107ccced7040325531c36c59cc2905df2b0788631de2a"
-  },
-  {
     "path": "godot/assets/ranger_T_Hair_1_Normal.png",
     "bytes": 3770683,
     "sha256": "fd4530bb696a083ac7f9c2f685b4bb15d91150040e76c905db591c7644b4aa87"
-  },
-  {
-    "path": "godot/assets/ranger_T_Hair_1_Normal.png.import",
-    "bytes": 1043,
-    "sha256": "5e1c9a59c63f310476d44f74bc5cd88e4d224b0736b07147a7eb236b3298a630"
   },
   {
     "path": "godot/assets/ranger_T_Hair_1_Normal_4.png",
@@ -1735,19 +955,9 @@
     "sha256": "57fd0ad8c96a4d01b38769637e066cecaa285b456f6e48ce00863754a457affb"
   },
   {
-    "path": "godot/assets/ranger_T_Hair_1_Normal_4.png.import",
-    "bytes": 1048,
-    "sha256": "b5d0c3a92c0d4e0071053f0323c154d03b0380a49f74fa1af492d3a684dad453"
-  },
-  {
     "path": "godot/assets/ranger_T_Ranger_BaseColor.png",
     "bytes": 6630927,
     "sha256": "846ef2170b04ee584ad83bb8a1e86dab57a9a43b1193204505912c274d949925"
-  },
-  {
-    "path": "godot/assets/ranger_T_Ranger_BaseColor.png.import",
-    "bytes": 1051,
-    "sha256": "cb61d96827f6c5cb383365143a74c5805fbf45988a008508ba9793cb8ac28997"
   },
   {
     "path": "godot/assets/ranger_T_Ranger_Normal.png",
@@ -1755,19 +965,9 @@
     "sha256": "dd64da2af3180f0c8f0b721cfc5f0d2720c351b97da8285c6cf49e7717c84147"
   },
   {
-    "path": "godot/assets/ranger_T_Ranger_Normal.png.import",
-    "bytes": 1043,
-    "sha256": "be16d88fdeb876ea6636a888b18a023fc4bb834f4f276276994f1116c9ac9837"
-  },
-  {
     "path": "godot/assets/ranger_T_Ranger_ORM.png",
     "bytes": 10792085,
     "sha256": "aca03d2fba12508ef07d5968ca22267fb207ea26ae898b6b2def8a296bd44f1c"
-  },
-  {
-    "path": "godot/assets/ranger_T_Ranger_ORM.png.import",
-    "bytes": 1033,
-    "sha256": "5e89200b7db826ed9ecc910493a0409eb052536b18067727842893892e6cb012"
   },
   {
     "path": "godot/assets/ranger_T_Regular_Male_Dark_BaseColor.png",
@@ -1775,19 +975,9 @@
     "sha256": "b4dcc0f4139aab548d7c070c4655bd2080ef16caeaaabee6c4aeb693c524e802"
   },
   {
-    "path": "godot/assets/ranger_T_Regular_Male_Dark_BaseColor.png.import",
-    "bytes": 1084,
-    "sha256": "a3fe39ac5c6952a4d9f86017389f22050954bd9c19b71f5f127fc0bf43550845"
-  },
-  {
     "path": "godot/assets/ranger_T_Regular_Male_Normal.png",
     "bytes": 4064184,
     "sha256": "10cd71e2453e577fdd43e912b6016a99baf64964f0593e524bdd304855e15e2a"
-  },
-  {
-    "path": "godot/assets/ranger_T_Regular_Male_Normal.png.import",
-    "bytes": 1059,
-    "sha256": "7e95e6e263cd180334ab2495ef37756d4cb9f35c7e78368591e39e316bcf34b8"
   },
   {
     "path": "godot/assets/ranger_T_Regular_Male_Roughness.png",
@@ -1795,19 +985,9 @@
     "sha256": "086c2eb25bddfdb77d8e639ccbffb8df723ef4a1910d8e1b217e852f8668bfe5"
   },
   {
-    "path": "godot/assets/ranger_T_Regular_Male_Roughness.png.import",
-    "bytes": 1070,
-    "sha256": "1a8ed72037aceb0c487b49f68a385ef881580379ea16075716cf7d47365b7a31"
-  },
-  {
     "path": "godot/assets/ranger_T_Superhero_Male_Dark.png",
     "bytes": 1384380,
     "sha256": "df680cbc1967a61e85998bfafb8f7bc0a36dd604bb3266486c4b06b1a184bb45"
-  },
-  {
-    "path": "godot/assets/ranger_T_Superhero_Male_Dark.png.import",
-    "bytes": 1061,
-    "sha256": "e5d4c997edd7b6ba65e851021ff6e04f064bc12994d0725ed80eac901ec0ac50"
   },
   {
     "path": "godot/assets/ranger_T_Superhero_Male_Normal.png",
@@ -1815,19 +995,9 @@
     "sha256": "9b25cf9200216eb754b79cf4c63b5380c419780788322f3c57cdd2b3e02679a6"
   },
   {
-    "path": "godot/assets/ranger_T_Superhero_Male_Normal.png.import",
-    "bytes": 1067,
-    "sha256": "774f32a482a5897887fd921b6bcddf54e8fb93ade6cdb38fb20f234605fdfdc5"
-  },
-  {
     "path": "godot/assets/ranger_T_Superhero_Male_Roughness.png",
     "bytes": 3152049,
     "sha256": "c70dabf48574cda55644d556beae1ee7cf1bdcf68a50d259d20f2f2358f27991"
-  },
-  {
-    "path": "godot/assets/ranger_T_Superhero_Male_Roughness.png.import",
-    "bytes": 1076,
-    "sha256": "983b100f3c489d7e0c156f780441f7c3ef68f1ef548377ee8de87bba200d859c"
   },
   {
     "path": "godot/assets/town_plan.json",
@@ -1840,19 +1010,9 @@
     "sha256": "5b05d7d730f9ee438be9599805d4f51e3aea541f9f127cc77747cd44d2c8eeee"
   },
   {
-    "path": "godot/assets/traveler.glb.import",
-    "bytes": 1146,
-    "sha256": "cb3d110f2efe531935383b0e6a3ca8f0282fc2e6b1cb8e6fd426089151085e8c"
-  },
-  {
     "path": "godot/assets/traveler_brown_planks_03_diff.jpg",
     "bytes": 570668,
     "sha256": "8dfae22286fa9bb0ed62ce7326e8bc14c284e567d38fd64b5a453838080ecf19"
-  },
-  {
-    "path": "godot/assets/traveler_brown_planks_03_diff.jpg.import",
-    "bytes": 1064,
-    "sha256": "862d856663930af8f3b52414f32b48bc20f2dedb1e89b7de4d538e107ca7e7bd"
   },
   {
     "path": "godot/assets/traveler_brown_planks_03_nor_gl.jpg",
@@ -1860,19 +1020,9 @@
     "sha256": "868c153165ecaa7dd7259cb58214f06f6f86c80ac71fc92a827dff07708be077"
   },
   {
-    "path": "godot/assets/traveler_brown_planks_03_nor_gl.jpg.import",
-    "bytes": 1070,
-    "sha256": "ae287b952e2d02563e1f558e9387372bfa3a1e12aafb57dd6d89d1ab8c1e957a"
-  },
-  {
     "path": "godot/assets/traveler_brown_planks_03_rough.png",
     "bytes": 725151,
     "sha256": "5faaaade1f89ad03a68eb0b331c73b895c6c79b5dd4296f9d36298ebb9459072"
-  },
-  {
-    "path": "godot/assets/traveler_brown_planks_03_rough.png.import",
-    "bytes": 1067,
-    "sha256": "2d9adad4057d29d4350c457ac1f84bffd40adaf8bd3eb3b4e0b946169ab9617f"
   },
   {
     "path": "godot/assets/tree_small_02.glb",
@@ -1880,19 +1030,9 @@
     "sha256": "cc59e8dc7e34ca562b3a4cef94200e4a9b135714dce135fd444422d1ab30653d"
   },
   {
-    "path": "godot/assets/tree_small_02.glb.import",
-    "bytes": 1160,
-    "sha256": "4e6bf8e60da4829e003c7eb069517f6f4016e9847110a7d152f1a0286f81da09"
-  },
-  {
     "path": "godot/assets/tree_small_02_tree_small_02_arm_2k.jpg",
     "bytes": 2586815,
     "sha256": "e96b4e84e9786b982d01562e0d249f6e58db1b656dd511db7c034d6ed60b1c92"
-  },
-  {
-    "path": "godot/assets/tree_small_02_tree_small_02_arm_2k.jpg.import",
-    "bytes": 1079,
-    "sha256": "44e6fb81e018645c15e1315187646a599b578274b8788b27dcc12a854b8c9f84"
   },
   {
     "path": "godot/assets/tree_small_02_tree_small_02_branch_arm_2k.jpg",
@@ -1900,19 +1040,9 @@
     "sha256": "82da928cc4e8a45c559f6abe8053227c7ae6cc14eb8d026a30c203aedd087042"
   },
   {
-    "path": "godot/assets/tree_small_02_tree_small_02_branch_arm_2k.jpg.import",
-    "bytes": 1100,
-    "sha256": "a23fc8da515f1ca5b4091be6975b86c79d215903f0caf42c861c4be529f80811"
-  },
-  {
     "path": "godot/assets/tree_small_02_tree_small_02_branch_diff_2k.jpg",
     "bytes": 1425692,
     "sha256": "9032de9e063ee7e3763a6b10d19d89302f5776e85a966b6dd1c3a5634b2a80e1"
-  },
-  {
-    "path": "godot/assets/tree_small_02_tree_small_02_branch_diff_2k.jpg.import",
-    "bytes": 1103,
-    "sha256": "ab3789c4b45e06e35c6e2a5a16754b525d8266dac2b84426c923661542a3979e"
   },
   {
     "path": "godot/assets/tree_small_02_tree_small_02_branch_nor_gl_2k.jpg",
@@ -1920,19 +1050,9 @@
     "sha256": "368505992d867bb50eccc00d77940a7a3eaf32f42de9f536d105407b0d6df3fd"
   },
   {
-    "path": "godot/assets/tree_small_02_tree_small_02_branch_nor_gl_2k.jpg.import",
-    "bytes": 1108,
-    "sha256": "e3a11bee08d6d55e6c4cf9781ff455af80648a2fd181a4d52992265d585486b2"
-  },
-  {
     "path": "godot/assets/tree_small_02_tree_small_02_diff_2k.jpg",
     "bytes": 3170612,
     "sha256": "4ab3210b6ec6bb1181145500bca71d1c1f81ead6baaa8600f5979c2cec50c6a4"
-  },
-  {
-    "path": "godot/assets/tree_small_02_tree_small_02_diff_2k.jpg.import",
-    "bytes": 1082,
-    "sha256": "62b858c796b222bb60b6c4d0ab6a1710f361b043a33bdcf68fe1954035a0824e"
   },
   {
     "path": "godot/assets/tree_small_02_tree_small_02_leaves_arm_2k.jpg",
@@ -1940,19 +1060,9 @@
     "sha256": "a126c0d92b60c44c0664e4d3651831970e259b0d5a1fb39ebb67081cbecaca96"
   },
   {
-    "path": "godot/assets/tree_small_02_tree_small_02_leaves_arm_2k.jpg.import",
-    "bytes": 1099,
-    "sha256": "9f7d26d415ce5f322db5ab030a93117280802653cf3cdfcfe76584469c593df0"
-  },
-  {
     "path": "godot/assets/tree_small_02_tree_small_02_leaves_diff_2k.png",
     "bytes": 2547375,
     "sha256": "979d317c06bea7125597435ea3716a99fab5b612642d66effd09db258773a102"
-  },
-  {
-    "path": "godot/assets/tree_small_02_tree_small_02_leaves_diff_2k.png.import",
-    "bytes": 1103,
-    "sha256": "d36024820eaac80494401684a3b50631dc5cdc8e587e1115b17a497bf2de6fe4"
   },
   {
     "path": "godot/assets/tree_small_02_tree_small_02_leaves_nor_gl_2k.jpg",
@@ -1960,19 +1070,9 @@
     "sha256": "40c956e345430562cdb4d0470c7d499aa160f1fa3dd7555d88be2dedf0d7ff2e"
   },
   {
-    "path": "godot/assets/tree_small_02_tree_small_02_leaves_nor_gl_2k.jpg.import",
-    "bytes": 1109,
-    "sha256": "7dc9e32364d49d6ae4f9ca2bb1f4054d43df822758a6dbb201428239051c7d83"
-  },
-  {
     "path": "godot/assets/tree_small_02_tree_small_02_nor_gl_2k.jpg",
     "bytes": 4555311,
     "sha256": "cb7897fc0aea602964836116ecf631614ece2970f579647fe1070bccb428fe89"
-  },
-  {
-    "path": "godot/assets/tree_small_02_tree_small_02_nor_gl_2k.jpg.import",
-    "bytes": 1088,
-    "sha256": "7d080fe6352d9d5b51f3354458c7a6d210dc6a8046c2762173e889e0831941cd"
   },
   {
     "path": "godot/assets/ui/book.svg",
@@ -1980,19 +1080,9 @@
     "sha256": "dc6021a432fb6a43612eb710949538d418e5dcdb7c362cb1b61af8c497026143"
   },
   {
-    "path": "godot/assets/ui/book.svg.import",
-    "bytes": 1022,
-    "sha256": "7ec4ea83a68276879f3cab4cd3fd06aee70adbb750a9988bc512dc83b97ba0cd"
-  },
-  {
     "path": "godot/assets/ui/journal.png",
     "bytes": 2578872,
     "sha256": "c4712455465ae61d0aea0b0d4a3d4a613a421150d3d457de735c210ae9d04e37"
-  },
-  {
-    "path": "godot/assets/ui/journal.png.import",
-    "bytes": 935,
-    "sha256": "88f11a6224434d596bb08d2b52f58b7b0c5b78d83d644e3b139bed15e8ae84e7"
   },
   {
     "path": "godot/assets/ui/pack.svg",
@@ -2000,19 +1090,9 @@
     "sha256": "08509567ae33c63adef671fd3d30b419deaebab488c3f5d55af2bd095a90de0a"
   },
   {
-    "path": "godot/assets/ui/pack.svg.import",
-    "bytes": 1022,
-    "sha256": "b6a06b6cf1ed17c9d88c6f62f1a5a265b854286e11d129f58fc138275e269235"
-  },
-  {
     "path": "godot/assets/vesper_city.glb",
     "bytes": 177762252,
     "sha256": "0c59c80f04ae3fd619ff137f07a66f06e9c14c9c3ef411fa088ed1fe404314c4"
-  },
-  {
-    "path": "godot/assets/vesper_city.glb.import",
-    "bytes": 1155,
-    "sha256": "d239e342cc9999c471f942bfbd123cf01c329ec175dbad2abf6276e26d60e8bc"
   },
   {
     "path": "godot/assets/vesper_city_brass_candleholders_01_arm_2k.jpg",
@@ -2020,19 +1100,9 @@
     "sha256": "505fe318fe91e328d7a1549bcfd81fc2f1a205a49508e75bba40d5818f813983"
   },
   {
-    "path": "godot/assets/vesper_city_brass_candleholders_01_arm_2k.jpg.import",
-    "bytes": 1100,
-    "sha256": "0896a18a3f943aa79e0b72d60539008677121e14a535fef9114152de162de794"
-  },
-  {
     "path": "godot/assets/vesper_city_brass_candleholders_01_diff_2k.jpg",
     "bytes": 3507869,
     "sha256": "db0c838558db0bc0191043fd3e27c62065d70fc278549a9acb4e5e75f470938c"
-  },
-  {
-    "path": "godot/assets/vesper_city_brass_candleholders_01_diff_2k.jpg.import",
-    "bytes": 1103,
-    "sha256": "ec498e6acc64a61ba11e9922a1446f8d8ae98312ff446e11eafa130ac508ed7d"
   },
   {
     "path": "godot/assets/vesper_city_brass_candleholders_01_nor_gl_2k.jpg",
@@ -2040,19 +1110,9 @@
     "sha256": "17a8ab08db17b8fc4a270d52aacc26efecc4546f3f7815ffa31d86d592d9c041"
   },
   {
-    "path": "godot/assets/vesper_city_brass_candleholders_01_nor_gl_2k.jpg.import",
-    "bytes": 1109,
-    "sha256": "5970ab2f1ca6f506c94bbeac0936dc0a206cfd5353f2f718691175559793314e"
-  },
-  {
     "path": "godot/assets/vesper_city_brass_candleholders_02_arm_2k.jpg",
     "bytes": 2817435,
     "sha256": "a83aea6bbd8058358e3e118f22939dc432265abdccad6d5e28ad265cfcb4ceef"
-  },
-  {
-    "path": "godot/assets/vesper_city_brass_candleholders_02_arm_2k.jpg.import",
-    "bytes": 1100,
-    "sha256": "324d93663a68b835df4da9ff9d25a13c15a8591c6f3e148ced4c561a7bc6edff"
   },
   {
     "path": "godot/assets/vesper_city_brass_candleholders_02_diff_2k.jpg",
@@ -2060,19 +1120,9 @@
     "sha256": "e3379942c5bd39b73c2434a1fbe1e78cb164894dcf18ea72099215ba5e4871ea"
   },
   {
-    "path": "godot/assets/vesper_city_brass_candleholders_02_diff_2k.jpg.import",
-    "bytes": 1103,
-    "sha256": "d6bb24b92dbc058c875703b0784875e23642fd4b511bf5a226f80d15fd3f1123"
-  },
-  {
     "path": "godot/assets/vesper_city_brass_candleholders_02_nor_gl_2k.jpg",
     "bytes": 2439207,
     "sha256": "451d0a61815ddf224d05ca54020fb84044965e9fe37e6369704d9c06646e4dbb"
-  },
-  {
-    "path": "godot/assets/vesper_city_brass_candleholders_02_nor_gl_2k.jpg.import",
-    "bytes": 1109,
-    "sha256": "25f0c375fe832a4095638042b3418a783706f2b8c2f70b919606bda971af493f"
   },
   {
     "path": "godot/assets/vesper_city_brass_candleholders_03_arm_2k.jpg",
@@ -2080,19 +1130,9 @@
     "sha256": "4c9c8833d85a912753167914039f2ffe95039e469058e6b92a97ed17fd73e3a8"
   },
   {
-    "path": "godot/assets/vesper_city_brass_candleholders_03_arm_2k.jpg.import",
-    "bytes": 1100,
-    "sha256": "69cc01766470e153a1e821621836cf129da4ee52045265d2832e8a530d26f896"
-  },
-  {
     "path": "godot/assets/vesper_city_brass_candleholders_03_diff_2k.jpg",
     "bytes": 3459883,
     "sha256": "c173c49d40df2c09654aa910bc66f8511ee26607eabaf069b49a80e6dd71c626"
-  },
-  {
-    "path": "godot/assets/vesper_city_brass_candleholders_03_diff_2k.jpg.import",
-    "bytes": 1103,
-    "sha256": "43bacd198d09741f5d5b6c3d1649607c8463510c11cf325a00dfdcc9a8005f6e"
   },
   {
     "path": "godot/assets/vesper_city_brass_candleholders_03_nor_gl_2k.jpg",
@@ -2100,19 +1140,9 @@
     "sha256": "b9bf98695e9d6f90d2425ed3c374dc3e16630ce14a0927f854a0c91bd05a9494"
   },
   {
-    "path": "godot/assets/vesper_city_brass_candleholders_03_nor_gl_2k.jpg.import",
-    "bytes": 1108,
-    "sha256": "4a761bad5102d06e4e3b693991f019cfcb140a16ba38c52ee6baa6be53ee34cf"
-  },
-  {
     "path": "godot/assets/vesper_city_brass_candleholders_candles_arm_2k.jpg",
     "bytes": 1040675,
     "sha256": "68b1e75fab09f2a7e90eb91113d45f850de0ba74e29ea9092076b02ed8a4b2f8"
-  },
-  {
-    "path": "godot/assets/vesper_city_brass_candleholders_candles_arm_2k.jpg.import",
-    "bytes": 1114,
-    "sha256": "d199e3654dabc9b06839722e43bd3e4a09cde663e4c168fceac08b1ce5d83366"
   },
   {
     "path": "godot/assets/vesper_city_brass_candleholders_candles_diff_2k.jpg",
@@ -2120,19 +1150,9 @@
     "sha256": "34c02390e4a811eac3b6f00b53ae020e97fbe2a2e7abec910579834195e91022"
   },
   {
-    "path": "godot/assets/vesper_city_brass_candleholders_candles_diff_2k.jpg.import",
-    "bytes": 1117,
-    "sha256": "337959cf22ae6fe42c61e081dd329dfabc4af78b9ede056395cbb85d3977e035"
-  },
-  {
     "path": "godot/assets/vesper_city_brass_candleholders_candles_nor_gl_2k.jpg",
     "bytes": 478106,
     "sha256": "62ee01bcd05f992200cde7ac2880e0746fd52886360be2cccf22f045daacb0fb"
-  },
-  {
-    "path": "godot/assets/vesper_city_brass_candleholders_candles_nor_gl_2k.jpg.import",
-    "bytes": 1124,
-    "sha256": "f2f6b368cf3c1f1505a7c14f446040a7609bfad924f9c9f9934eef42eab30689"
   },
   {
     "path": "godot/assets/vesper_city_brass_candleholders_flame_diff_2k.jpg",
@@ -2140,19 +1160,9 @@
     "sha256": "03093bd57d2bc993df88b657e3b94fcbf6ace3fe497ce6adfe6696995222d0ad"
   },
   {
-    "path": "godot/assets/vesper_city_brass_candleholders_flame_diff_2k.jpg.import",
-    "bytes": 1111,
-    "sha256": "8d3298818b1f53bf14723d0a3dbf1e742bccbb21b3b2f6f59570f5c37b68c0e9"
-  },
-  {
     "path": "godot/assets/vesper_city_brass_candleholders_flame_diff_2k_31.png",
     "bytes": 997245,
     "sha256": "800b44af0b8fa5b2155c6a20966e72388eaa7bf9047a4372c26f201098776ac2"
-  },
-  {
-    "path": "godot/assets/vesper_city_brass_candleholders_flame_diff_2k_31.png.import",
-    "bytes": 1120,
-    "sha256": "07b1e4391edb72828e239a838a0ae0a807b06c74879903a4ac352981dc68f17b"
   },
   {
     "path": "godot/assets/vesper_city_brown_planks_03_diff.jpg",
@@ -2160,19 +1170,9 @@
     "sha256": "8dfae22286fa9bb0ed62ce7326e8bc14c284e567d38fd64b5a453838080ecf19"
   },
   {
-    "path": "godot/assets/vesper_city_brown_planks_03_diff.jpg.import",
-    "bytes": 1073,
-    "sha256": "b1a369d3d92b01436ba8f9332f01766bb86c9c4d62e8e5ad6403f3027a745591"
-  },
-  {
     "path": "godot/assets/vesper_city_brown_planks_03_nor_gl.jpg",
     "bytes": 516860,
     "sha256": "868c153165ecaa7dd7259cb58214f06f6f86c80ac71fc92a827dff07708be077"
-  },
-  {
-    "path": "godot/assets/vesper_city_brown_planks_03_nor_gl.jpg.import",
-    "bytes": 1079,
-    "sha256": "d235c105d0ce76c2d67051f1368ab10a6a46b3c2350d7e94ab6caa63e4636984"
   },
   {
     "path": "godot/assets/vesper_city_brown_planks_03_rough.png",
@@ -2180,19 +1180,9 @@
     "sha256": "5faaaade1f89ad03a68eb0b331c73b895c6c79b5dd4296f9d36298ebb9459072"
   },
   {
-    "path": "godot/assets/vesper_city_brown_planks_03_rough.png.import",
-    "bytes": 1076,
-    "sha256": "c0d4ef6ccba7a337a685945479cd5a755be4b0d245a6fdb3d70335103ebe1366"
-  },
-  {
     "path": "godot/assets/vesper_city_clay_roof_tiles_03_diff.jpg",
     "bytes": 970368,
     "sha256": "6719293429932a27c8ed3526b22cd65d1cd1d43194ce30fa5f4590bb3c513844"
-  },
-  {
-    "path": "godot/assets/vesper_city_clay_roof_tiles_03_diff.jpg.import",
-    "bytes": 1080,
-    "sha256": "ab19cc277a6873243bb9bcde2e750b86b465f884d9d38316d1c190e96de53614"
   },
   {
     "path": "godot/assets/vesper_city_clay_roof_tiles_03_nor_gl.jpg",
@@ -2200,19 +1190,9 @@
     "sha256": "7db087939613b6b0ef1d0c21a3956eafcf7e9d0f146267290e409448f1adc17b"
   },
   {
-    "path": "godot/assets/vesper_city_clay_roof_tiles_03_nor_gl.jpg.import",
-    "bytes": 1088,
-    "sha256": "0f0357b78b72ddf7bb9fce2c91adda05dfe1bde2057a1548bc659ca624391fab"
-  },
-  {
     "path": "godot/assets/vesper_city_clay_roof_tiles_03_rough.png",
     "bytes": 842302,
     "sha256": "3b63826d17d2ed2d4fac0f2fbb5c49a359563b6c419f5d5f3f7d7c6b21940df7"
-  },
-  {
-    "path": "godot/assets/vesper_city_clay_roof_tiles_03_rough.png.import",
-    "bytes": 1085,
-    "sha256": "757d6578ba29d1a7fb2ebf09ed52b28fa89217e0a54c6f3b011ce168adb7bc9b"
   },
   {
     "path": "godot/assets/vesper_city_cobblestone_floor_02_diff.jpg",
@@ -2220,19 +1200,9 @@
     "sha256": "1a2d1f21ccff0f70cd181c28f529ce040c123b5c605cc0069f26450040bd6b40"
   },
   {
-    "path": "godot/assets/vesper_city_cobblestone_floor_02_diff.jpg.import",
-    "bytes": 1088,
-    "sha256": "8ee5e244381348aa55511a36c5abb823d56e94df09f3c9c06aa0228c8eb68a7e"
-  },
-  {
     "path": "godot/assets/vesper_city_cobblestone_floor_02_nor_gl.jpg",
     "bytes": 646806,
     "sha256": "3849d3d07b9de564a3b50c0878ce752502fd071f9b63cb6b2acea5d16de72606"
-  },
-  {
-    "path": "godot/assets/vesper_city_cobblestone_floor_02_nor_gl.jpg.import",
-    "bytes": 1093,
-    "sha256": "d8a67390a3831d069985bc45a61baf8b239a9c17b6e3a205f3b7f78aebb1e4b7"
   },
   {
     "path": "godot/assets/vesper_city_cobblestone_floor_02_rough.png",
@@ -2240,19 +1210,9 @@
     "sha256": "2b9cc386a10898dccac25964f34e02d83235d5eea26808a44b4aac1e8ac9af23"
   },
   {
-    "path": "godot/assets/vesper_city_cobblestone_floor_02_rough.png.import",
-    "bytes": 1091,
-    "sha256": "8ab587c78bab9a408a92fcba7750b52926bcadb3121c290e4415a8c49c4f5825"
-  },
-  {
     "path": "godot/assets/vesper_city_cobblestone_floor_08_diff.jpg",
     "bytes": 585727,
     "sha256": "ec131f7a99a1e7f9df25d4725609c55a6dad1df487630685e9a66ecbf41ec33a"
-  },
-  {
-    "path": "godot/assets/vesper_city_cobblestone_floor_08_diff.jpg.import",
-    "bytes": 1087,
-    "sha256": "09f690bfd7445b952965a636847956957c32ecb2ea6addd603b2ae41e7944f20"
   },
   {
     "path": "godot/assets/vesper_city_cobblestone_floor_08_nor_gl.jpg",
@@ -2260,19 +1220,9 @@
     "sha256": "26bfff70b266a4e86983814c7e56a9b48daf93cd34dcdc16a5db13e4fabcfbb6"
   },
   {
-    "path": "godot/assets/vesper_city_cobblestone_floor_08_nor_gl.jpg.import",
-    "bytes": 1094,
-    "sha256": "1bde58f70f11e2c967532b2352bfcedfd3ed5cba16793e04e58810ad36ea964f"
-  },
-  {
     "path": "godot/assets/vesper_city_cobblestone_floor_08_rough.png",
     "bytes": 1079897,
     "sha256": "a7b3b344c266c49f5680b6396431adafd505af5da53d67fce6300be2800a3406"
-  },
-  {
-    "path": "godot/assets/vesper_city_cobblestone_floor_08_rough.png.import",
-    "bytes": 1091,
-    "sha256": "584366eb7c6c9e994f83ad206021cde99360ce4eb07e2113067cba64c7631f9b"
   },
   {
     "path": "godot/assets/vesper_city_grey_roof_tiles_diff.jpg",
@@ -2280,19 +1230,9 @@
     "sha256": "f0ccddb07c8b21cd7825fd2c4cdf04cff23ec9fc52a92578122036ccf22a8a90"
   },
   {
-    "path": "godot/assets/vesper_city_grey_roof_tiles_diff.jpg.import",
-    "bytes": 1072,
-    "sha256": "97262196f07b78d0b44b56828910ea2183ea8eccf030a832ce13ac6030a4351e"
-  },
-  {
     "path": "godot/assets/vesper_city_grey_roof_tiles_nor_gl.jpg",
     "bytes": 1504796,
     "sha256": "e91134466a2aec440eae42ccef20f7055d87bf8caac208555eb1f069578eb29a"
-  },
-  {
-    "path": "godot/assets/vesper_city_grey_roof_tiles_nor_gl.jpg.import",
-    "bytes": 1079,
-    "sha256": "3aa50659f5970c80e3c1ed48e73e9d865578ad2707bab646492fb96a590329da"
   },
   {
     "path": "godot/assets/vesper_city_grey_roof_tiles_rough.png",
@@ -2300,19 +1240,9 @@
     "sha256": "fcac862c80ec5a999293a3f1dd9e782c61919bc9148b4e106ee26e5f8664d99a"
   },
   {
-    "path": "godot/assets/vesper_city_grey_roof_tiles_rough.png.import",
-    "bytes": 1076,
-    "sha256": "f69e13a2e7121ad4009743ec382c30a7805ce22f95dd698b5abfb0b7c96d0898"
-  },
-  {
     "path": "godot/assets/vesper_city_island_tree_02_arm_2k.jpg",
     "bytes": 2347246,
     "sha256": "89e20810f614231578314846acff92821249f4124f4aa6e2f630df45d7acb6b2"
-  },
-  {
-    "path": "godot/assets/vesper_city_island_tree_02_arm_2k.jpg.import",
-    "bytes": 1076,
-    "sha256": "c2d26821d03cbe9a52edc4d30669376b34dafb7b59bf15b6b19526500d2257c8"
   },
   {
     "path": "godot/assets/vesper_city_island_tree_02_branches_arm_2k.jpg",
@@ -2320,19 +1250,9 @@
     "sha256": "a39d8291ba54adf1ca42f15abe2f622d0ac59fb13c87087a0fabc755b91dfee8"
   },
   {
-    "path": "godot/assets/vesper_city_island_tree_02_branches_arm_2k.jpg.import",
-    "bytes": 1103,
-    "sha256": "6247304d0df7b803c19666013ea03f5d39783996541151a71f254b13aeec2ec2"
-  },
-  {
     "path": "godot/assets/vesper_city_island_tree_02_branches_diff_2k.jpg",
     "bytes": 1476655,
     "sha256": "52cb2c660983836249e3f31ad286ca1bab8033e93070569b23e1867e3ae70b4d"
-  },
-  {
-    "path": "godot/assets/vesper_city_island_tree_02_branches_diff_2k.jpg.import",
-    "bytes": 1105,
-    "sha256": "47ce82029a4d97f151c65a4fc832723eadb09f13d454bc04b7fe16f0e809dd69"
   },
   {
     "path": "godot/assets/vesper_city_island_tree_02_branches_nor_gl_2k.jpg",
@@ -2340,19 +1260,9 @@
     "sha256": "e4cac77b4f35ad47ba4fcdb9061f91acf3318d9889dd259cb5e6e132b0ab60c7"
   },
   {
-    "path": "godot/assets/vesper_city_island_tree_02_branches_nor_gl_2k.jpg.import",
-    "bytes": 1112,
-    "sha256": "dccf87aea77289ed1f9ddd2cf85654208595f72f53bc8574fa380ac27728d75f"
-  },
-  {
     "path": "godot/assets/vesper_city_island_tree_02_diff_2k.jpg",
     "bytes": 2684467,
     "sha256": "2ca2706adc5bde6bc46fa4a4680041a1797cf6684a31629259559935a97e0057"
-  },
-  {
-    "path": "godot/assets/vesper_city_island_tree_02_diff_2k.jpg.import",
-    "bytes": 1078,
-    "sha256": "c894c6a1778a8b2af8b6ae4cccd35a7342da04428b3eda0870a663e6be5ab4f2"
   },
   {
     "path": "godot/assets/vesper_city_island_tree_02_leaves_arm_2k.jpg",
@@ -2360,19 +1270,9 @@
     "sha256": "cf4d604711d955d74a13b656bdbf840015ac38a71e24821849efade730634cc6"
   },
   {
-    "path": "godot/assets/vesper_city_island_tree_02_leaves_arm_2k.jpg.import",
-    "bytes": 1097,
-    "sha256": "29350de4110952e6c2e879cc9c4c22856ad74b23a85606d1f167ac7ddf549a3e"
-  },
-  {
     "path": "godot/assets/vesper_city_island_tree_02_leaves_diff_2k.png",
     "bytes": 1741501,
     "sha256": "adca7dd51ff3db9c017845d9af68793a5975b88f0e1e9a93fc59b43d7bde42c2"
-  },
-  {
-    "path": "godot/assets/vesper_city_island_tree_02_leaves_diff_2k.png.import",
-    "bytes": 1099,
-    "sha256": "5aef246d76fe86172c5df0f9bb788c03f1e503ed4fad2cbc01f566841793b304"
   },
   {
     "path": "godot/assets/vesper_city_island_tree_02_leaves_nor_gl_2k.jpg",
@@ -2380,19 +1280,9 @@
     "sha256": "efa74b8b59a7466a295bf210505560002990183817b6c33663f3ec0dd438dd73"
   },
   {
-    "path": "godot/assets/vesper_city_island_tree_02_leaves_nor_gl_2k.jpg.import",
-    "bytes": 1105,
-    "sha256": "f2b5e0202dc352acb2963b98606f99aba04b1609f5ec7ac948e6360a31c91ccc"
-  },
-  {
     "path": "godot/assets/vesper_city_island_tree_02_nor_gl_2k.jpg",
     "bytes": 4339456,
     "sha256": "3b088058cd9c8759f1ee223fad90f860257f574ae2ba7401cd4982c687b853cf"
-  },
-  {
-    "path": "godot/assets/vesper_city_island_tree_02_nor_gl_2k.jpg.import",
-    "bytes": 1084,
-    "sha256": "0790e208c9a3b1b8494cbc0b6c4f79df92b2794956c90422c83b180cf2ff47d6"
   },
   {
     "path": "godot/assets/vesper_city_leafy_grass_diff.jpg",
@@ -2400,19 +1290,9 @@
     "sha256": "8e1c6d21365d4b89bc5a35ab664da98a78dbc3ab9ba6100474881c8619a5b113"
   },
   {
-    "path": "godot/assets/vesper_city_leafy_grass_diff.jpg.import",
-    "bytes": 1061,
-    "sha256": "1cef7270c820849ca8bcac5d6dd26033c8a00d28092d6a1c429fbaba27d67c98"
-  },
-  {
     "path": "godot/assets/vesper_city_leafy_grass_nor_gl.jpg",
     "bytes": 6047262,
     "sha256": "df0cf0ce96e653f033e5b934d5b12995464bda027aa53bd12e329be889aa9f45"
-  },
-  {
-    "path": "godot/assets/vesper_city_leafy_grass_nor_gl.jpg.import",
-    "bytes": 1067,
-    "sha256": "fc64e3273b3d50d138ccd638de85d90849ca99f33927711ae9e4acd23c8f212b"
   },
   {
     "path": "godot/assets/vesper_city_leafy_grass_rough.png",
@@ -2420,19 +1300,9 @@
     "sha256": "2b0736cf5e0ed74dc33470c801d7dcad29c8c0fed845fcbcb5408b81e0a4c811"
   },
   {
-    "path": "godot/assets/vesper_city_leafy_grass_rough.png.import",
-    "bytes": 1064,
-    "sha256": "b4dd90c919eca8e18cb4d5856dcd1778f50e61e2f1dc2a4485efa773cd05eb7f"
-  },
-  {
     "path": "godot/assets/vesper_city_medieval_blocks_03_diff.jpg",
     "bytes": 954113,
     "sha256": "3852b4a60e0f62d2914c895f884df8d58d8d12d788851d814859dae05b7620cf"
-  },
-  {
-    "path": "godot/assets/vesper_city_medieval_blocks_03_diff.jpg.import",
-    "bytes": 1081,
-    "sha256": "d8a8aef1261ed8448b4fd1185d68c2df2bd7dd3af1e411971d1487969598eb8c"
   },
   {
     "path": "godot/assets/vesper_city_medieval_blocks_03_nor_gl.jpg",
@@ -2440,19 +1310,9 @@
     "sha256": "52350ed4b577c9fd6b03effda069181ca0ed39ee99d88b912685266f6270c943"
   },
   {
-    "path": "godot/assets/vesper_city_medieval_blocks_03_nor_gl.jpg.import",
-    "bytes": 1088,
-    "sha256": "f6e94e857d80cfe7c899612574056171b029fe0adf4779c152e7bd1a4a66953f"
-  },
-  {
     "path": "godot/assets/vesper_city_medieval_blocks_03_rough.png",
     "bytes": 869491,
     "sha256": "3c5b5222cee712823929bf0a3094bb4acb872d1659eca981b3c5bb08b8465325"
-  },
-  {
-    "path": "godot/assets/vesper_city_medieval_blocks_03_rough.png.import",
-    "bytes": 1085,
-    "sha256": "84c9fa05d7fa4caf66325bdb4b43e2cca7f07d1fad76857cbe2d2e053fb31b1d"
   },
   {
     "path": "godot/assets/vesper_city_medieval_wall_02_diff.jpg",
@@ -2460,19 +1320,9 @@
     "sha256": "0e8a24e36cd10da57b69f71874816ff77671c5909424e99ebda196515a23829d"
   },
   {
-    "path": "godot/assets/vesper_city_medieval_wall_02_diff.jpg.import",
-    "bytes": 1076,
-    "sha256": "54deb94edbc08ddf4fa5c37ff2110e72efc93ecc1446ef804e44591b1b2365b4"
-  },
-  {
     "path": "godot/assets/vesper_city_medieval_wall_02_nor_gl.jpg",
     "bytes": 4513527,
     "sha256": "d0ba0bb6e41d6601d0e9d5eb04310fbcb2903e1e12b986e4514e7c89396e719c"
-  },
-  {
-    "path": "godot/assets/vesper_city_medieval_wall_02_nor_gl.jpg.import",
-    "bytes": 1081,
-    "sha256": "eeedd4b7f66b873fc6572b7836370fc2ae098ebf03df0864874052e94f03a1f1"
   },
   {
     "path": "godot/assets/vesper_city_medieval_wall_02_rough.png",
@@ -2480,19 +1330,9 @@
     "sha256": "f02dbf7e44f7df647fa6cb43949f60d57581c81591a1c20f83edd035bd66abc0"
   },
   {
-    "path": "godot/assets/vesper_city_medieval_wall_02_rough.png.import",
-    "bytes": 1078,
-    "sha256": "256194dee663b673333f334985da680bef146eabf1b59795205145004f462669"
-  },
-  {
     "path": "godot/assets/vesper_city_plastered_stone_wall_diff.jpg",
     "bytes": 680077,
     "sha256": "b86e9a408aac5b493c31a4ec221e5022b0b704d2f51596006f7d6840a6a3300a"
-  },
-  {
-    "path": "godot/assets/vesper_city_plastered_stone_wall_diff.jpg.import",
-    "bytes": 1087,
-    "sha256": "6f761246101cad270de32fcaa962cf713a48143b328500a5a3e542c5b10b2364"
   },
   {
     "path": "godot/assets/vesper_city_plastered_stone_wall_nor_gl.jpg",
@@ -2500,19 +1340,9 @@
     "sha256": "c64dc8d1ad382b8832e430e738f099343ed959b7ae7d9390919a497536d1191e"
   },
   {
-    "path": "godot/assets/vesper_city_plastered_stone_wall_nor_gl.jpg.import",
-    "bytes": 1094,
-    "sha256": "b414b87182ac091d4687abf3d0d0f7bfbc8dd577391c1460c6f1ec14bc6b9d14"
-  },
-  {
     "path": "godot/assets/vesper_city_plastered_stone_wall_rough.png",
     "bytes": 933952,
     "sha256": "05aec1ee3453281908f98a6452ba70ba8b4a966b0dbacac4738754d139460ed4"
-  },
-  {
-    "path": "godot/assets/vesper_city_plastered_stone_wall_rough.png.import",
-    "bytes": 1091,
-    "sha256": "7d060bb8c2ebdbf115a8a84f76dff0fbbfb5302c68e372a942cf2bade9832cfe"
   },
   {
     "path": "godot/assets/vesper_city_plastered_wall_02_diff.jpg",
@@ -2520,19 +1350,9 @@
     "sha256": "0a316ffd3f953a902325c06afb5a5863bbf71d13a353f9d85378562adca79603"
   },
   {
-    "path": "godot/assets/vesper_city_plastered_wall_02_diff.jpg.import",
-    "bytes": 1079,
-    "sha256": "b45fef847945c122345ead5e84c655d16c7184c8e38eb7815426355276bf13b9"
-  },
-  {
     "path": "godot/assets/vesper_city_plastered_wall_02_nor_gl.jpg",
     "bytes": 960241,
     "sha256": "0f1b4ea0c4707ea133f133c020923bddd8610a43a153281dad15d49f39ad9624"
-  },
-  {
-    "path": "godot/assets/vesper_city_plastered_wall_02_nor_gl.jpg.import",
-    "bytes": 1085,
-    "sha256": "a200e4abc5ffa1d883bed4325dc687cc0eed0e105a2690492843d7a472bdcd3a"
   },
   {
     "path": "godot/assets/vesper_city_plastered_wall_02_rough.png",
@@ -2540,19 +1360,9 @@
     "sha256": "cadadcff6d7bd99561e70a230b25a73ea9cb584e988de3a53ec5db9cad6695fa"
   },
   {
-    "path": "godot/assets/vesper_city_plastered_wall_02_rough.png.import",
-    "bytes": 1082,
-    "sha256": "9cc65d0e9bf02df9206e13786ff1b16c4784a648e1d99778ff0a46d1d6e631fb"
-  },
-  {
     "path": "godot/assets/vesper_city_treasure_chest_arm_2k.jpg",
     "bytes": 3384411,
     "sha256": "f232d968ee8a57a3fecf253c32e5bb8f69ef20b804df11432b74c4603d160066"
-  },
-  {
-    "path": "godot/assets/vesper_city_treasure_chest_arm_2k.jpg.import",
-    "bytes": 1076,
-    "sha256": "1afc47c4561f392297ffcd11dddcbd1ae03f8ba433145d54adadc7a08a36b6d9"
   },
   {
     "path": "godot/assets/vesper_city_treasure_chest_diff_2k.jpg",
@@ -2560,19 +1370,9 @@
     "sha256": "d3e30f10911677b72e4aa1975cae984dee80bdad30c7b6fe29cb9c1f7e3be222"
   },
   {
-    "path": "godot/assets/vesper_city_treasure_chest_diff_2k.jpg.import",
-    "bytes": 1079,
-    "sha256": "837a8b012edb20b0981afd5d73c2a1b0a50d865aba8a172c948f2d2ac9da5a28"
-  },
-  {
     "path": "godot/assets/vesper_city_treasure_chest_nor_gl_2k.jpg",
     "bytes": 3805947,
     "sha256": "21fc97fd8ce65f07db325eb69d9503c4eec0f85760a623bb0d3ff46fcb6800df"
-  },
-  {
-    "path": "godot/assets/vesper_city_treasure_chest_nor_gl_2k.jpg.import",
-    "bytes": 1085,
-    "sha256": "8306ebfeb3f7e0e23d3a65fca7f8bedcb903161207f1c7127d89dbfbc1fe145d"
   },
   {
     "path": "godot/assets/vesper_city_tree_small_02_arm_2k.jpg",
@@ -2580,19 +1380,9 @@
     "sha256": "e96b4e84e9786b982d01562e0d249f6e58db1b656dd511db7c034d6ed60b1c92"
   },
   {
-    "path": "godot/assets/vesper_city_tree_small_02_arm_2k.jpg.import",
-    "bytes": 1072,
-    "sha256": "eac68f415193fd6c885af75058cb8cde320e418a458ce96d05413e89d19a0c2e"
-  },
-  {
     "path": "godot/assets/vesper_city_tree_small_02_branch_arm_2k.jpg",
     "bytes": 1147503,
     "sha256": "82da928cc4e8a45c559f6abe8053227c7ae6cc14eb8d026a30c203aedd087042"
-  },
-  {
-    "path": "godot/assets/vesper_city_tree_small_02_branch_arm_2k.jpg.import",
-    "bytes": 1094,
-    "sha256": "ff3fd624aa82f7e65825e17d7c40847e34bbe97427fbb3e154923d4de6ffce1e"
   },
   {
     "path": "godot/assets/vesper_city_tree_small_02_branch_diff_2k.jpg",
@@ -2600,19 +1390,9 @@
     "sha256": "9032de9e063ee7e3763a6b10d19d89302f5776e85a966b6dd1c3a5634b2a80e1"
   },
   {
-    "path": "godot/assets/vesper_city_tree_small_02_branch_diff_2k.jpg.import",
-    "bytes": 1097,
-    "sha256": "29fe97b540e4323b136f3f660ebbbec453ff86b71b6ada694d174d212289897e"
-  },
-  {
     "path": "godot/assets/vesper_city_tree_small_02_branch_nor_gl_2k.jpg",
     "bytes": 1781975,
     "sha256": "368505992d867bb50eccc00d77940a7a3eaf32f42de9f536d105407b0d6df3fd"
-  },
-  {
-    "path": "godot/assets/vesper_city_tree_small_02_branch_nor_gl_2k.jpg.import",
-    "bytes": 1102,
-    "sha256": "3a7aa8d212c4fb3c48a402c9eb90e324a5a03f27afa00d9cf2da5f7ba63ec96d"
   },
   {
     "path": "godot/assets/vesper_city_tree_small_02_diff_2k.jpg",
@@ -2620,19 +1400,9 @@
     "sha256": "4ab3210b6ec6bb1181145500bca71d1c1f81ead6baaa8600f5979c2cec50c6a4"
   },
   {
-    "path": "godot/assets/vesper_city_tree_small_02_diff_2k.jpg.import",
-    "bytes": 1076,
-    "sha256": "b2079deeb3505c11f1e63f4b8ae0833f830b13f6977bc473a88e7626f1bbb4da"
-  },
-  {
     "path": "godot/assets/vesper_city_tree_small_02_leaves_arm_2k.jpg",
     "bytes": 2191542,
     "sha256": "a126c0d92b60c44c0664e4d3651831970e259b0d5a1fb39ebb67081cbecaca96"
-  },
-  {
-    "path": "godot/assets/vesper_city_tree_small_02_leaves_arm_2k.jpg.import",
-    "bytes": 1094,
-    "sha256": "8c458c1331f4dbfbfa9caa4ddafc42c0fab4ecd74394faf1498ee431af8a4963"
   },
   {
     "path": "godot/assets/vesper_city_tree_small_02_leaves_diff_2k.png",
@@ -2640,19 +1410,9 @@
     "sha256": "979d317c06bea7125597435ea3716a99fab5b612642d66effd09db258773a102"
   },
   {
-    "path": "godot/assets/vesper_city_tree_small_02_leaves_diff_2k.png.import",
-    "bytes": 1097,
-    "sha256": "bebd53196ba20de4d0b9c26491fd8e37d07c04766c0df47111f5bcad7c5cffe8"
-  },
-  {
     "path": "godot/assets/vesper_city_tree_small_02_leaves_nor_gl_2k.jpg",
     "bytes": 2395771,
     "sha256": "40c956e345430562cdb4d0470c7d499aa160f1fa3dd7555d88be2dedf0d7ff2e"
-  },
-  {
-    "path": "godot/assets/vesper_city_tree_small_02_leaves_nor_gl_2k.jpg.import",
-    "bytes": 1103,
-    "sha256": "e650b85b3e9306d0b2d44f7c88ef3085b89832f3e8f276f9dc10861a36889047"
   },
   {
     "path": "godot/assets/vesper_city_tree_small_02_nor_gl_2k.jpg",
@@ -2660,19 +1420,9 @@
     "sha256": "cb7897fc0aea602964836116ecf631614ece2970f579647fe1070bccb428fe89"
   },
   {
-    "path": "godot/assets/vesper_city_tree_small_02_nor_gl_2k.jpg.import",
-    "bytes": 1082,
-    "sha256": "0cd76eacb2e1f9cc88f9b06e455a51388c9d564eb4e04ec555f76b4c6f36ecb4"
-  },
-  {
     "path": "godot/assets/vesper_city_wooden_bookshelf_worn_arm_2k.jpg",
     "bytes": 2749576,
     "sha256": "e61cb355df38ab67feaf9df9e898703cb99d93e33b86028c87d0947f2b7664c0"
-  },
-  {
-    "path": "godot/assets/vesper_city_wooden_bookshelf_worn_arm_2k.jpg.import",
-    "bytes": 1097,
-    "sha256": "a3629460f38ec42ca424ae9756329f896f1a18d74a9664a94b1e8c6a6f5b1701"
   },
   {
     "path": "godot/assets/vesper_city_wooden_bookshelf_worn_diff_2k.jpg",
@@ -2680,19 +1430,9 @@
     "sha256": "2a6b9d7bff3a02aaa07cb9de30f57673bdc4b8c43ed50c95f4bb7eeaed3a5468"
   },
   {
-    "path": "godot/assets/vesper_city_wooden_bookshelf_worn_diff_2k.jpg.import",
-    "bytes": 1099,
-    "sha256": "a0dd982b0591146706acf1b90dcf77a3b90969a4f3da7822417da8153133bfff"
-  },
-  {
     "path": "godot/assets/vesper_city_wooden_bookshelf_worn_nor_gl_2k.jpg",
     "bytes": 4101268,
     "sha256": "90f575dc0623901240c54a1b617833584f1f18e56b6f1ddd11a6a04e84c62b07"
-  },
-  {
-    "path": "godot/assets/vesper_city_wooden_bookshelf_worn_nor_gl_2k.jpg.import",
-    "bytes": 1106,
-    "sha256": "f20b5ea6940eb928d2829d02c5d99393faeb5e7c67c5d3cd35d7ff56076ffd38"
   },
   {
     "path": "godot/assets/vesper_city_WoodenChair_01_arm_2k.jpg",
@@ -2700,19 +1440,9 @@
     "sha256": "82cc24a3859aedb7e898aa935c9e106994af94302f2182d04e0c37534687e572"
   },
   {
-    "path": "godot/assets/vesper_city_WoodenChair_01_arm_2k.jpg.import",
-    "bytes": 1076,
-    "sha256": "43ed7f127bc40dc021667ab0f89e625c6cd916dd79bf1253a2d08bbc81458502"
-  },
-  {
     "path": "godot/assets/vesper_city_WoodenChair_01_diff_2k.jpg",
     "bytes": 529310,
     "sha256": "0a542d26b33bc66bb25c5c03d358aef102a7c59daf1d66b87b326706575f0b77"
-  },
-  {
-    "path": "godot/assets/vesper_city_WoodenChair_01_diff_2k.jpg.import",
-    "bytes": 1079,
-    "sha256": "d7128d3b766b2e39d2eceb4991b8c4e65995a471ccb1cf03f58c2917145bcd53"
   },
   {
     "path": "godot/assets/vesper_city_WoodenChair_01_nor_gl_2k.jpg",
@@ -2720,19 +1450,9 @@
     "sha256": "6485d80a91e96ce4ac402469e97a5093c8494f4c482538562dc5f395947b3ebf"
   },
   {
-    "path": "godot/assets/vesper_city_WoodenChair_01_nor_gl_2k.jpg.import",
-    "bytes": 1085,
-    "sha256": "45127c266cb6ba105b80f0f9f27ea83e614f9799ce52464e3a36271bc373df35"
-  },
-  {
     "path": "godot/assets/vesper_city_WoodenTable_01_arm_2k.jpg",
     "bytes": 744344,
     "sha256": "7551f1c235f39577e18ba5d7af2c70eb5a7252e4e506794f9e8166e80525188a"
-  },
-  {
-    "path": "godot/assets/vesper_city_WoodenTable_01_arm_2k.jpg.import",
-    "bytes": 1076,
-    "sha256": "f1859886cf5085a86f310cd0c5ae38d7165d70c56eb67faefd17591632f59a15"
   },
   {
     "path": "godot/assets/vesper_city_WoodenTable_01_diff_2k.jpg",
@@ -2740,18 +1460,913 @@
     "sha256": "3bde4f1a9af22eea8a00a6137dd6054839146a6fb1efea98bdd3a81f2c829946"
   },
   {
-    "path": "godot/assets/vesper_city_WoodenTable_01_diff_2k.jpg.import",
-    "bytes": 1078,
-    "sha256": "63ec5e3034181a800535f6d82830aad41b5ab44fad5d56a9c27bd860eb53eed8"
-  },
-  {
     "path": "godot/assets/vesper_city_WoodenTable_01_nor_gl_2k.jpg",
     "bytes": 497296,
     "sha256": "b82b89d11ccdea7c53f99f89b4cb1414d5a8b39701f38e11b890790ece069048"
   },
   {
-    "path": "godot/assets/vesper_city_WoodenTable_01_nor_gl_2k.jpg.import",
-    "bytes": 1084,
-    "sha256": "67f37492c696f3669f262eaa7a1105e9527c1f5654ed7f8390fb193a65d1e155"
+    "path": "godot/assets/voices/baking_0.wav",
+    "bytes": 174124,
+    "sha256": "767fe0c61465c5776cfd3768b810a42747fcca3e50f84f41d7ca5c8e8021b343"
+  },
+  {
+    "path": "godot/assets/voices/baking_1.wav",
+    "bytes": 166956,
+    "sha256": "05803cd12e09bb55fca33da51c8978abaf8afac242b6363d7fa10d9ebac8080f"
+  },
+  {
+    "path": "godot/assets/voices/bank_0.wav",
+    "bytes": 293932,
+    "sha256": "2ae95a43a355b02fec09a6e6e08519e584b8116ecca3ca862fb3a6d8376eaed0"
+  },
+  {
+    "path": "godot/assets/voices/bank_1.wav",
+    "bytes": 308268,
+    "sha256": "ae52a8b6eb3d2de89ee0aa8a460c575be691ca245ad9482bf62f2803aed22cc5"
+  },
+  {
+    "path": "godot/assets/voices/bread_arrival_0.wav",
+    "bytes": 226348,
+    "sha256": "e42d8c31500cb190ba7e787b0218c94448ccf8bb003d6b5ee7f3017a99e85662"
+  },
+  {
+    "path": "godot/assets/voices/bread_arrival_1.wav",
+    "bytes": 219180,
+    "sha256": "af752367283c5e4363cfd4f29459acae34495853947112d91091efee9cdb6728"
+  },
+  {
+    "path": "godot/assets/voices/bread_handover_0.wav",
+    "bytes": 207916,
+    "sha256": "73d6f522df3df0a205d1f6cb214361eb6b994c7aefc5bbba53ad957da930e361"
+  },
+  {
+    "path": "godot/assets/voices/bread_handover_1.wav",
+    "bytes": 173100,
+    "sha256": "868a66c921dd9450aea051d94627c806a00ef044a7b08b85316c6d23621e50d8"
+  },
+  {
+    "path": "godot/assets/voices/bread_news_0.wav",
+    "bytes": 327724,
+    "sha256": "7c47a6abedc3195be24e10cb60cbc2604b78bab74bc5eb51866908632e34639c"
+  },
+  {
+    "path": "godot/assets/voices/bread_news_1.wav",
+    "bytes": 282668,
+    "sha256": "ced823f13fd979cf5892109dcae1d0f649355a57c4c213d0db3741493a9c1114"
+  },
+  {
+    "path": "godot/assets/voices/bread_open_0.wav",
+    "bytes": 295980,
+    "sha256": "cad92ebde0d29758358734ae6429031ed3e2bf222122b4865d8628f2b59dd9da"
+  },
+  {
+    "path": "godot/assets/voices/bread_pickup_0.wav",
+    "bytes": 198700,
+    "sha256": "bfaaaadc97c72ed728f62c60f314db10b43778088d0876ddb482dc2b20b36b4c"
+  },
+  {
+    "path": "godot/assets/voices/bread_pickup_1.wav",
+    "bytes": 198700,
+    "sha256": "deb933be181619579d2956f6830f798616a853d49a9d309bf6163bdebde94f7d"
+  },
+  {
+    "path": "godot/assets/voices/bread_thanks_0.wav",
+    "bytes": 251948,
+    "sha256": "5ba5a764f5e1bbc9381ce528b5fd48d0015c4d73e73efcd1e0b5f2ff1b25ee22"
+  },
+  {
+    "path": "godot/assets/voices/bread_thanks_1.wav",
+    "bytes": 239660,
+    "sha256": "d1b48fc5bd926ebe7fda87c142b05afcb6edacdf5a249ce574e799796cbc2c28"
+  },
+  {
+    "path": "godot/assets/voices/chat_baker_0.wav",
+    "bytes": 191532,
+    "sha256": "306f546aecdcb952c3a5e28727344ff89f8e450c483bf0b09225997d5bcbac2b"
+  },
+  {
+    "path": "godot/assets/voices/chat_baker_1.wav",
+    "bytes": 145452,
+    "sha256": "9dabbea8e6993c57cd4ac1ff56de2338108b3a01d7146bc0536c075d87e1e3e5"
+  },
+  {
+    "path": "godot/assets/voices/chat_banker_0.wav",
+    "bytes": 229420,
+    "sha256": "44e795d6dcbd84d6a47e6023773c5b9d0713c7bdf096cd9c41b77314cb6b6e44"
+  },
+  {
+    "path": "godot/assets/voices/chat_banker_1.wav",
+    "bytes": 134188,
+    "sha256": "1b42ec97eeb8f8ad6ee2fa0da9a941913d36ca43aacfe666ebc35c532d79c99a"
+  },
+  {
+    "path": "godot/assets/voices/chat_barkeep_0.wav",
+    "bytes": 241708,
+    "sha256": "fdeced10d64fd8ef8b7d316f754d2974bd4c9e75987e4c03a07615f41afef7d4"
+  },
+  {
+    "path": "godot/assets/voices/chat_barkeep_1.wav",
+    "bytes": 222252,
+    "sha256": "457d74c377ef0f67fc5d0edf647c4be937e6d208954e1ce7b16ae00c70f1bc33"
+  },
+  {
+    "path": "godot/assets/voices/chat_crier_0.wav",
+    "bytes": 245804,
+    "sha256": "9c6ce7c4cfcdd0fc770444b2465adbb3853b25836f7837da309719d0d9288e5e"
+  },
+  {
+    "path": "godot/assets/voices/chat_crier_1.wav",
+    "bytes": 172076,
+    "sha256": "ac2f3508e25ebe1f0143dec01852f2d435401462da498e1d54f358a7c22cf2ad"
+  },
+  {
+    "path": "godot/assets/voices/chat_curator_0.wav",
+    "bytes": 235564,
+    "sha256": "e501a1a5d3b617d3c6297732db3d2f2a695b4bf6ca236658a764d95af87e930d"
+  },
+  {
+    "path": "godot/assets/voices/chat_curator_1.wav",
+    "bytes": 139308,
+    "sha256": "57a7c4e76a5467a00faff5cb11c348e97e7bd66dfdbc4c8c34d43a6ef01d8a61"
+  },
+  {
+    "path": "godot/assets/voices/chat_elowen_0.wav",
+    "bytes": 200748,
+    "sha256": "db9bb34327625a734a63a1ea97df02e94725f9da0d269488eebe17d2d2cfbe73"
+  },
+  {
+    "path": "godot/assets/voices/chat_elowen_1.wav",
+    "bytes": 129068,
+    "sha256": "6ddc2452935104d343a9bd60eed3218512e4c8914f14c5de377a32bb94d3d1ed"
+  },
+  {
+    "path": "godot/assets/voices/chat_fisherman_0.wav",
+    "bytes": 195628,
+    "sha256": "8fdef1753305e51ed6b70119a652c461e20503a2bf3caf9ca8a43f6ac93ca37b"
+  },
+  {
+    "path": "godot/assets/voices/chat_fisherman_1.wav",
+    "bytes": 179244,
+    "sha256": "7570c50b05d8b7c721ec264862d7532d487536b63bb5ebc35476a89f57c4ed0b"
+  },
+  {
+    "path": "godot/assets/voices/chat_healer_0.wav",
+    "bytes": 193580,
+    "sha256": "bd9e9f02df39d824e37100ea010ddff98ed3e7578117ecdc1752938af6fd4416"
+  },
+  {
+    "path": "godot/assets/voices/chat_healer_1.wav",
+    "bytes": 146476,
+    "sha256": "d970c4a23f81917751e060e9953b2dd4433f86a3cc27c8fc9a5af4c127b1a14f"
+  },
+  {
+    "path": "godot/assets/voices/chat_innkeeper_0.wav",
+    "bytes": 198700,
+    "sha256": "2aef21591e745fee12aaf480cc47e86812c13d52f95ad5acc3f2478d4161bed6"
+  },
+  {
+    "path": "godot/assets/voices/chat_innkeeper_1.wav",
+    "bytes": 145452,
+    "sha256": "af5ba2fedd410363cd59bbe7d8f7046bad8ff70575f16a4e9687c03d1fceda43"
+  },
+  {
+    "path": "godot/assets/voices/chat_joiner_0.wav",
+    "bytes": 247852,
+    "sha256": "18b9fba953bfd5f6c9fdb58334cb30e302a8ec40042e20983061891b4d5bf960"
+  },
+  {
+    "path": "godot/assets/voices/chat_joiner_1.wav",
+    "bytes": 146476,
+    "sha256": "1300a7de44113d6d9364cb1da9e7605c60ef819fbfa62e72a6c24ec0f4a59356"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_0_0.wav",
+    "bytes": 243756,
+    "sha256": "abdfc1465f97ebe22f2d2be2af1732d5e135d707c6bb8b535f1f9698257b1c3c"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_0_1.wav",
+    "bytes": 139308,
+    "sha256": "7601baea7d9fb22c811ede12eb8be848b46b79009c0f8e1c227ea3c6165d432f"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_1_0.wav",
+    "bytes": 210988,
+    "sha256": "299436f2e51e03a776a2cf5b3d56f958e3b593039e1c8d972416d18c2a110801"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_1_1.wav",
+    "bytes": 110636,
+    "sha256": "e57edac1b6c7c6d729c806f04860be9faf3e5b470e149dc40f227cf3c59ece02"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_2_0.wav",
+    "bytes": 202796,
+    "sha256": "55193294297cfd23b78310bd9dcc6dd2984470f86381ec5bd4b258f25e17f4d6"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_2_1.wav",
+    "bytes": 134188,
+    "sha256": "ac1e4935246056620285ac8cc8d291f36810b2874209b4cd5a145c05f0e55f70"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_3_0.wav",
+    "bytes": 199724,
+    "sha256": "fa92260f0a21b51f78e16e9ff69e8b46e3300f88ba92a801abddd5585e0d6398"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_3_1.wav",
+    "bytes": 150572,
+    "sha256": "1eb5d88b9503393e80f1b14d224bb9575ff1b96ac3c026a85e282a52ed5cbb86"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_4_0.wav",
+    "bytes": 208940,
+    "sha256": "c7ebb003cde3c076a340531ec70a7c8c33ff6d02ca192a140e3036655dbe5dcc"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_4_1.wav",
+    "bytes": 183340,
+    "sha256": "c4806b3376289834e5a53b5158f3049708338a0673eb6b114181e7d802b648c7"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_5_0.wav",
+    "bytes": 236588,
+    "sha256": "5e1fab425c4626121d8c65ef4c6b7b531a2725d0699514a87120f51c6752990c"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_5_1.wav",
+    "bytes": 207916,
+    "sha256": "b143acf4937a27c488cdd890f1e1656c54b32ac5e766994d77210951222c8920"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_6_0.wav",
+    "bytes": 219180,
+    "sha256": "38245a411dada2fb31f122b3659fcc043d0935a2f603552979899d73db446e44"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_6_1.wav",
+    "bytes": 131116,
+    "sha256": "5354426f349bba21d80a1ff086e1ba406279497298268953538b705ef7fc70c0"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_7_0.wav",
+    "bytes": 241708,
+    "sha256": "4ef243a3317a85ea79f5f3b98e94dadaa51cea02b1e2e65592aa369d3f9f35e1"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_7_1.wav",
+    "bytes": 133164,
+    "sha256": "6a96616766b3d4962ee514c9e9b2850c998e728c3416e659eb37a53b8a82b3cd"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_8_0.wav",
+    "bytes": 155692,
+    "sha256": "4d94a5085860abbf5cba003a5925c2feea4da7e62fdac8c8928d9e0d49787e32"
+  },
+  {
+    "path": "godot/assets/voices/chat_neighbour_8_1.wav",
+    "bytes": 105516,
+    "sha256": "327ab0cabc16eddd14096c8ee66602ac1b852411f9c3973ca97903f30891197b"
+  },
+  {
+    "path": "godot/assets/voices/chat_resident_living_0.wav",
+    "bytes": 190508,
+    "sha256": "9463b39f1373379a4baf4ffa595532a4b1b196390f67dc51f0c5293acc6124b1"
+  },
+  {
+    "path": "godot/assets/voices/chat_resident_living_1.wav",
+    "bytes": 104492,
+    "sha256": "6adf0b0273cd36be24fc1b8345fb0811a7f28ff4f43be7bb8da6d279965755d9"
+  },
+  {
+    "path": "godot/assets/voices/chat_shipwright_0.wav",
+    "bytes": 192556,
+    "sha256": "a1e6760e71e7dc90ea4399c92dad9bd2e268c823c33b18f48552bfbdb270dd44"
+  },
+  {
+    "path": "godot/assets/voices/chat_shipwright_1.wav",
+    "bytes": 162860,
+    "sha256": "06ef643eff3fbd0bfdb6efbe9cb15fe417d5f73da9c12afab6a2292a6fff94f2"
+  },
+  {
+    "path": "godot/assets/voices/courier_accept_0.wav",
+    "bytes": 192556,
+    "sha256": "1fe625e087254d2af65fd469627da5b2cff08d77268a12866e7501ff7d199982"
+  },
+  {
+    "path": "godot/assets/voices/courier_accept_1.wav",
+    "bytes": 192556,
+    "sha256": "f2593edcabbfa15174a06ce87530d0525fd5938707750f6fad83cb53095a49a5"
+  },
+  {
+    "path": "godot/assets/voices/courier_report_0.wav",
+    "bytes": 214060,
+    "sha256": "6666fbd33851bfa4cc289e11d038e9b519614728ee32d10dd5d55319ffc0df59"
+  },
+  {
+    "path": "godot/assets/voices/courier_request_0.wav",
+    "bytes": 277548,
+    "sha256": "7b3f6fc487ec9747232d6a47cf3377f27bb0febdc10883cb9def5eb79a94308e"
+  },
+  {
+    "path": "godot/assets/voices/fish_news_0.wav",
+    "bytes": 330796,
+    "sha256": "28334b67a2c18384768d6f1d23a9ca598a55ed2ea1f07bb5eb941eafc7b3e8d8"
+  },
+  {
+    "path": "godot/assets/voices/fish_news_1.wav",
+    "bytes": 308268,
+    "sha256": "fa92e39de42815e4a58f21284cd2c8149a5f84a4476a88054f3e1e65eb88dab8"
+  },
+  {
+    "path": "godot/assets/voices/fish_offer_0.wav",
+    "bytes": 194604,
+    "sha256": "3ed91c920851082519dfb0ac354fbb2281d8cd6a290e661366ebd560e183f9f7"
+  },
+  {
+    "path": "godot/assets/voices/fish_offer_1.wav",
+    "bytes": 166956,
+    "sha256": "6a5e4dfc51eb96f62781cefcd7896d10c89638564d39b2cb2cc1b72b51eba0b8"
+  },
+  {
+    "path": "godot/assets/voices/fish_promise_0.wav",
+    "bytes": 208940,
+    "sha256": "102a77f957054a36155801f215df9e160592b6c8a36d1baf8173706d6f079494"
+  },
+  {
+    "path": "godot/assets/voices/fish_promise_1.wav",
+    "bytes": 215084,
+    "sha256": "7fd7430e9728b3cdf0476c289959bce252e2be45aac6c9e6cb35b8d7c49cec40"
+  },
+  {
+    "path": "godot/assets/voices/fish_thanks_0.wav",
+    "bytes": 310316,
+    "sha256": "a0e7c967cde56936eb16b8ef32fa204e80b6af20db75da76bc427a4629f8ebee"
+  },
+  {
+    "path": "godot/assets/voices/fish_thanks_1.wav",
+    "bytes": 224300,
+    "sha256": "5489487ca5ff93c395bbf31567483050a135541f921f8a522057b0f4b9ac88d3"
+  },
+  {
+    "path": "godot/assets/voices/fish_work_0.wav",
+    "bytes": 162860,
+    "sha256": "0cd21495d57ad3ac0ef0fdef35b13de6f4e06d9cee60327caf383b9edade492b"
+  },
+  {
+    "path": "godot/assets/voices/fish_work_1.wav",
+    "bytes": 164908,
+    "sha256": "3844a56a2aa4df4bab53a7d5e388ca531d1ba03818ede1fb80d30536588b3774"
+  },
+  {
+    "path": "godot/assets/voices/flavor_0.wav",
+    "bytes": 365612,
+    "sha256": "7cdda443c6d3ab2358ba0151e0b88711916ad256430eee693d9900fdc46e1d1c"
+  },
+  {
+    "path": "godot/assets/voices/flavor_1.wav",
+    "bytes": 251948,
+    "sha256": "099f3db97d4fcc8609352dc2aef0bd1f18257807fdd8c5dea49ea31183f3b37e"
+  },
+  {
+    "path": "godot/assets/voices/friend_baker_0.wav",
+    "bytes": 221228,
+    "sha256": "cc44ef0a6448bc4269ecba7184e5ff69022f73f2a823132981f0f20a42e93574"
+  },
+  {
+    "path": "godot/assets/voices/friend_banker_0.wav",
+    "bytes": 248876,
+    "sha256": "03ca8ab889704a7325e379c06ca10125d4922a54c42170aea972b50fcd2d1bad"
+  },
+  {
+    "path": "godot/assets/voices/friend_barkeep_0.wav",
+    "bytes": 266284,
+    "sha256": "edd292090c609f288c6a67635ac230377d172ddbf6660dce34ba705e1cdd9331"
+  },
+  {
+    "path": "godot/assets/voices/friend_crier_0.wav",
+    "bytes": 248876,
+    "sha256": "4f3125a7be4c240f65e45f63fc2adf292e255f12d95d1e8079d9b65784187574"
+  },
+  {
+    "path": "godot/assets/voices/friend_curator_0.wav",
+    "bytes": 248876,
+    "sha256": "8a48e840b5e41bac1cf330cd869d686922f2d134ef4fd7ab8165df07c8ccdf12"
+  },
+  {
+    "path": "godot/assets/voices/friend_elowen_0.wav",
+    "bytes": 228396,
+    "sha256": "abe34d5d5bf03394d2b2e87242f1467e797e4cec511f5a5f0241ed38068b1619"
+  },
+  {
+    "path": "godot/assets/voices/friend_fisherman_0.wav",
+    "bytes": 220204,
+    "sha256": "da1fbb4ba8cd95dc3f3062f5e19356557b44c00025b2fda60d04b1d948fd2473"
+  },
+  {
+    "path": "godot/assets/voices/friend_healer_0.wav",
+    "bytes": 227372,
+    "sha256": "b0789320811edec052e12a006837b236233bfbd9cbe0e368066be85b267021ec"
+  },
+  {
+    "path": "godot/assets/voices/friend_innkeeper_0.wav",
+    "bytes": 228396,
+    "sha256": "27ce2d1b10426e1165ec5f018223969924b2214ff96ea72c4982f305a7016c54"
+  },
+  {
+    "path": "godot/assets/voices/friend_joiner_0.wav",
+    "bytes": 248876,
+    "sha256": "3d440d42441a59fd7e3c43e97fcae415ffe886ff0c1dcdc3dd94284dbec550de"
+  },
+  {
+    "path": "godot/assets/voices/friend_resident_living_0.wav",
+    "bytes": 227372,
+    "sha256": "302e3ae15fd86aae2355a6468ac35ebfef5588c9274f36848630fd6d2bb68273"
+  },
+  {
+    "path": "godot/assets/voices/friend_shipwright_0.wav",
+    "bytes": 221228,
+    "sha256": "640dfc70b96d915c4c079d8871404d2edb3618af72a4ec8532e9e44c4c1b8da4"
+  },
+  {
+    "path": "godot/assets/voices/friend_supper_0.wav",
+    "bytes": 303148,
+    "sha256": "f3c734005033d635603a0a788b3b94e44fcb55f05774b7515b61c7da1bb83d85"
+  },
+  {
+    "path": "godot/assets/voices/greet_baker_0.wav",
+    "bytes": 326700,
+    "sha256": "3adc8aca355ebaef5bb72a43c9dc622d80b5e5f7ab3bc4cc555eaa3a74ecd646"
+  },
+  {
+    "path": "godot/assets/voices/greet_banker_0.wav",
+    "bytes": 284716,
+    "sha256": "6d5b0be963c8123aa1a6c3a0119616dd4f9214e99865d2c8e4cdd47852b9b15b"
+  },
+  {
+    "path": "godot/assets/voices/greet_barkeep_0.wav",
+    "bytes": 376876,
+    "sha256": "a8bd7ec106ced8f90a68fb156596ef901d47f868f491ba2af37d3234a17480a8"
+  },
+  {
+    "path": "godot/assets/voices/greet_crier_0.wav",
+    "bytes": 278572,
+    "sha256": "94fcdcd5727fd752605969bdc7bec67b783bb5f0607a1de1d7f18179ec146796"
+  },
+  {
+    "path": "godot/assets/voices/greet_curator_0.wav",
+    "bytes": 292908,
+    "sha256": "758e8cb5329603c246e891e21ec33ee164eac469a559fb1c2ad7f0175874586d"
+  },
+  {
+    "path": "godot/assets/voices/greet_elowen_0.wav",
+    "bytes": 279596,
+    "sha256": "0ce3efe3b392ec262dae964fcece202742a7a2146210072631243f3a0107cbe5"
+  },
+  {
+    "path": "godot/assets/voices/greet_fisherman_0.wav",
+    "bytes": 260140,
+    "sha256": "d936e272866e2a8f86dbc97dc0f3d39e46be623c9453222b8cd9006d4da72a05"
+  },
+  {
+    "path": "godot/assets/voices/greet_healer_0.wav",
+    "bytes": 179244,
+    "sha256": "184f7cf82a969d956a566191a0e4ae3b6e09d4742b0be101235b83cdfc5c7239"
+  },
+  {
+    "path": "godot/assets/voices/greet_innkeeper_0.wav",
+    "bytes": 240684,
+    "sha256": "4fef45b3a3538c21485ae9453809fc0ce9b082e60a47696f30abb6f27f9bae59"
+  },
+  {
+    "path": "godot/assets/voices/greet_joiner_0.wav",
+    "bytes": 202796,
+    "sha256": "01f64d34a62e34ad6070c358b684b35920371ac92190a138a36ede7109c165cc"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_0_0.wav",
+    "bytes": 287788,
+    "sha256": "e8b257456b00af36fcf652ca024050f85c355aa5778c298762395aff1c99ae61"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_1_0.wav",
+    "bytes": 242732,
+    "sha256": "69c3dbfa2932a75be21e3afe39de9f32b5021779ba8e0bfef943af1c3e47e61e"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_2_0.wav",
+    "bytes": 234540,
+    "sha256": "7dd6f6104e544cde16a31a74ec1c5cc01ffd280696d7a42d1151d1aa76cff46c"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_3_0.wav",
+    "bytes": 247852,
+    "sha256": "bb4826d7e39360678b4cb75b397038a8812e9b6f0a35e7fae535a8599ac7ed99"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_4_0.wav",
+    "bytes": 250924,
+    "sha256": "76ac23bfaefca24481ad0fa1105037dcfbd0b9f462135d49feb8c835479cc493"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_5_0.wav",
+    "bytes": 289836,
+    "sha256": "e5c9e155acb000e37b5f33af9d55ee09de2ecbbb83519bd9595187b9723cc67e"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_6_0.wav",
+    "bytes": 265260,
+    "sha256": "aff346aac70d9a3df457e984cacd8ff14e80f9f08bd8fb43eff89fb1d955aa84"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_7_0.wav",
+    "bytes": 276524,
+    "sha256": "5ce019452dcd0eed59b1475c98da4091e13cc9d72e236389eae846fd9cb351ea"
+  },
+  {
+    "path": "godot/assets/voices/greet_neighbour_8_0.wav",
+    "bytes": 196652,
+    "sha256": "6d4fb88a161486e3412e848759ebce7a48b2f7c0609d10f8f0d4929db58548d9"
+  },
+  {
+    "path": "godot/assets/voices/greet_resident_living_0.wav",
+    "bytes": 268332,
+    "sha256": "8e8dfe08dff81dd46a492eb8e4adad691cd250bd8b300f2eed66c9a77014db45"
+  },
+  {
+    "path": "godot/assets/voices/greet_shipwright_0.wav",
+    "bytes": 192556,
+    "sha256": "529c375e42a950cb941f9c4dd1657a3d015865ecc3f5bb60bceed9155d2bece2"
+  },
+  {
+    "path": "godot/assets/voices/meal_empty_0.wav",
+    "bytes": 232492,
+    "sha256": "fea15dedddbf61f1a7321f4c3156f4a855bd70e8ddd87a8548671a6a2ee36d03"
+  },
+  {
+    "path": "godot/assets/voices/meal_order_0.wav",
+    "bytes": 204844,
+    "sha256": "23875edb649acd0295762969020d1cbaf16388833619b0f7a5e0987c28ea3f82"
+  },
+  {
+    "path": "godot/assets/voices/meal_served_0.wav",
+    "bytes": 231468,
+    "sha256": "ae712a036d1f7fd656d057512d2a6e920ef9dbb512146f313957a42c556cf298"
+  },
+  {
+    "path": "godot/assets/voices/meal_thanks_0.wav",
+    "bytes": 179244,
+    "sha256": "0d3551a64f9489e7ee7becbcb10793ea68a3e29bf639afcf68dbb9d47d7c1e5e"
+  },
+  {
+    "path": "godot/assets/voices/museum_news_0.wav",
+    "bytes": 402476,
+    "sha256": "6bdc821c940fb4205e5d307bf42497880a42fb6c6290dda3086616c5b835ec76"
+  },
+  {
+    "path": "godot/assets/voices/no_news_0.wav",
+    "bytes": 280620,
+    "sha256": "a222439f5bb5bf04864119cd14641f9d34f8cfa91e079612ee1b99ca757b1dcb"
+  },
+  {
+    "path": "godot/assets/voices/parcel_accept_0.wav",
+    "bytes": 338988,
+    "sha256": "aaa8ca2774ffff8930f41b0cb608e919d74b21f0d19e1266da70dce4a22e83f5"
+  },
+  {
+    "path": "godot/assets/voices/parcel_delivered_0.wav",
+    "bytes": 185388,
+    "sha256": "3a144272eebe584b101c86b138457aefd20a5c8e3a13523e00ad2d93f625e09c"
+  },
+  {
+    "path": "godot/assets/voices/player_accept_0.wav",
+    "bytes": 310316,
+    "sha256": "4548f31bab4c4f902fff1cdb113cc3f1976941ed306dce50820a8bfcf91b4c08"
+  },
+  {
+    "path": "godot/assets/voices/player_delivered_0.wav",
+    "bytes": 228396,
+    "sha256": "b13ce5f47dc37038023e92a39bf4528c9a5f5f088e0c883d93f9b1460c2d1aa5"
+  },
+  {
+    "path": "godot/assets/voices/player_help_0.wav",
+    "bytes": 290860,
+    "sha256": "fb628f20e56c15e64a0eab8a3736fe7e1702f7e9bbe16434d5fc0069c10cfe87"
+  },
+  {
+    "path": "godot/assets/voices/player_news_0.wav",
+    "bytes": 253996,
+    "sha256": "e258138da1b4d65f0acd57812fbbe2fc16ee4c507d3b9d3b8e00ffcbf7922fe4"
+  },
+  {
+    "path": "godot/assets/voices/player_news_1.wav",
+    "bytes": 332844,
+    "sha256": "c700faa41c0fc20ee3bb6614bb9c17133df3c1b97483b275a2463dc15bdc4f22"
+  },
+  {
+    "path": "godot/assets/voices/player_no_fish_0.wav",
+    "bytes": 215084,
+    "sha256": "4256b91d6f7522055aa2eac7894d7c68ad65e5db779fff8df92a0b1bde232dd1"
+  },
+  {
+    "path": "godot/assets/voices/player_no_promise_0.wav",
+    "bytes": 308268,
+    "sha256": "dadb6d4bf43a49406eb2ba4f164eabdd2e9b214a9a02d3931b63d85b3ecc2097"
+  },
+  {
+    "path": "godot/assets/voices/player_remember_0.wav",
+    "bytes": 234540,
+    "sha256": "aeb7f49f2553fc4da5f43c52e7cccd86cce1fde23c62a6289c581ffbb3ac390b"
+  },
+  {
+    "path": "godot/assets/voices/player_waiting_0.wav",
+    "bytes": 269356,
+    "sha256": "fc6eec838b2abe29617aefb2abc0a3a80888d783b66e244282509563df6ea4dd"
+  },
+  {
+    "path": "godot/assets/voices/remedies_arrival_0.wav",
+    "bytes": 222252,
+    "sha256": "f6bb66d85ac1263efe68bb5cc261d893a6f4c2156571a5ce4565e11f5db32762"
+  },
+  {
+    "path": "godot/assets/voices/remedies_collect_0.wav",
+    "bytes": 223276,
+    "sha256": "75b6bb49187ef29dd888c746a565493ddd6e3382da6a7a67269fc7fa7abb8f45"
+  },
+  {
+    "path": "godot/assets/voices/remedies_give_0.wav",
+    "bytes": 196652,
+    "sha256": "9a4161ee7174896b0196cf7e02ee38776ac61aa5702254daf60c4ce19ece45dc"
+  },
+  {
+    "path": "godot/assets/voices/remedies_news_0.wav",
+    "bytes": 304172,
+    "sha256": "8a345b5cec28dc5579809c8130807456c2756ba4150d0902d8028e073e3dbae8"
+  },
+  {
+    "path": "godot/assets/voices/remedies_thanks_0.wav",
+    "bytes": 144428,
+    "sha256": "e2ca7726c7d9885e9e744e9cd36259553c2e763d3694564cd6957d2c45b61b6f"
+  },
+  {
+    "path": "godot/assets/voices/reply_baker_0.wav",
+    "bytes": 145452,
+    "sha256": "994403dd222947ddf28654b965e0901f6d6c9121267d8aae31a57dff7c03a52c"
+  },
+  {
+    "path": "godot/assets/voices/reply_banker_0.wav",
+    "bytes": 134188,
+    "sha256": "9126d0461285a7ea8fd1e67b85f01f252e666d0ea1b4f93f55e29583eeea817d"
+  },
+  {
+    "path": "godot/assets/voices/reply_barkeep_0.wav",
+    "bytes": 222252,
+    "sha256": "da83d8831e9fdcda4b5f433dc656de4011eab3b7f64a597026e95fbe230bee81"
+  },
+  {
+    "path": "godot/assets/voices/reply_crier_0.wav",
+    "bytes": 172076,
+    "sha256": "9c1880b83129514a5390d8e4749494cb7b02ec01a8485a4895e562bbd366cd7d"
+  },
+  {
+    "path": "godot/assets/voices/reply_curator_0.wav",
+    "bytes": 139308,
+    "sha256": "102faa63b08c010f1965ce54a6d3fc18a133bb7389a6216956f290122524dd17"
+  },
+  {
+    "path": "godot/assets/voices/reply_elowen_0.wav",
+    "bytes": 129068,
+    "sha256": "f2021609ff0d98d15be0294c4ee372caee69490a72d6c9fd8de963b7e8dfe8d0"
+  },
+  {
+    "path": "godot/assets/voices/reply_fisherman_0.wav",
+    "bytes": 180268,
+    "sha256": "a0e87212a4ba6e1a61f388917c53497f3d8b723413f2e0200eb92ab7ed098b81"
+  },
+  {
+    "path": "godot/assets/voices/reply_healer_0.wav",
+    "bytes": 146476,
+    "sha256": "5024fa547ce67cef34763cefc8bec8f9c0328b43c49a36354f8a7c23c6b2374d"
+  },
+  {
+    "path": "godot/assets/voices/reply_innkeeper_0.wav",
+    "bytes": 145452,
+    "sha256": "a054e117c24202bc89fa39a954f12d41d70bd68fc6d24149268de0b8dafd7094"
+  },
+  {
+    "path": "godot/assets/voices/reply_joiner_0.wav",
+    "bytes": 145452,
+    "sha256": "0e23bd86852adab0f3b0aff1b4d0f011784bfcbdfd5272c50e40c58c54d2fe04"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_0_0.wav",
+    "bytes": 139308,
+    "sha256": "522023105311e5843a7b0b6d0b5cfd583ff90431c3da906c0cadf6757a3de584"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_0_1.wav",
+    "bytes": 159788,
+    "sha256": "1d983e267222784d20847b40590375b2037e5e1144e8cb47df74be1239d3d15b"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_1_0.wav",
+    "bytes": 110636,
+    "sha256": "d12c35e6c5ee6be30501526e17ddab622880a01a2d801784650dbd50d3206a46"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_1_1.wav",
+    "bytes": 128044,
+    "sha256": "3650ef9388717895612c28f4673fa17f025b51c167d2bfe9d280bbdbc6ade18e"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_2_0.wav",
+    "bytes": 134188,
+    "sha256": "53feeaf9c780f105852cce1fa066a776587b09f6526eabb3c2fd59b7fbc9fc00"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_2_1.wav",
+    "bytes": 139308,
+    "sha256": "f2c2c2f14e6df3c95d673edb9506e8ee2695201339e59dc460ad77947dd6d226"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_3_0.wav",
+    "bytes": 150572,
+    "sha256": "c87bb1a247da1d345b9e6c94db8c9461a08f9b39b3739f7eba39973ea0a13205"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_3_1.wav",
+    "bytes": 143404,
+    "sha256": "aa11b832f4f680ae2a30eb27e0b9366387fa6ccc7d90a5481622673022042c1e"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_4_0.wav",
+    "bytes": 183340,
+    "sha256": "467e87ef7114f0fc0fb29823d298ebf971a8049171b580fce3f55ffa6d034bd8"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_4_1.wav",
+    "bytes": 159788,
+    "sha256": "616d82b41293b6374653402d89eb521e59cadf16b6287342963041681c2241f3"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_5_0.wav",
+    "bytes": 207916,
+    "sha256": "68964e4645f61d75709e416e25459ee8f1e53e2538291aa670ec216aa287fdf4"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_5_1.wav",
+    "bytes": 160812,
+    "sha256": "58d478e0f287e281f587da81efdf0483f63be691702eab0fdfd67e17388e1f01"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_6_0.wav",
+    "bytes": 131116,
+    "sha256": "bce3a79c348a88fedc88f4ccbd5e7eeb952476ec000868741e1a22d3e331b044"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_6_1.wav",
+    "bytes": 142380,
+    "sha256": "956f89f68399bd8e6c53e6fb50fcad69f75383f711549db06cd0d9430fc57f7c"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_7_0.wav",
+    "bytes": 133164,
+    "sha256": "fbd96c447c89b8e04bea991e80d7852171ff04036f3b45c9ea66cc1503b2bc5d"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_7_1.wav",
+    "bytes": 159788,
+    "sha256": "7c4e0b62182d596156853d3dc54c23ac74bcd902500b4719583d96033c948a1b"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_8_0.wav",
+    "bytes": 105516,
+    "sha256": "8f0bedb3c794d36a2e16175c9409d4183f21f39faecc6b38d099ae48840fd8b6"
+  },
+  {
+    "path": "godot/assets/voices/reply_neighbour_8_1.wav",
+    "bytes": 128044,
+    "sha256": "d959f001ca813efe36b5cabdc86020848d3d7d17012cb1a50c3c887f2107052d"
+  },
+  {
+    "path": "godot/assets/voices/reply_resident_living_0.wav",
+    "bytes": 104492,
+    "sha256": "021266e9275796039327c094fd63f3719b787be19c63fa991ec732b8271fd19d"
+  },
+  {
+    "path": "godot/assets/voices/reply_shipwright_0.wav",
+    "bytes": 162860,
+    "sha256": "aed8a85bc47a399312323babb356840a48f702793429385a8640edc1fc73ddb8"
+  },
+  {
+    "path": "godot/assets/voices/report_ack_0.wav",
+    "bytes": 214060,
+    "sha256": "50e2f31d1b641cf9291e9b39600e6bf7db872a422371777e2dcca4ac78f9e7dd"
+  },
+  {
+    "path": "godot/assets/voices/rest_0.wav",
+    "bytes": 135212,
+    "sha256": "b0113630d0a54f5d47ef007aea1a283a2ce9ba68bdef07f39477556b8c339844"
+  },
+  {
+    "path": "godot/assets/voices/rest_1.wav",
+    "bytes": 122924,
+    "sha256": "2fb6beafdf5760f12458451d2637faf81c341c26539ce54bacdd17336410e531"
+  },
+  {
+    "path": "godot/assets/voices/shortage_0.wav",
+    "bytes": 321580,
+    "sha256": "6edc60a7fed87a42c04ab7d85b2d0f08417c9d4b33b14585fd1bc32e37219879"
+  },
+  {
+    "path": "godot/assets/voices/shortage_1.wav",
+    "bytes": 305196,
+    "sha256": "1a40a374b3f4f50016ab8cc5efa5e2762744d90c3e035a6f29a27d1dca33d22d"
+  },
+  {
+    "path": "godot/assets/voices/social_hello_0.wav",
+    "bytes": 196652,
+    "sha256": "3f12fb8d835c3a079c8506a2f9fc39561c7e76fdb3ba7cc73b089359bcb6af55"
+  },
+  {
+    "path": "godot/assets/voices/social_hello_1.wav",
+    "bytes": 150572,
+    "sha256": "8d8f0ff01d7f9379f1b215394f9008f00d1c65ad5c2cf2fd77d77c22b8869d6f"
+  },
+  {
+    "path": "godot/assets/voices/social_reply_0.wav",
+    "bytes": 166956,
+    "sha256": "35caf03436d02ad21d69e10dee4ef47a016f4853188bfdecbc1a6fa80bd98ed9"
+  },
+  {
+    "path": "godot/assets/voices/social_reply_1.wav",
+    "bytes": 177196,
+    "sha256": "4a8f61a68611f896b1a8a6fbb8b818a2e798ca218f37e76262a608bb363e2f04"
+  },
+  {
+    "path": "godot/assets/voices/thanks_0.wav",
+    "bytes": 173100,
+    "sha256": "2b9b2d577a8e650cc7f6b26b34caf942b7a4128ce56f1df6627b12e6f2ef6329"
+  },
+  {
+    "path": "godot/assets/voices/timber_arrival_0.wav",
+    "bytes": 246828,
+    "sha256": "7c0008620a2d9972d49ff66c10e59869280aabaac497f988d45eca825f400901"
+  },
+  {
+    "path": "godot/assets/voices/timber_collect_0.wav",
+    "bytes": 272428,
+    "sha256": "edff2e7ec84f3b5e47f0a2d8e1483effe4fe0d4d88068def65a7a75eaa73d5f6"
+  },
+  {
+    "path": "godot/assets/voices/timber_give_0.wav",
+    "bytes": 212012,
+    "sha256": "9472e0d8ac67c8a499a4e6b625e96a1caf3bd67b6f2993597e8cdb3dd5e09e88"
+  },
+  {
+    "path": "godot/assets/voices/timber_news_0.wav",
+    "bytes": 325676,
+    "sha256": "d1c336fff1781c474d3bfe179afcdf60a4b7ebe04c6e2675d392af42561ea36a"
+  },
+  {
+    "path": "godot/assets/voices/timber_thanks_0.wav",
+    "bytes": 133164,
+    "sha256": "d0d3701cb80ebedfe42541bd1fc82fc5797e15a51363bcee70085397b5a3fce8"
+  },
+  {
+    "path": "godot/assets/voices/unknown_0.wav",
+    "bytes": 312364,
+    "sha256": "342ee873bdd9310b32d716924ffead61436714d3791e93a90f09154431232025"
+  },
+  {
+    "path": "godot/assets/voices/welcome_0.wav",
+    "bytes": 354348,
+    "sha256": "a876439331441f73cfe21c5ee6b74b9e33cb57db992854c05e63d06eebecdce8"
+  },
+  {
+    "path": "godot/assets/voices/welcome_1.wav",
+    "bytes": 343084,
+    "sha256": "5bb2f6088a6ee418772e3aa7ce6b74f4f396e15d01763c5efa865b9f5c33e37e"
+  },
+  {
+    "path": "godot/assets/voices/work_direction_0.wav",
+    "bytes": 316460,
+    "sha256": "6ddbbf5edeee9efa947fb39ccb199fc93fef942258785d2c9f319ebbde8afa7f"
+  },
+  {
+    "path": "godot/assets/water/Foam.png",
+    "bytes": 44868,
+    "sha256": "b341d1ecb580c6465daf04507124d89ce145e4a62449eea3c29766306c5cce7b"
+  },
+  {
+    "path": "godot/assets/water/Water_N_A.png",
+    "bytes": 434018,
+    "sha256": "585ec979b3a446371d32655bd8c861c92f5111e9f7d8dc7f96a7e5537dd4b62e"
+  },
+  {
+    "path": "godot/assets/water/Water_N_B.png",
+    "bytes": 2567980,
+    "sha256": "8de93f4bfcc9857cb433b65fe5d41d0fd232e7759c73632df084e0836a84cc4b"
   }
 ]

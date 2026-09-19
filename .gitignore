@@ -1,5 +1,9 @@
 # Large, redistributable game assets are distributed in the release asset pack.
 /godot/assets/
+/godot/art/*.glb
+/godot/art/*.jpg
+/godot/art/*.png
+/godot/art/*.import
 /godot/.godot/
 /godot/export_credentials.cfg
 /build/
@@ -12,4 +16,9 @@ __pycache__/
 .DS_Store
 .env
 .env.*
-
+/helper/models/
+/helper/cache/
+/helper/dist/
+/helper/build/
+*.spec
+/helper/source-archives/

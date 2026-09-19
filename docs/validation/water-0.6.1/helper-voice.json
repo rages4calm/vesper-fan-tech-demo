@@ -1,0 +1,13 @@
+{
+  "ready": true,
+  "wall_seconds": 1.93,
+  "metrics": [
+    {
+      "generation_seconds": 0.93,
+      "duration": 4.907,
+      "peak": 0.574,
+      "cached": false
+    }
+  ],
+  "api_requests": 0
+}

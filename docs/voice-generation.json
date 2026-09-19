@@ -1,0 +1,638 @@
+[
+  {
+    "id": "greet_neighbour_0_0",
+    "generation_seconds": 1.133,
+    "duration": 5.995,
+    "peak": 0.651
+  },
+  {
+    "id": "chat_neighbour_0_0",
+    "generation_seconds": 1.212,
+    "duration": 5.077,
+    "peak": 0.516
+  },
+  {
+    "id": "chat_neighbour_0_1",
+    "generation_seconds": 0.846,
+    "duration": 2.901,
+    "peak": 0.47
+  },
+  {
+    "id": "reply_neighbour_0_0",
+    "generation_seconds": 0.864,
+    "duration": 2.901,
+    "peak": 0.465
+  },
+  {
+    "id": "reply_neighbour_0_1",
+    "generation_seconds": 0.93,
+    "duration": 3.328,
+    "peak": 0.77
+  },
+  {
+    "id": "greet_neighbour_1_0",
+    "generation_seconds": 1.455,
+    "duration": 5.056,
+    "peak": 0.703
+  },
+  {
+    "id": "chat_neighbour_1_0",
+    "generation_seconds": 1.297,
+    "duration": 4.395,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_neighbour_1_1",
+    "generation_seconds": 0.811,
+    "duration": 2.304,
+    "peak": 0.785
+  },
+  {
+    "id": "reply_neighbour_1_0",
+    "generation_seconds": 0.805,
+    "duration": 2.304,
+    "peak": 0.769
+  },
+  {
+    "id": "reply_neighbour_1_1",
+    "generation_seconds": 0.901,
+    "duration": 2.667,
+    "peak": 0.78
+  },
+  {
+    "id": "greet_neighbour_2_0",
+    "generation_seconds": 1.357,
+    "duration": 4.885,
+    "peak": 0.786
+  },
+  {
+    "id": "chat_neighbour_2_0",
+    "generation_seconds": 1.236,
+    "duration": 4.224,
+    "peak": 0.753
+  },
+  {
+    "id": "chat_neighbour_2_1",
+    "generation_seconds": 0.875,
+    "duration": 2.795,
+    "peak": 0.731
+  },
+  {
+    "id": "reply_neighbour_2_0",
+    "generation_seconds": 0.869,
+    "duration": 2.795,
+    "peak": 0.737
+  },
+  {
+    "id": "reply_neighbour_2_1",
+    "generation_seconds": 0.902,
+    "duration": 2.901,
+    "peak": 0.82
+  },
+  {
+    "id": "greet_neighbour_3_0",
+    "generation_seconds": 1.432,
+    "duration": 5.163,
+    "peak": 0.549
+  },
+  {
+    "id": "chat_neighbour_3_0",
+    "generation_seconds": 1.206,
+    "duration": 4.16,
+    "peak": 0.543
+  },
+  {
+    "id": "chat_neighbour_3_1",
+    "generation_seconds": 0.965,
+    "duration": 3.136,
+    "peak": 0.596
+  },
+  {
+    "id": "reply_neighbour_3_0",
+    "generation_seconds": 0.958,
+    "duration": 3.136,
+    "peak": 0.569
+  },
+  {
+    "id": "reply_neighbour_3_1",
+    "generation_seconds": 0.952,
+    "duration": 2.987,
+    "peak": 0.59
+  },
+  {
+    "id": "greet_neighbour_4_0",
+    "generation_seconds": 1.453,
+    "duration": 5.227,
+    "peak": 0.596
+  },
+  {
+    "id": "chat_neighbour_4_0",
+    "generation_seconds": 1.248,
+    "duration": 4.352,
+    "peak": 0.613
+  },
+  {
+    "id": "chat_neighbour_4_1",
+    "generation_seconds": 1.096,
+    "duration": 3.819,
+    "peak": 0.62
+  },
+  {
+    "id": "reply_neighbour_4_0",
+    "generation_seconds": 1.1,
+    "duration": 3.819,
+    "peak": 0.624
+  },
+  {
+    "id": "reply_neighbour_4_1",
+    "generation_seconds": 0.993,
+    "duration": 3.328,
+    "peak": 0.698
+  },
+  {
+    "id": "greet_neighbour_5_0",
+    "generation_seconds": 1.611,
+    "duration": 6.037,
+    "peak": 0.472
+  },
+  {
+    "id": "chat_neighbour_5_0",
+    "generation_seconds": 1.307,
+    "duration": 4.928,
+    "peak": 0.473
+  },
+  {
+    "id": "chat_neighbour_5_1",
+    "generation_seconds": 1.211,
+    "duration": 4.331,
+    "peak": 0.489
+  },
+  {
+    "id": "reply_neighbour_5_0",
+    "generation_seconds": 1.208,
+    "duration": 4.331,
+    "peak": 0.504
+  },
+  {
+    "id": "reply_neighbour_5_1",
+    "generation_seconds": 1.013,
+    "duration": 3.349,
+    "peak": 0.621
+  },
+  {
+    "id": "greet_neighbour_6_0",
+    "generation_seconds": 1.566,
+    "duration": 5.525,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_neighbour_6_0",
+    "generation_seconds": 1.311,
+    "duration": 4.565,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_neighbour_6_1",
+    "generation_seconds": 0.865,
+    "duration": 2.731,
+    "peak": 0.82
+  },
+  {
+    "id": "reply_neighbour_6_0",
+    "generation_seconds": 0.889,
+    "duration": 2.731,
+    "peak": 0.82
+  },
+  {
+    "id": "reply_neighbour_6_1",
+    "generation_seconds": 0.933,
+    "duration": 2.965,
+    "peak": 0.82
+  },
+  {
+    "id": "greet_neighbour_7_0",
+    "generation_seconds": 1.512,
+    "duration": 5.76,
+    "peak": 0.651
+  },
+  {
+    "id": "chat_neighbour_7_0",
+    "generation_seconds": 1.343,
+    "duration": 5.035,
+    "peak": 0.811
+  },
+  {
+    "id": "chat_neighbour_7_1",
+    "generation_seconds": 0.808,
+    "duration": 2.773,
+    "peak": 0.514
+  },
+  {
+    "id": "reply_neighbour_7_0",
+    "generation_seconds": 0.795,
+    "duration": 2.773,
+    "peak": 0.51
+  },
+  {
+    "id": "reply_neighbour_7_1",
+    "generation_seconds": 0.937,
+    "duration": 3.328,
+    "peak": 0.764
+  },
+  {
+    "id": "greet_neighbour_8_0",
+    "generation_seconds": 1.245,
+    "duration": 4.096,
+    "peak": 0.757
+  },
+  {
+    "id": "chat_neighbour_8_0",
+    "generation_seconds": 1.045,
+    "duration": 3.243,
+    "peak": 0.767
+  },
+  {
+    "id": "chat_neighbour_8_1",
+    "generation_seconds": 0.786,
+    "duration": 2.197,
+    "peak": 0.652
+  },
+  {
+    "id": "reply_neighbour_8_0",
+    "generation_seconds": 0.793,
+    "duration": 2.197,
+    "peak": 0.651
+  },
+  {
+    "id": "reply_neighbour_8_1",
+    "generation_seconds": 0.903,
+    "duration": 2.667,
+    "peak": 0.79
+  },
+  {
+    "id": "chat_crier_0",
+    "generation_seconds": 1.422,
+    "duration": 5.12,
+    "peak": 0.738
+  },
+  {
+    "id": "chat_crier_1",
+    "generation_seconds": 1.069,
+    "duration": 3.584,
+    "peak": 0.791
+  },
+  {
+    "id": "reply_crier_0",
+    "generation_seconds": 1.064,
+    "duration": 3.584,
+    "peak": 0.805
+  },
+  {
+    "id": "friend_crier_0",
+    "generation_seconds": 1.453,
+    "duration": 5.184,
+    "peak": 0.608
+  },
+  {
+    "id": "chat_fisherman_0",
+    "generation_seconds": 1.181,
+    "duration": 4.075,
+    "peak": 0.81
+  },
+  {
+    "id": "chat_fisherman_1",
+    "generation_seconds": 1.107,
+    "duration": 3.733,
+    "peak": 0.82
+  },
+  {
+    "id": "reply_fisherman_0",
+    "generation_seconds": 1.093,
+    "duration": 3.755,
+    "peak": 0.82
+  },
+  {
+    "id": "friend_fisherman_0",
+    "generation_seconds": 1.299,
+    "duration": 4.587,
+    "peak": 0.695
+  },
+  {
+    "id": "chat_elowen_0",
+    "generation_seconds": 1.259,
+    "duration": 4.181,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_elowen_1",
+    "generation_seconds": 0.858,
+    "duration": 2.688,
+    "peak": 0.82
+  },
+  {
+    "id": "reply_elowen_0",
+    "generation_seconds": 0.858,
+    "duration": 2.688,
+    "peak": 0.82
+  },
+  {
+    "id": "friend_elowen_0",
+    "generation_seconds": 1.387,
+    "duration": 4.757,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_barkeep_0",
+    "generation_seconds": 1.435,
+    "duration": 5.035,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_barkeep_1",
+    "generation_seconds": 1.27,
+    "duration": 4.629,
+    "peak": 0.579
+  },
+  {
+    "id": "reply_barkeep_0",
+    "generation_seconds": 1.302,
+    "duration": 4.629,
+    "peak": 0.563
+  },
+  {
+    "id": "friend_barkeep_0",
+    "generation_seconds": 1.52,
+    "duration": 5.547,
+    "peak": 0.653
+  },
+  {
+    "id": "chat_baker_0",
+    "generation_seconds": 1.232,
+    "duration": 3.989,
+    "peak": 0.755
+  },
+  {
+    "id": "chat_baker_1",
+    "generation_seconds": 0.973,
+    "duration": 3.029,
+    "peak": 0.613
+  },
+  {
+    "id": "reply_baker_0",
+    "generation_seconds": 0.971,
+    "duration": 3.029,
+    "peak": 0.617
+  },
+  {
+    "id": "friend_baker_0",
+    "generation_seconds": 1.378,
+    "duration": 4.608,
+    "peak": 0.755
+  },
+  {
+    "id": "chat_banker_0",
+    "generation_seconds": 1.292,
+    "duration": 4.779,
+    "peak": 0.697
+  },
+  {
+    "id": "chat_banker_1",
+    "generation_seconds": 0.791,
+    "duration": 2.795,
+    "peak": 0.783
+  },
+  {
+    "id": "reply_banker_0",
+    "generation_seconds": 0.787,
+    "duration": 2.795,
+    "peak": 0.796
+  },
+  {
+    "id": "friend_banker_0",
+    "generation_seconds": 1.348,
+    "duration": 5.184,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_joiner_0",
+    "generation_seconds": 1.356,
+    "duration": 5.163,
+    "peak": 0.626
+  },
+  {
+    "id": "chat_joiner_1",
+    "generation_seconds": 0.883,
+    "duration": 3.051,
+    "peak": 0.818
+  },
+  {
+    "id": "reply_joiner_0",
+    "generation_seconds": 0.866,
+    "duration": 3.029,
+    "peak": 0.82
+  },
+  {
+    "id": "friend_joiner_0",
+    "generation_seconds": 1.363,
+    "duration": 5.184,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_shipwright_0",
+    "generation_seconds": 1.227,
+    "duration": 4.011,
+    "peak": 0.734
+  },
+  {
+    "id": "chat_shipwright_1",
+    "generation_seconds": 1.056,
+    "duration": 3.392,
+    "peak": 0.754
+  },
+  {
+    "id": "reply_shipwright_0",
+    "generation_seconds": 1.07,
+    "duration": 3.392,
+    "peak": 0.775
+  },
+  {
+    "id": "friend_shipwright_0",
+    "generation_seconds": 1.373,
+    "duration": 4.608,
+    "peak": 0.768
+  },
+  {
+    "id": "chat_healer_0",
+    "generation_seconds": 1.172,
+    "duration": 4.032,
+    "peak": 0.564
+  },
+  {
+    "id": "chat_healer_1",
+    "generation_seconds": 0.916,
+    "duration": 3.051,
+    "peak": 0.722
+  },
+  {
+    "id": "reply_healer_0",
+    "generation_seconds": 0.917,
+    "duration": 3.051,
+    "peak": 0.736
+  },
+  {
+    "id": "friend_healer_0",
+    "generation_seconds": 1.321,
+    "duration": 4.736,
+    "peak": 0.772
+  },
+  {
+    "id": "chat_innkeeper_0",
+    "generation_seconds": 1.226,
+    "duration": 4.139,
+    "peak": 0.81
+  },
+  {
+    "id": "chat_innkeeper_1",
+    "generation_seconds": 0.964,
+    "duration": 3.029,
+    "peak": 0.82
+  },
+  {
+    "id": "reply_innkeeper_0",
+    "generation_seconds": 0.951,
+    "duration": 3.029,
+    "peak": 0.82
+  },
+  {
+    "id": "friend_innkeeper_0",
+    "generation_seconds": 1.378,
+    "duration": 4.757,
+    "peak": 0.82
+  },
+  {
+    "id": "chat_curator_0",
+    "generation_seconds": 1.373,
+    "duration": 4.907,
+    "peak": 0.522
+  },
+  {
+    "id": "chat_curator_1",
+    "generation_seconds": 0.897,
+    "duration": 2.901,
+    "peak": 0.597
+  },
+  {
+    "id": "reply_curator_0",
+    "generation_seconds": 0.9,
+    "duration": 2.901,
+    "peak": 0.589
+  },
+  {
+    "id": "friend_curator_0",
+    "generation_seconds": 1.444,
+    "duration": 5.184,
+    "peak": 0.609
+  },
+  {
+    "id": "chat_resident_living_0",
+    "generation_seconds": 1.149,
+    "duration": 3.968,
+    "peak": 0.606
+  },
+  {
+    "id": "chat_resident_living_1",
+    "generation_seconds": 0.715,
+    "duration": 2.176,
+    "peak": 0.556
+  },
+  {
+    "id": "reply_resident_living_0",
+    "generation_seconds": 0.718,
+    "duration": 2.176,
+    "peak": 0.573
+  },
+  {
+    "id": "friend_resident_living_0",
+    "generation_seconds": 1.303,
+    "duration": 4.736,
+    "peak": 0.755
+  },
+  {
+    "id": "timber_collect_0",
+    "generation_seconds": 1.496,
+    "duration": 5.675,
+    "peak": 0.612
+  },
+  {
+    "id": "timber_give_0",
+    "generation_seconds": 1.188,
+    "duration": 4.416,
+    "peak": 0.564
+  },
+  {
+    "id": "timber_arrival_0",
+    "generation_seconds": 1.381,
+    "duration": 5.141,
+    "peak": 0.499
+  },
+  {
+    "id": "timber_thanks_0",
+    "generation_seconds": 0.935,
+    "duration": 2.773,
+    "peak": 0.597
+  },
+  {
+    "id": "remedies_collect_0",
+    "generation_seconds": 1.264,
+    "duration": 4.651,
+    "peak": 0.565
+  },
+  {
+    "id": "remedies_give_0",
+    "generation_seconds": 1.177,
+    "duration": 4.096,
+    "peak": 0.555
+  },
+  {
+    "id": "remedies_arrival_0",
+    "generation_seconds": 1.257,
+    "duration": 4.629,
+    "peak": 0.688
+  },
+  {
+    "id": "remedies_thanks_0",
+    "generation_seconds": 0.944,
+    "duration": 3.008,
+    "peak": 0.768
+  },
+  {
+    "id": "timber_news_0",
+    "generation_seconds": 1.829,
+    "duration": 6.784,
+    "peak": 0.588
+  },
+  {
+    "id": "remedies_news_0",
+    "generation_seconds": 1.705,
+    "duration": 6.336,
+    "peak": 0.523
+  },
+  {
+    "id": "parcel_accept_0",
+    "generation_seconds": 1.834,
+    "duration": 7.061,
+    "peak": 0.695
+  },
+  {
+    "id": "parcel_delivered_0",
+    "generation_seconds": 1.165,
+    "duration": 3.861,
+    "peak": 0.726
+  },
+  {
+    "id": "friend_supper_0",
+    "generation_seconds": 1.673,
+    "duration": 6.315,
+    "peak": 0.503
+  }
+]

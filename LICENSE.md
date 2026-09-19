@@ -21,3 +21,9 @@ These licenses remain attached to their respective components. This notice does 
 Ultima Online, Britannia, Vesper, original place names, and related intellectual property belong to their respective rights holders. This repository grants no rights to that intellectual property. Original UO music, extracted original UO effects, client files, and manual scans are not included in the public source asset pack or playable release.
 
 This project is not endorsed by or affiliated with EA or its licensors. Acknowledgment and noncommercial intent are not claims of official permission or a public-domain designation.
+
+## Living-town helper and new dependencies
+
+The new files `helper/service.py`, `helper/speech_engine.py`, and `helper/test_service.py` are licensed under GNU GPL version 3 or later. The earlier project-specific restriction above does not restrict these files or any rights granted by third-party licenses. See `helper/LICENSE`. The helper runs as a separate local process.
+
+Kokoro-82M weights and voice embeddings: Apache-2.0. Kokoro-ONNX wrapper: MIT. eSpeak NG and the phonemizer fork: GPL-3.0-or-later. Dependency notices, model cards and sources are recorded in `docs/LIVING-ASSET-MANIFEST.json` and `docs/licenses/living-town/`. Corresponding helper source and speech-engine source archives accompany the playable package under `helper-source/`.

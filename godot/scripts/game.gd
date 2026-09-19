@@ -24,6 +24,7 @@ var camera: Camera3D
 var environment: Environment
 var sun: DirectionalLight3D
 var sky_material: ProceduralSkyMaterial
+var atmosphere: Node3D
 var playing := false
 var modal_open := false
 var camera_yaw := PI/4
@@ -60,7 +61,7 @@ var ambience: AudioStreamPlayer
 var steps: AudioStreamPlayer
 var gull: AudioStreamPlayer
 var bell: AudioStreamPlayer
-var music_level := .50
+var music_level := .28
 var ambience_level := .55
 var steps_sounds: Array[AudioStream] = []
 var ui: CanvasLayer
@@ -110,14 +111,18 @@ var harbor_qa_runner: RefCounted
 var access_qa_runner: RefCounted
 var tour_runner: RefCounted
 var shorts_runner: RefCounted
+var town: Node
+var town_qa_runner: RefCounted
 var quitting:=false
+var cinematic_active:=false
+var cinematic_focus:=Vector3.ZERO
 signal door_sound_started(id: String, opened: bool)
 var facades: Dictionary={}
 var building_details: Dictionary={}
 
 func _ready() -> void:
 	get_tree().auto_accept_quit=false
-	qa_mode = "--qa" in OS.get_cmdline_user_args() or "--qa-route" in OS.get_cmdline_user_args() or "--qa-render" in OS.get_cmdline_user_args() or "--qa-harbor" in OS.get_cmdline_user_args() or "--qa-access" in OS.get_cmdline_user_args() or "--qa-tour" in OS.get_cmdline_user_args() or "--qa-shorts" in OS.get_cmdline_user_args() or "--qa-diagnostic" in OS.get_cmdline_user_args()
+	qa_mode = "--qa-town" in OS.get_cmdline_user_args() or "--town-film" in OS.get_cmdline_user_args() or "--qa" in OS.get_cmdline_user_args() or "--qa-route" in OS.get_cmdline_user_args() or "--qa-render" in OS.get_cmdline_user_args() or "--qa-harbor" in OS.get_cmdline_user_args() or "--qa-access" in OS.get_cmdline_user_args() or "--qa-tour" in OS.get_cmdline_user_args() or "--qa-shorts" in OS.get_cmdline_user_args() or "--qa-diagnostic" in OS.get_cmdline_user_args()
 	qa_artifacts = ProjectSettings.globalize_path("res://").path_join("../artifacts")
 	for arg in OS.get_cmdline_user_args():
 		if arg.begins_with("--qa-output="):qa_artifacts=arg.trim_prefix("--qa-output=")
@@ -153,6 +158,9 @@ func _ready() -> void:
 		var ship = city.find_child(s.name,true,false)
 		if ship: ship.visible=false
 	setup_water()
+	atmosphere=load("res://scripts/town_atmosphere.gd").new()
+	add_child(atmosphere)
+	atmosphere.setup(self)
 	for tree in plan.get("trees",[]):
 		var trunk:=StaticBody3D.new()
 		trunk.position=Vector3(tree.x,3.1,tree.z)
@@ -191,11 +199,21 @@ func _ready() -> void:
 	harbor.setup(self)
 	setup_interface()
 	citizen_ui=CitizenUI.new(self)
+	town=load("res://scripts/living_town.gd").new()
+	add_child(town)
+	town.setup(self)
+	atmosphere.finish_town()
 	load_settings()
 	set_time(day_phase)
 	update_quest()
 	print("VESPER_READY buildings=%d bridges=%d trees=%d" % [plan.buildings.size(),plan.bridges.size(),plan.tree_count])
-	if "--qa" in OS.get_cmdline_user_args(): run_qa.call_deferred()
+	if "--town-film" in OS.get_cmdline_user_args():
+		town_qa_runner=load("res://scripts/living_town_film.gd").new()
+		town_qa_runner.run.call_deferred(self)
+	elif "--qa-town" in OS.get_cmdline_user_args():
+		town_qa_runner=load("res://scripts/neighbours_qa.gd" if "--qa-neighbours" in OS.get_cmdline_user_args() else "res://scripts/living_town_qa.gd").new()
+		town_qa_runner.run.call_deferred(self)
+	elif "--qa" in OS.get_cmdline_user_args(): run_qa.call_deferred()
 	elif "--qa-route" in OS.get_cmdline_user_args():
 		qa_mode = true
 		run_route_qa.call_deferred()
@@ -245,14 +263,14 @@ func setup_environment() -> void:
 	environment.tonemap_mode = Environment.TONE_MAPPER_FILMIC
 	environment.tonemap_exposure = 1.15
 	environment.ssao_enabled = true
-	environment.ssao_radius = .65
-	environment.ssao_intensity = .9
+	environment.ssao_radius = 1.05
+	environment.ssao_intensity = 1.05
 	environment.ssil_enabled = false
 	environment.ssil_intensity = .75
 	environment.ssr_enabled = true
 	environment.ssr_max_steps = 128
 	environment.glow_enabled = true
-	environment.glow_intensity = .25
+	environment.glow_intensity = .13
 	environment.glow_bloom = 0.0
 	environment.fog_enabled = false
 	environment.fog_density = .0014
@@ -270,7 +288,7 @@ func setup_environment() -> void:
 	sun.directional_shadow_max_distance = 170
 	sun.directional_shadow_mode = DirectionalLight3D.SHADOW_PARALLEL_4_SPLITS
 	sun.shadow_bias = .04
-	sun.shadow_normal_bias = 1.5
+	sun.shadow_normal_bias = .85
 	add_child(sun)
 
 func refine_materials() -> void:
@@ -319,19 +337,21 @@ func setup_water() -> void:
 	water.name = "CanalWater"
 	var plane := PlaneMesh.new()
 	plane.size = Vector2(1800,1800)
-	plane.subdivide_width = 160
-	plane.subdivide_depth = 160
+	plane.subdivide_width = 320
+	plane.subdivide_depth = 320
 	water.mesh = plane
 	var mat := ShaderMaterial.new()
 	mat.shader = load("res://shaders/water.gdshader")
 	water.material_override = mat
 	water.layers = 2
 	water_material = mat
-	mat.set_shader_parameter("ripples",load("res://assets/materials/water_normals.jpg"))
+	mat.set_shader_parameter("normal_a",load("res://assets/water/Water_N_A.png"))
+	mat.set_shader_parameter("normal_b",load("res://assets/water/Water_N_B.png"))
+	mat.set_shader_parameter("foam_map",load("res://assets/water/Foam.png"))
 	water.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	add_child(water)
 	reflection_view = SubViewport.new()
-	reflection_view.size = Vector2i(720,405)
+	reflection_view.size = Vector2i(1280,720)
 	reflection_view.world_3d = get_world_3d()
 	reflection_view.render_target_update_mode = SubViewport.UPDATE_ALWAYS
 	reflection_view.msaa_3d = Viewport.MSAA_DISABLED
@@ -604,6 +624,12 @@ func setup_audio() -> void:
 			var local_path: String="user://music."+extension
 			if FileAccess.file_exists(local_path):
 				if install_local_music(ProjectSettings.globalize_path(local_path),false):break
+	# A personal installation may keep its existing soundtrack beside the EXE.
+	# User-selected music takes precedence; no network request is made.
+	if music.stream==null and (not qa_mode or "--town-film" in OS.get_cmdline_user_args() or "--qa-neighbours" in OS.get_cmdline_user_args()):
+		var personal_music: String=OS.get_environment("VESPER_MUSIC_PATH")
+		if personal_music.is_empty():personal_music=OS.get_executable_path().get_base_dir().path_join("music/Vesper.ogg")
+		if FileAccess.file_exists(personal_music):install_local_music(personal_music,false)
 	ambience = AudioStreamPlayer.new()
 	var air: AudioStreamWAV = load("res://assets/audio/canal-air.wav")
 	air.loop_mode = AudioStreamWAV.LOOP_FORWARD
@@ -728,6 +754,7 @@ func end_speech(text: String="") -> void:
 	speech_bubble.visible=true
 	speech_seconds=5
 	citizen_ui.speech(text)
+	if town:town.player_speech(text)
 
 func panel_style(bg: Color=Color("14252fee"),border: Color=Color("a7916055")) -> StyleBoxFlat:
 	var style := StyleBoxFlat.new()
@@ -958,7 +985,7 @@ func setup_interface() -> void:
 	if save_exists: make_button(menu,"Begin again",Vector2(87,711),Vector2(315,38),confirm_new_journey)
 	make_label(menu,"An unofficial Ultima Online fan tech demo",Vector2(88,790),Vector2(600,27),16,MUTED)
 	make_label(menu,"Made for nostalgia and fun. This will never become a complete game.",Vector2(88,823),Vector2(850,24),14,MUTED)
-	make_label(menu,"Fan tech demo  /  0.3.2",Vector2(1260,39),Vector2(300,22),14,PAPER).horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
+	make_label(menu,"Living Vesper  /  0.5.0",Vector2(1260,39),Vector2(300,22),14,PAPER).horizontal_alignment = HORIZONTAL_ALIGNMENT_RIGHT
 	modal = Control.new()
 	modal.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)
 	modal.visible = false
@@ -1040,6 +1067,7 @@ func start_journey(resume: bool) -> void:
 		overhead=true
 		player.model.rotation.y=PI
 	playing = true
+	if town:town.begin(resume)
 	journey_time=0
 	player.visible = true
 	player.last_safe = player.position
@@ -1049,7 +1077,7 @@ func start_journey(resume: bool) -> void:
 	update_quest()
 	if not music.playing: music.play()
 	if not ambience.playing: ambience.play()
-	toast("Welcome to Vesper. Elowen is waiting by the Mint.")
+	toast("Welcome to living Vesper. Listen for Osric by the Mint. Enter to speak; F3 developer view.")
 	save_journey()
 
 func confirm_new_journey() -> void:
@@ -1061,7 +1089,7 @@ func confirm_new_journey() -> void:
 func show_pause() -> void:
 	var p := open_modal("A moment by the water",640,644)
 	make_button(p,"Return to Vesper",Vector2(34,106),Vector2(572,49),close_modal,true).grab_focus()
-	make_label(p,"Music",Vector2(35,184),Vector2(160,30),22,PAPER,true)
+	make_label(p,"Vesper music",Vector2(35,184),Vector2(230,30),22,PAPER,true)
 	make_button(p,"Choose local music",Vector2(34,216),Vector2(220,30),choose_local_music)
 	var music_slider := HSlider.new()
 	music_slider.position = Vector2(287,194)
@@ -1082,7 +1110,7 @@ func show_pause() -> void:
 	p.add_child(air_slider)
 	make_button(p,"Light: "+["Golden hour","Daylight","Lantern night"][day_phase],Vector2(34,333),Vector2(278,46),func():set_time((day_phase+1)%3);show_pause())
 	make_button(p,"Details: "+("High" if quality else "Performance"),Vector2(328,333),Vector2(278,46),func():set_quality(not quality);show_pause())
-	make_button(p,"Traveler’s journal",Vector2(34,397),Vector2(278,46),toggle_journal)
+	make_button(p,"Town voices",Vector2(34,397),Vector2(278,46),town.voice_options)
 	make_button(p,"About & controls",Vector2(328,397),Vector2(278,46),show_credits)
 	make_button(p,"Save and return to title",Vector2(34,464),Vector2(572,46),return_to_title)
 	make_button(p,"Save and quit",Vector2(34,527),Vector2(572,46),quit_demo)
@@ -1161,7 +1189,7 @@ func toggle_journal() -> void:
 
 func show_credits() -> void:
 	var p := open_modal("A return to Vesper",920,764)
-	var text := "A personal nostalgia project by Carl Prewitt Jr. (rages4calm), built with OpenAI Codex assistance. This is a fan tech demo for fun. It will never become a complete game, MMO, or official remake.\n\nVesper and Ultima Online originate with Origin Systems and the original UO creators. Geography references: The Second Age manual, Stratics, UOGuide, and the UO community. This project is not endorsed by or affiliated with EA or its licensors.\n\nCharacters and base animations: Quaternius (CC0). Trees, furnishings, and photographed materials: Poly Haven (CC0). Type: Cormorant Garamond (SIL OFL). Engine: Godot. Asset preparation: Blender. Journal artwork: OpenAI image generation.\n\nThis public download includes original synthesized effects and ambience. Original UO music and extracted effects are not bundled. Choose your own local OGG or WAV in the pause menu. See CREDITS.md for individual asset links and licenses."
+	var text := "A personal nostalgia project by Carl Prewitt Jr. (rages4calm), built with OpenAI Codex assistance. This is a fan tech demo for fun. It will never become a complete game, MMO, or official remake.\n\nVesper and Ultima Online originate with Origin Systems and the original UO creators. Geography references: The Second Age manual, Stratics, UOGuide, and the UO community. This project is not endorsed by or affiliated with EA or its licensors.\n\nCharacters and base animations: Quaternius (CC0). Trees, furnishings, and photographed materials: Poly Haven (CC0). Type: Cormorant Garamond (SIL OFL). Engine: Godot. Asset preparation: Blender. Journal artwork: OpenAI image generation.\n\nEffects and ambience are project syntheses. An optional local Vesper recording plays from music/Vesper.ogg beside the game; its original rights remain with its creators. Music, ambience and voices have separate volume controls. See CREDITS.md for recording credits, asset sources and licenses."
 	var label := make_label(p,text,Vector2(36,108),Vector2(848,415),19,PAPER)
 	label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
 	make_label(p,"Your controls",Vector2(36,536),Vector2(400,36),29,GOLD,true)
@@ -1201,9 +1229,10 @@ func advance_quest() -> void:
 	save_journey()
 
 func dialogue(npc: Dictionary) -> void:
+	if town:town.greet(npc)
 	var p := open_modal(npc.name,740,465)
 	make_label(p,npc.role+"  ·  "+map_name(npc.building),Vector2(36,85),Vector2(666,27),16,GOLD)
-	var text := ""
+	var text: String=town.actors[npc.id].goal+".\n\nSay hello to speak, or press N to read the town notices." if town and town.actors.has(npc.id) else ""
 	var choices: Array = []
 	match npc.id:
 		"elowen":
@@ -1382,6 +1411,7 @@ func quit_demo(exit_code: int=0) -> void:
 	set_physics_process(false)
 	if player:player.set_physics_process(false)
 	if harbor:harbor.set_process(false)
+	if town and town.enabled:await town.shutdown()
 	for node in find_children("*","",true,false):
 		if node is AudioStreamPlayer or node is AudioStreamPlayer3D or node is AudioStreamPlayer2D:
 			node.stop()
@@ -1455,6 +1485,7 @@ func update_camera(delta: float) -> void:
 	camera.projection=Camera3D.PROJECTION_ORTHOGONAL if overhead else Camera3D.PROJECTION_PERSPECTIVE
 	camera.size=camera_distance*.62
 	var focus: Vector3=player.get_global_transform_interpolated().origin+Vector3.UP*1.1
+	if cinematic_active:focus=cinematic_focus
 	var offset := Vector3(0,sin(camera_pitch)*camera_distance,cos(camera_pitch)*camera_distance).rotated(Vector3.UP,camera_yaw)
 	var desired: Vector3=focus+offset
 	# Roofs lift away on entering a building; walls and furniture retain collision.
@@ -1469,7 +1500,7 @@ func update_camera(delta: float) -> void:
 	query.exclude=[player.get_rid()]
 	var hit := get_world_3d().direct_space_state.intersect_ray(query)
 	if hit and not overhead: desired=hit.position+(focus-hit.position).normalized()*.35
-	if not camera_initialized or camera.position.distance_to(desired)>22:
+	if cinematic_active or not camera_initialized or camera.position.distance_to(desired)>22:
 		camera.position=desired
 		camera_initialized=true
 	else:camera.position=camera.position.lerp(desired,1-exp(-delta*24))
@@ -1489,6 +1520,9 @@ func _physics_process(delta: float) -> void:
 		var was_open: bool=door_open_states.get(id,false)
 		# A wider closing distance prevents boundary jitter and repeated creaks.
 		var opened: bool=player.position.distance_to(door_position)<(5.4 if was_open else 4.2)
+		if town and town.enabled:
+			for actor in town.actors.values():
+				if actor.node.position.distance_to(door_position)<(5.4 if was_open else 4.2):opened=true
 		if opened!=was_open:
 			door_open_states[id]=opened
 			if opened:play_door_sound(id,true)
@@ -1503,6 +1537,7 @@ func _exit_tree() -> void:
 	if is_instance_valid(reflection_view):reflection_view.world_3d=null
 
 func update_npc(npc: Dictionary,delta: float) -> void:
+	if npc.get("living",false):return
 	if npc.id=="resident":
 		var route: PackedVector3Array=npc.route
 		if route.size()<2:return
@@ -1595,38 +1630,42 @@ func update_lights() -> void:
 	ordered.sort_custom(func(a,b):return a.position.distance_squared_to(pos)<b.position.distance_squared_to(pos))
 	for i in range(ordered.size()):
 		ordered[i].visible=i<8 and ordered[i].position.distance_to(pos)<55
-		if ordered[i].visible:ordered[i].light_energy=(2.4 if day_phase==2 else .65)*(1+sin(elapsed*3+ordered[i].position.x)*.035)
+		ordered[i].shadow_enabled=quality and ordered[i].visible and i<3
+		if ordered[i].visible:
+			var strength: float=(3.5 if day_phase==2 else 1.15) if ordered[i].get_meta("interior",false) else (2.4 if day_phase==2 else .35)
+			ordered[i].light_energy=strength*(1+sin(elapsed*3+ordered[i].position.x)*.022)
 
 func set_time(value: int) -> void:
 	day_phase=posmod(value,3)
 	match day_phase:
 		0:
-			sun.rotation_degrees=Vector3(-32,-42,0)
-			sun.light_color=Color("ffe2ac")
-			sun.light_energy=1.5
+			sun.rotation_degrees=Vector3(-25,-48,0)
+			sun.light_color=Color("ffddb0")
+			sun.light_energy=1.65
 			sky_material.sky_top_color=Color("4d788c")
 			sky_material.sky_horizon_color=Color("d6c7ab")
-			environment.ambient_light_energy=.85
+			environment.ambient_light_energy=.52
 			environment.tonemap_exposure=1.0
 			environment.fog_light_color=Color("8dafa9")
 		1:
-			sun.rotation_degrees=Vector3(-62,-28,0)
-			sun.light_color=Color("fffcf4")
-			sun.light_energy=1.55
+			sun.rotation_degrees=Vector3(-48,-32,0)
+			sun.light_color=Color("fff1db")
+			sun.light_energy=1.65
 			sky_material.sky_top_color=Color("4e8da9")
-			sky_material.sky_horizon_color=Color("c6d6d1")
-			environment.ambient_light_energy=.85
+			sky_material.sky_horizon_color=Color("b5c4c8")
+			environment.ambient_light_energy=.57
 			environment.tonemap_exposure=1.0
 			environment.fog_light_color=Color("97b7be")
 		2:
 			sun.rotation_degrees=Vector3(-44,18,0)
 			sun.light_color=Color("9abbe9")
-			sun.light_energy=.45
+			sun.light_energy=.38
 			sky_material.sky_top_color=Color("0a192e")
 			sky_material.sky_horizon_color=Color("394957")
-			environment.ambient_light_energy=.5
-			environment.tonemap_exposure=1.3
+			environment.ambient_light_energy=.34
+			environment.tonemap_exposure=1.15
 			environment.fog_light_color=Color("263849")
+	if atmosphere:atmosphere.set_time(day_phase)
 	if time_label:time_label.text=["Golden hour","Daylight","Lantern night"][day_phase]
 	if playing:save_settings()
 
@@ -1645,12 +1684,15 @@ func set_quality(high: bool) -> void:
 	save_settings()
 
 func save_path() -> String:
+	if "--qa-neighbours" in OS.get_cmdline_user_args():return "user://qa_neighbours_journey.json"
+	if "--town-film" in OS.get_cmdline_user_args():return "user://qa_film_journey.json"
 	if "--qa-route" in OS.get_cmdline_user_args():return "user://qa_route_journey.json"
 	return "user://qa_journey.json" if qa_mode else "user://journey.json"
 
 func save_journey() -> void:
 	if not playing:return
 	var data={"version":SAVE_VERSION,"position":[player.position.x,player.position.y,player.position.z],"quest":journal_stage,"discoveries":discoveries,"coins":coins,"fish":fish,"bread":bread,"camera_yaw":camera_yaw,"camera_pitch":camera_pitch,"camera_distance":camera_target_distance}
+	if town and town.enabled:data["town"]=town.serialize()
 	data["bank"]=bank_items
 	data["overhead"]=overhead
 	data["camera_revision"]=3
@@ -1701,7 +1743,7 @@ func load_settings() -> void:
 	if qa_mode:return
 	var cfg:=ConfigFile.new()
 	if cfg.load("user://settings.cfg")!=OK:return
-	music_level=clampf(float(cfg.get_value("audio","music",.50)),0,1)
+	music_level=clampf(float(cfg.get_value("audio","music",.28)),0,1)
 	ambience_level=clampf(float(cfg.get_value("audio","ambience",.55)),0,1)
 	day_phase=clampi(int(cfg.get_value("view","time",0)),0,2)
 	quality=bool(cfg.get_value("view","quality",true))

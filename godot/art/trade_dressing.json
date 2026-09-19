@@ -1,0 +1,205 @@
+[
+  {
+    "id": "fishers_net_rack",
+    "asset": "fishing_rack",
+    "position": [
+      108.0,
+      2,
+      -40.9
+    ],
+    "yaw": 0,
+    "obstacles": [
+      [
+        0,
+        1.1,
+        0.15,
+        3.7,
+        2.3,
+        0.9
+      ]
+    ]
+  },
+  {
+    "id": "shipwright_timber",
+    "asset": "timber_work",
+    "position": [
+      98.0,
+      2,
+      -3.8
+    ],
+    "yaw": 0,
+    "obstacles": [
+      [
+        0,
+        0.8,
+        0,
+        4.0,
+        1.6,
+        1.1
+      ]
+    ]
+  },
+  {
+    "id": "carpenters_timber",
+    "asset": "timber_work",
+    "position": [
+      22.8,
+      2,
+      -23.6
+    ],
+    "yaw": 1.5707963267948966,
+    "obstacles": [
+      [
+        0,
+        0.8,
+        0,
+        4,
+        1.6,
+        1.1
+      ]
+    ]
+  },
+  {
+    "id": "shipwright_casks",
+    "asset": "quay_casks",
+    "position": [
+      102.0,
+      3.16,
+      -3.75
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "tavern_backbar",
+    "asset": "tavern_backbar",
+    "position": [
+      4.45,
+      2,
+      70.1
+    ],
+    "yaw": 1.5707963267948966,
+    "obstacles": []
+  },
+  {
+    "id": "tavern_crockery",
+    "asset": "trade_shelf",
+    "position": [
+      14.4,
+      2.2,
+      64.5
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "inn_crockery",
+    "asset": "trade_shelf",
+    "position": [
+      -92,
+      2.2,
+      116.9
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "fisher_trade_sign",
+    "asset": "sign_fish",
+    "position": [
+      108.55999999999999,
+      4.9,
+      -51.89
+    ],
+    "yaw": 3.141592653589793,
+    "obstacles": []
+  },
+  {
+    "id": "carpenter_trade_sign",
+    "asset": "sign_hammer",
+    "position": [
+      28.24,
+      4.4,
+      -22.779999999999998
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "tavern_trade_sign",
+    "asset": "sign_mug",
+    "position": [
+      13.54,
+      4.4,
+      78.68
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "inn_trade_sign",
+    "asset": "sign_mug",
+    "position": [
+      -93.14,
+      4.4,
+      133.01999999999998
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "oven_trade_sign",
+    "asset": "sign_bread",
+    "position": [
+      100.9,
+      4.4,
+      -53.1
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "boat_trade_sign",
+    "asset": "sign_anchor",
+    "position": [
+      91.01,
+      4.9,
+      -6.92
+    ],
+    "yaw": -1.5707963267948966,
+    "obstacles": []
+  },
+  {
+    "id": "healer_trade_sign",
+    "asset": "sign_bottle",
+    "position": [
+      28.659999999999997,
+      4.4,
+      29.8
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "reagents_trade_sign",
+    "asset": "sign_bottle",
+    "position": [
+      92.08,
+      4.4,
+      13.18
+    ],
+    "yaw": 0,
+    "obstacles": []
+  },
+  {
+    "id": "brew_trade_sign",
+    "asset": "sign_bottle",
+    "position": [
+      2.62,
+      4.4,
+      -149.11999999999998
+    ],
+    "yaw": 0,
+    "obstacles": []
+  }
+]

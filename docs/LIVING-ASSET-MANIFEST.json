@@ -1,0 +1,464 @@
+[
+  {
+    "asset": "kokoro-model",
+    "source": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/README.md",
+    "creator": "hexgrad / Kokoro contributors",
+    "license": "Apache-2.0",
+    "use": "helper/models/kokoro.onnx",
+    "attribution": "License notice retained; see docs/licenses/living-town",
+    "retrieved": "2026-09-19",
+    "sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a",
+    "bytes": 325505369
+  },
+  {
+    "asset": "kokoro-voices",
+    "source": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/VOICES.md",
+    "creator": "hexgrad / Kokoro contributors",
+    "license": "Apache-2.0",
+    "use": "helper/models/voices.bin",
+    "attribution": "License notice retained; see docs/licenses/living-town",
+    "retrieved": "2026-09-19",
+    "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d",
+    "bytes": 28214398
+  },
+  {
+    "asset": "kokoro-onnx",
+    "source": "https://raw.githubusercontent.com/thewh1teagle/kokoro-onnx/main/LICENSE",
+    "creator": "thewh1teagle",
+    "license": "MIT",
+    "use": "helper/_internal/kokoro_onnx",
+    "attribution": "License notice retained; see docs/licenses/living-town",
+    "retrieved": "2026-09-19"
+  },
+  {
+    "asset": "espeak-ng",
+    "source": "https://raw.githubusercontent.com/espeak-ng/espeak-ng/master/COPYING",
+    "creator": "eSpeak NG contributors",
+    "license": "GPL-3.0-or-later",
+    "use": "helper/runtime phonemization",
+    "attribution": "License notice retained; see docs/licenses/living-town",
+    "retrieved": "2026-09-19"
+  },
+  {
+    "asset": "phonemizer",
+    "source": "https://raw.githubusercontent.com/bootphon/phonemizer/master/LICENSE",
+    "creator": "Mathieu Bernard, Hadrien Titeux and contributors",
+    "license": "GPL-3.0-or-later",
+    "use": "helper/runtime phonemization",
+    "attribution": "License notice retained; see docs/licenses/living-town",
+    "retrieved": "2026-09-19"
+  },
+  {
+    "asset": "kokoro-onnx",
+    "version": "0.4.7",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/kokoro-onnx",
+    "source": "https://pypi.org/project/kokoro-onnx/0.4.7/"
+  },
+  {
+    "asset": "espeakng-loader",
+    "version": "0.2.4",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/espeakng-loader",
+    "source": "https://pypi.org/project/espeakng-loader/0.2.4/"
+  },
+  {
+    "asset": "phonemizer-fork",
+    "version": "3.3.1",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/phonemizer-fork",
+    "source": "https://pypi.org/project/phonemizer-fork/3.3.1/"
+  },
+  {
+    "asset": "onnxruntime",
+    "version": "1.30.0",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/onnxruntime",
+    "source": "https://pypi.org/project/onnxruntime/1.30.0/"
+  },
+  {
+    "asset": "numpy",
+    "version": "2.5.3",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/numpy",
+    "source": "https://pypi.org/project/numpy/2.5.3/"
+  },
+  {
+    "asset": "requests",
+    "version": "2.34.2",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/requests",
+    "source": "https://pypi.org/project/requests/2.34.2/"
+  },
+  {
+    "asset": "certifi",
+    "version": "2026.7.22",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/certifi",
+    "source": "https://pypi.org/project/certifi/2026.7.22/"
+  },
+  {
+    "asset": "cffi",
+    "version": "2.1.1",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/cffi",
+    "source": "https://pypi.org/project/cffi/2.1.1/"
+  },
+  {
+    "asset": "language-tags",
+    "version": "1.3.1",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/language-tags",
+    "source": "https://pypi.org/project/language-tags/1.3.1/"
+  },
+  {
+    "asset": "segments",
+    "version": "2.4.0",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/segments",
+    "source": "https://pypi.org/project/segments/2.4.0/"
+  },
+  {
+    "asset": "csvw",
+    "version": "4.1.0",
+    "kind": "runtime dependency",
+    "license_notice": "docs/licenses/living-town/csvw",
+    "source": "https://pypi.org/project/csvw/4.1.0/"
+  },
+  {
+    "asset": "Quaternius Fantasy Outfits",
+    "creator": "Quaternius",
+    "source": "https://quaternius.com/packs/modularcharacteroutfitsfantasy.html",
+    "license": "CC0-1.0",
+    "files": [
+      "citizen-male.glb",
+      "citizen-female.glb"
+    ],
+    "change": "Reuse of the previously adapted Blender models; talking, walking, fishing and interaction clips enabled for living citizens.",
+    "attribution": "Credit retained in CREDITS.md; original license notices in docs/licenses."
+  },
+  {
+    "asset": "Quaternius Universal Base Characters",
+    "creator": "Quaternius",
+    "source": "https://quaternius.com/packs/universalbasecharacters.html",
+    "license": "CC0-1.0",
+    "files": [
+      "citizen-male.glb",
+      "citizen-female.glb"
+    ],
+    "change": "Reuse of the previously adapted Blender models; talking, walking, fishing and interaction clips enabled for living citizens.",
+    "attribution": "Credit retained in CREDITS.md; original license notices in docs/licenses."
+  },
+  {
+    "asset": "Quaternius Universal Animation Library",
+    "creator": "Quaternius",
+    "source": "https://quaternius.com/packs/universalanimationlibrary.html",
+    "license": "CC0-1.0",
+    "files": [
+      "citizen-male.glb",
+      "citizen-female.glb",
+      "harbor/fisherman.glb"
+    ],
+    "change": "Reuse of the previously adapted Blender models; talking, walking, fishing and interaction clips enabled for living citizens.",
+    "attribution": "Credit retained in CREDITS.md; original license notices in docs/licenses."
+  },
+  {
+    "asset": "178 generated NPC speech recordings",
+    "creator": "Carl Prewitt Jr. project / local Kokoro synthesis",
+    "source": "scripts/build_voice_library.py",
+    "license": "Project-specific authored dialogue; model license Apache-2.0",
+    "files": "godot/assets/voices/*.wav",
+    "change": "Expanded authored greetings, conversations, trade handoffs and recognition lines. Same licensed local Kokoro models."
+  },
+  {
+    "asset": "Crier livery, bell, noticeboard, delivery baskets",
+    "creator": "Carl Prewitt Jr. project / Codex assisted procedural geometry",
+    "source": "godot/scripts/living_town.gd",
+    "license": "Project-specific geometry",
+    "files": "make_props()",
+    "change": "New geometry, no external asset."
+  },
+  {
+    "asset": "Vesper local helper source",
+    "creator": "Carl Prewitt Jr. project / Codex assisted",
+    "license": "GPL-3.0-or-later",
+    "source": "helper/",
+    "notice": "helper/LICENSE",
+    "build": "helper/BUILDING.md"
+  },
+  {
+    "asset": "espeak-ng-1.52.0.tar.gz",
+    "kind": "corresponding source archive",
+    "path": "helper/source-archives/espeak-ng-1.52.0.tar.gz",
+    "sha256": "bb4338102ff3b49a81423da8a1a158b420124b055b60fa76cfb4b18677130a23",
+    "license": "GPL-3.0-or-later (see enclosed component licenses)"
+  },
+  {
+    "asset": "espeak-ng.tar.gz",
+    "kind": "corresponding source archive",
+    "path": "helper/source-archives/espeak-ng.tar.gz",
+    "sha256": "cd83f84c4e495f281ac14e919aecf2834306ec1ea1b498de8ef6000f3a0f90de",
+    "license": "GPL-3.0-or-later (see enclosed component licenses)"
+  },
+  {
+    "asset": "espeakng-loader.tar.gz",
+    "kind": "corresponding source archive",
+    "path": "helper/source-archives/espeakng-loader.tar.gz",
+    "sha256": "d6e3a441a0f23f249bf5d8eaf261dbc5d751161b66bf901bb1876889fde1c61f",
+    "license": "GPL-3.0-or-later (see enclosed component licenses)"
+  },
+  {
+    "asset": "phonemizer_fork-3.3.1.tar.gz",
+    "kind": "corresponding source archive",
+    "path": "helper/source-archives/phonemizer_fork-3.3.1.tar.gz",
+    "sha256": "483a2751ea435b9859e2ddca7d4ec817e54a82f3d2ad5ad2fd8fbd40e3bdf89e",
+    "license": "GPL-3.0-or-later (see enclosed component licenses)"
+  },
+  {
+    "asset": "pyinstaller",
+    "version": "6.22.3",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/pyinstaller",
+    "source": "https://pypi.org/project/pyinstaller/6.22.3/"
+  },
+  {
+    "asset": "setuptools",
+    "version": "84.0.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/setuptools",
+    "source": "https://pypi.org/project/setuptools/84.0.0/"
+  },
+  {
+    "asset": "pywin32-ctypes",
+    "version": "0.2.3",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/pywin32-ctypes",
+    "source": "https://pypi.org/project/pywin32-ctypes/0.2.3/"
+  },
+  {
+    "asset": "pyinstaller-hooks-contrib",
+    "version": "2026.7",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/pyinstaller-hooks-contrib",
+    "source": "https://pypi.org/project/pyinstaller-hooks-contrib/2026.7/"
+  },
+  {
+    "asset": "packaging",
+    "version": "26.3",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/packaging",
+    "source": "https://pypi.org/project/packaging/26.3/"
+  },
+  {
+    "asset": "pefile",
+    "version": "2024.8.26",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/pefile",
+    "source": "https://pypi.org/project/pefile/2024.8.26/"
+  },
+  {
+    "asset": "altgraph",
+    "version": "0.17.5",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/altgraph",
+    "source": "https://pypi.org/project/altgraph/0.17.5/"
+  },
+  {
+    "asset": "protobuf",
+    "version": "7.36.2",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/protobuf",
+    "source": "https://pypi.org/project/protobuf/7.36.2/"
+  },
+  {
+    "asset": "flatbuffers",
+    "version": "25.12.19",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/flatbuffers",
+    "source": "https://pypi.org/project/flatbuffers/25.12.19/"
+  },
+  {
+    "asset": "urllib3",
+    "version": "2.8.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/urllib3",
+    "source": "https://pypi.org/project/urllib3/2.8.0/"
+  },
+  {
+    "asset": "idna",
+    "version": "3.20",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/idna",
+    "source": "https://pypi.org/project/idna/3.20/"
+  },
+  {
+    "asset": "charset-normalizer",
+    "version": "3.5.1",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/charset-normalizer",
+    "source": "https://pypi.org/project/charset-normalizer/3.5.1/"
+  },
+  {
+    "asset": "typing-extensions",
+    "version": "4.16.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/typing-extensions",
+    "source": "https://pypi.org/project/typing-extensions/4.16.0/"
+  },
+  {
+    "asset": "jsonschema",
+    "version": "4.26.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/jsonschema",
+    "source": "https://pypi.org/project/jsonschema/4.26.0/"
+  },
+  {
+    "asset": "rpds-py",
+    "version": "2026.6.3",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/rpds-py",
+    "source": "https://pypi.org/project/rpds-py/2026.6.3/"
+  },
+  {
+    "asset": "referencing",
+    "version": "0.37.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/referencing",
+    "source": "https://pypi.org/project/referencing/0.37.0/"
+  },
+  {
+    "asset": "attrs",
+    "version": "26.1.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/attrs",
+    "source": "https://pypi.org/project/attrs/26.1.0/"
+  },
+  {
+    "asset": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/jsonschema-specifications",
+    "source": "https://pypi.org/project/jsonschema-specifications/2025.9.1/"
+  },
+  {
+    "asset": "termcolor",
+    "version": "3.3.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/termcolor",
+    "source": "https://pypi.org/project/termcolor/3.3.0/"
+  },
+  {
+    "asset": "rdflib",
+    "version": "7.6.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/rdflib",
+    "source": "https://pypi.org/project/rdflib/7.6.0/"
+  },
+  {
+    "asset": "pyparsing",
+    "version": "3.3.2",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/pyparsing",
+    "source": "https://pypi.org/project/pyparsing/3.3.2/"
+  },
+  {
+    "asset": "babel",
+    "version": "2.18.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/babel",
+    "source": "https://pypi.org/project/babel/2.18.0/"
+  },
+  {
+    "asset": "uritemplate",
+    "version": "4.2.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/uritemplate",
+    "source": "https://pypi.org/project/uritemplate/4.2.0/"
+  },
+  {
+    "asset": "rfc3986",
+    "version": "1.5.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/rfc3986",
+    "source": "https://pypi.org/project/rfc3986/1.5.0/"
+  },
+  {
+    "asset": "python-dateutil",
+    "version": "2.9.0.post0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/python-dateutil",
+    "source": "https://pypi.org/project/python-dateutil/2.9.0.post0/"
+  },
+  {
+    "asset": "six",
+    "version": "1.17.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/six",
+    "source": "https://pypi.org/project/six/1.17.0/"
+  },
+  {
+    "asset": "isodate",
+    "version": "0.7.2",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/isodate",
+    "source": "https://pypi.org/project/isodate/0.7.2/"
+  },
+  {
+    "asset": "regex",
+    "version": "2026.9.10",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/regex",
+    "source": "https://pypi.org/project/regex/2026.9.10/"
+  },
+  {
+    "asset": "joblib",
+    "version": "1.6.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/joblib",
+    "source": "https://pypi.org/project/joblib/1.6.0/"
+  },
+  {
+    "asset": "cloudpickle",
+    "version": "3.1.2",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/cloudpickle",
+    "source": "https://pypi.org/project/cloudpickle/3.1.2/"
+  },
+  {
+    "asset": "dlinfo",
+    "version": "2.0.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/dlinfo",
+    "source": "https://pypi.org/project/dlinfo/2.0.0/"
+  },
+  {
+    "asset": "colorlog",
+    "version": "6.12.0",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/colorlog",
+    "source": "https://pypi.org/project/colorlog/6.12.0/"
+  },
+  {
+    "asset": "colorama",
+    "version": "0.4.6",
+    "kind": "runtime or build dependency",
+    "license_notice": "docs/licenses/living-town/colorama",
+    "source": "https://pypi.org/project/colorama/0.4.6/"
+  },
+  {
+    "asset": "Python 3.14 runtime",
+    "creator": "Python Software Foundation and contributors",
+    "license": "PSF and bundled component notices",
+    "license_notice": "docs/licenses/living-town/PYTHON-LICENSE.txt",
+    "source": "https://www.python.org/"
+  },
+  {
+    "asset": "Optional personal Vesper soundtrack",
+    "creator": "Original UO composition/arrangement credited to Joe Basquez and Kirk Winterowd; SC-55 recording archived by Rabbit's Lair",
+    "source": "http://ultima.rabbitslair.de/ultima_online.htm",
+    "license": "Original rights retained; not a CC0/project-licensed asset",
+    "use": "Existing local user recording, music/Vesper.ogg in the personal Windows build",
+    "duration_seconds": 237.277188,
+    "sha256": "1ecf4f57d9f63255431ea529b928c2a56a8df42e70a90054dc55535925de9e02"
+  }
+]

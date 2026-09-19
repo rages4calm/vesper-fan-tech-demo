@@ -14,14 +14,22 @@ I wanted to walk through Vesper again: the bridges, the bank, the little shops, 
 
 ### [Download the Windows demo](https://github.com/rages4calm/vesper-fan-tech-demo/releases/latest)
 
-1. Download **`Vesper-Fan-Tech-Demo-v0.3.2-Windows-x64.zip`** from the release assets.
+1. Download **`Vesper-Fan-Tech-Demo-v0.6.1-Windows-x64.zip`** from the release assets.
 2. Extract the entire ZIP to a normal folder.
-3. Open **`Vesper.exe`**. Keep **`Vesper.pck`** beside it.
+3. Open **`Play Living Vesper.cmd`**. Keep the extracted files together. The launcher starts and stops the optional local helper for you.
 4. Choose **Enter Vesper**, then explore. Elowen, outside the Mint, can start a short delivery quest.
 
 No Godot or Blender installation, account, server, or internet connection is needed to play. The ZIP is portable; there is no installer. GitHub's automatically generated “Source code” ZIP is **not** the playable download.
 
 **Platform:** Windows x64. The Forward+ renderer needs a Vulkan-capable GPU and current graphics drivers. This build was tested on Windows with an NVIDIA RTX 5070; minimum hardware requirements have not been established. Performance will vary. The executable is unsigned, so Windows may display an unknown-publisher warning. Checksums are included with the release.
+
+## What changed in 0.6.1
+
+The town now has 21 active citizens, a voiced crier, NPC conversations, connected fish/bread/timber/remedy deliveries, local memories and small player errands. The atmosphere pass adds weathered materials, trade signs, workshop supplies and warm interior lanterns. This release replaces the old single water-normal texture with free MIT-licensed UnionBytes wave and foam assets, layered ripples, gentler swell, contact foam and higher-resolution reflections.
+
+The town works offline with included synthetic voices and ordinary simulation rules. Optional **Jev** chooses among valid actions and verified announcements using your own `TYPESAFE_API_KEY`; it does not drive movement or provide unrestricted NPC chat. No key is included. The helper limits requests and spending, and **F3** shows whether decisions are live or fallback. See [Living Town instructions](docs/LIVING-TOWN.md), [water assets and credits](docs/WATER-ASSETS.json), and [release validation](docs/WATER-VALIDATION.md).
+
+![Water and boats in the actual 0.6.1 build](docs/images/water-harbor.png)
 
 ## A small piece of Vesper
 
@@ -57,6 +65,7 @@ The geography is traced and simplified from historical references. This is an in
 | Enter | Type speech; Enter again to say it |
 | T / H | Change lighting / hide interface |
 | F11 / F12 | Fullscreen / photograph |
+| N / F3 / F4 | Town notices / developer view / mute voices |
 | Esc | Pause or close a panel |
 
 Press **M** and select a blue dock marker to walk to a harbor lookout. At the brass-capped post, press **E** to watch the water; scroll to zoom. Press **E**, **Esc**, or a movement key to leave the lookout.
@@ -65,13 +74,13 @@ Near the Mint, inside or outside, say **bank** to store gold, fish, and bread. S
 
 ## Audio and local files
 
-The public download includes original synthesized ambience and effects. **Original Ultima Online music and extracted UO sound effects are not bundled.** Some development videos use the original Vesper theme, so the public package's audio differs from those recordings.
+The public download includes original synthesized ambience/effects and locally generated Kokoro NPC voices. **Original Ultima Online music and extracted UO sound effects are not bundled.** Some development videos use the original Vesper theme, so the public package's audio differs from those recordings.
 
 To use a soundtrack you are entitled to use, pause the demo and select **Choose local music**, then select a local **OGG or WAV** file under 100 MB. It is copied into the demo's local data folder and loops during play. No audio is downloaded or uploaded by the demo.
 
 **Looking for the familiar Vesper theme?** [Rabbit's Lair's Ultima Online music archive](http://ultima.rabbitslair.de/ultima_online.htm) lists **11 — Vesper** as an OGG download—the recording used in our development videos. Visit the archive, save that track locally under its personal-use terms, then choose it through **Esc → Choose local music**. The archive is independent of this project; the music retains its original rights.
 
-Saves, settings, imported music, and photographs are stored in `%APPDATA%\Vesper Fan Tech Demo\`. Starting a new journey asks before replacing the current save. Automated checks use separate QA save and music files.
+This living-town build uses `%APPDATA%\Vesper Atmosphere Preview\` for saves, settings, imported music and photographs. The older v0.3.2 save folder is left untouched. For previous Living Town users, the launcher copies their journey/settings only when the corresponding preview file does not exist. Starting a new journey asks before replacing the current save. Automated checks use separate QA save and music files.
 
 ## Credits
 
@@ -96,6 +105,7 @@ See **[CREDITS.md](CREDITS.md)** for individual asset links, adaptations, music 
 
 ## Source and scope
 
-The repository contains the Godot scripts, shaders, scene, release tools, and documentation. Large models and textures are supplied separately as **`Vesper-v0.3.2-Source-Assets.zip`** on the same release, avoiding Git LFS requirements for visitors. See **[Building the demo](docs/BUILDING.md)**.
+The repository contains the Godot scripts, shaders, scene, release tools, and documentation. Large models and textures are supplied separately as **`Vesper-v0.6.1-Source-Assets.zip`** on the same release, avoiding Git LFS requirements for visitors. See **[Building the demo](docs/BUILDING.md)**.
 
-The Windows package is free to download and play. This is a hobby artifact shared as-is, with no support schedule, multiplayer service, or commitment to further development. Bug reports are welcome, but feature requests are not a full-game development roadmap. See **[licensing and reuse](LICENSE.md)** and **[validation notes](docs/VALIDATION.md)**.
+The Windows package is free to download and play. This is a hobby artifact shared as-is, with no support schedule, multiplayer service, or commitment to further development. Bug reports are welcome, but feature requests are not a full-game development roadmap. See **[licensing and reuse](LICENSE.md)** and **[validation notes](docs/WATER-VALIDATION.md)**.
+
