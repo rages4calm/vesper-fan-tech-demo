@@ -25,7 +25,8 @@ def verify(path,row):
     # The hash remains authoritative; no semantic/content mismatch is accepted.
     if digest(path)!=row['sha256'] and path.suffix in {'.json','.txt','.md'}:
         lf=path.read_bytes().replace(b'\r\n',b'\n')
-        for candidate in [lf,lf.replace(b'\n',b'\r\n')]:
+        no_terminal=lf.rstrip(b'\n')
+        for candidate in [lf,lf.replace(b'\n',b'\r\n'),no_terminal,no_terminal.replace(b'\n',b'\r\n')]:
             if len(candidate)==row['bytes'] and hashlib.sha256(candidate).hexdigest()==row['sha256']:
                 path.write_bytes(candidate);break
     assert path.stat().st_size==row['bytes'] and digest(path)==row['sha256'],row['path']
