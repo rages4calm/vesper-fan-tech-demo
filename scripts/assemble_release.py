@@ -20,6 +20,14 @@ def extract_member(z,name,dest):
         import shutil
         shutil.copyfileobj(source,output)
 def verify(path,row):
+    # Text may have been normalized by checkout after the local source ZIP was
+    # made. Recover only an exact manifest-matching LF/CRLF representation.
+    # The hash remains authoritative; no semantic/content mismatch is accepted.
+    if digest(path)!=row['sha256'] and path.suffix in {'.json','.txt','.md'}:
+        lf=path.read_bytes().replace(b'\r\n',b'\n')
+        for candidate in [lf,lf.replace(b'\n',b'\r\n')]:
+            if len(candidate)==row['bytes'] and hashlib.sha256(candidate).hexdigest()==row['sha256']:
+                path.write_bytes(candidate);break
     assert path.stat().st_size==row['bytes'] and digest(path)==row['sha256'],row['path']
 assert digest(TRANSPORT)==os.environ['TRANSPORT_SHA256']
 with zipfile.ZipFile(TRANSPORT) as z:
