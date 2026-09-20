@@ -22,7 +22,7 @@ jobs:
           curl --fail --location --retry 3 https://github.com/jmacd/xdelta/releases/download/v3.2.0/xdelta3-3.2.0-linux-x86_64.tar.gz -o assembly/xdelta.tar.gz
           echo '480295c7a41fea6503659f19ddc61676c0df4834e2292846ba97de30c68c2397  assembly/xdelta.tar.gz' | sha256sum --check
           tar -xzf assembly/xdelta.tar.gz -C assembly
-          echo "XDELTA=$(find "$PWD/assembly" -type f -name xdelta3 | head -1)" >> "$GITHUB_ENV"
+          echo "VESPER_XDELTA_PATH=$(find "$PWD/assembly" -type f -name xdelta3 | head -1)" >> "$GITHUB_ENV"
       - name: Reconstruct and verify tested file contents
         run: python3 scripts/assemble_release.py
       - name: Upload complete ordinary ZIPs to the draft

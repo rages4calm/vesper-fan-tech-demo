@@ -35,7 +35,7 @@ for row in manifest['windows']:
     if 'patch' in row:
         entry='Vesper-Fan-Tech-Demo/'+row['path']
         extract_member(old_windows,entry,ROOT/'base')
-        subprocess.run([os.environ['XDELTA'],'-d','-s',str(ROOT/'base'/entry),str(ROOT/'payload'/row['patch']),str(p)],check=True)
+        subprocess.run([os.environ['VESPER_XDELTA_PATH'],'-d','-s',str(ROOT/'base'/entry),str(ROOT/'payload'/row['patch']),str(p)],check=True)
     elif 'url' in row:
         urllib.request.urlretrieve(row['url'],p)
     else:
